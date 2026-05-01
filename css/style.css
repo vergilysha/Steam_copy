@@ -1,0 +1,160 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    font-family:'Inter',sans-serif;
+}
+
+.slider{
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+    background:#1b2838;
+    padding:12px;
+    width: 100%;
+}
+.main-row{
+    display:flex;
+    gap:4px;
+    justify-content: center;
+}
+.hero{
+    position:relative;
+    flex:0 0 560px;
+}
+.hero img{
+    width:100%;
+    height:330px;
+    object-fit:cover;
+    display:block;
+}
+.hero-info{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding:14px 16px;
+    background:#000;
+}
+.hero-title{
+    color:#fff;
+    font-size:22px;
+    font-weight:700;
+}
+.hero-rating{
+    color:#66c0f4;
+    font-size:13px;
+    margin-top:3px;
+}
+.dots{
+    display:flex;
+    gap:10px;
+    margin-left: 40%;
+    padding:6px 0 0;
+}
+.dot{
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    background:#4a5c6a;
+    cursor:pointer;
+}
+.dot.active{
+    background:#66C0F4;
+}
+.sidebar{
+    max-width: 332px;
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    gap:2px;
+}
+.sidebar-title{
+    color:#c6d4df;
+    font-size:11px;
+    padding:6px 8px;
+    background:#16202d;
+    letter-spacing:.5px;
+    flex-shrink:0;
+}
+.games{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    gap:2px;
+}
+.game-row{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    padding:4px 6px;
+    cursor:pointer;
+    background:#16202d;
+    flex:1;
+}
+
+/* colors */
+
+    .game-row:nth-child(1){
+        background: #1E3246;
+    }
+
+    .game-row:nth-child(2){
+        background: #192D23;
+    }
+
+    .game-row:nth-child(3){
+        background: #231E37;
+    }
+
+    .game-row:nth-child(4){
+        background: #281E19;
+    }
+
+/*  */
+
+.game-row:hover{
+    background:#2a475e;
+}
+.game-row.active{
+    background:#2a3f5f;
+}
+.game-row img{
+    width:90px;
+    height:50px;
+    object-fit:cover;
+    flex-shrink:0;
+}
+.game-info{
+    flex:1;
+}
+.game-name{
+    color:#c6d4df;
+    font-size:13px;
+    font-weight:700;
+}
+.price-wrap{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    margin-top:4px;
+}
+.discount{
+    background:#4c6b22;
+    color:#a4d007;
+    font-size:12px;
+    font-weight:700;
+    padding:2px 4px;
+}
+.price-old{
+    color:#738895;
+    font-size:12px;
+    text-decoration:line-through;}
+.price{
+    color:#a4d007;
+    font-size:13px;
+    font-weight:700;
+}
+.price.no-disc{
+    color:#c6d4df;
+}
