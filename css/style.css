@@ -175,4 +175,27 @@
     border: 1px solid #1b2838;
     border-radius: 3px;
     background: #36475C;
+    padding-left: 10px;
+}
+.block-with-search-and-button{
+        display: flex;
+    align-items: center;
+}
+.block-with-search-and-button-and-title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 125px;
+}
+.search-for-more-button{
+    width: 80px;
+    height: 36px;
+    background: #5EA0C9;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-title{
+    color: #FFFFFF;
+    font-size: 12px;
 }
