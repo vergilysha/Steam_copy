@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steam API — Documentation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:       #0d1117;
+      --bg-nav:   #161b22;
+      --bg-card:  #1a2332;
+      --bg-code:  #0d1117;
+      --border:   #2a3f5f;
+      --accent:   #66c0f4;
+      --accent2:  #4fa8db;
+      --green:    #a4d007;
+      --orange:   #f6851b;
+      --red:      #e74c3c;
+      --text:     #c6d4df;
+      --muted:    #8f98a0;
+      --r:        8px;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+
+    /* ── Header ─────────────────────────────────────────────── */
+    header {
+      position: sticky; top: 0; z-index: 200;
+      background: rgba(13,17,23,0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      height: 56px;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 28px;
+    }
+    .logo {
+      display: flex; align-items: center; gap: 10px;
+      font-size: 18px; font-weight: 700; color: var(--accent);
+      text-decoration: none;
+    }
+    .logo svg { width: 24px; height: 24px; }
+    .header-right { display: flex; align-items: center; gap: 12px; }
+    .version-tag {
+      background: rgba(102,192,244,0.12);
+      border: 1px solid rgba(102,192,244,0.25);
+      color: var(--accent);
+      padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 600;
+    }
+
+    /* ── Layout ─────────────────────────────────────────────── */
+    .layout {
+      display: flex;
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    /* ── Sidebar ─────────────────────────────────────────────── */
+    .sidebar {
+      width: 220px; flex-shrink: 0;
+      padding: 28px 0;
+      position: sticky; top: 56px;
+      height: calc(100vh - 56px);
+      overflow-y: auto;
+      border-right: 1px solid var(--border);
+    }
+    .sb-group { padding: 0 12px; margin-bottom: 20px; }
+    .sb-label {
+      font-size: 10px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1.2px; color: var(--muted);
+      padding: 0 10px; margin-bottom: 4px;
+    }
+    .sb-link {
+      display: flex; align-items: center; gap: 8px;
+      padding: 7px 10px; border-radius: 6px;
+      color: var(--muted); font-size: 13px; font-weight: 500;
+      cursor: pointer; text-decoration: none; transition: all .15s;
+      border: none; background: none; width: 100%; text-align: left;
+    }
+    .sb-link:hover { background: rgba(102,192,244,0.08); color: var(--text); }
+    .sb-link.active { background: rgba(102,192,244,0.12); color: var(--accent); }
+    .method-pill {
+      font-size: 9px; font-weight: 800; padding: 2px 5px;
+      border-radius: 3px; background: var(--orange); color: #fff;
+      font-family: monospace; letter-spacing: .5px;
+    }
+
+    /* ── Main ────────────────────────────────────────────────── */
+    .main {
+      flex: 1; min-width: 0;
+      padding: 40px 48px;
+    }
+
+    /* ── Hero ────────────────────────────────────────────────── */
+    .hero {
+      background: linear-gradient(135deg, #111827 0%, #0d1620 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--r);
+      padding: 44px 48px;
+      margin-bottom: 48px;
+      position: relative; overflow: hidden;
+    }
+    .hero::after {
+      content: '';
+      position: absolute; top: -80px; right: -60px;
+      width: 360px; height: 360px;
+      background: radial-gradient(circle, rgba(102,192,244,.09) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: rgba(164,208,7,.15); border: 1px solid rgba(164,208,7,.3);
+      color: var(--green); padding: 4px 12px; border-radius: 20px;
+      font-size: 11px; font-weight: 600; margin-bottom: 16px;
+    }
+    .hero-badge::before { content: '●'; font-size: 8px; }
+    .hero-title {
+      font-size: 38px; font-weight: 800; line-height: 1.1;
+      background: linear-gradient(90deg, var(--accent) 0%, #a8d8f0 100%);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      margin-bottom: 10px;
+    }
+    .hero-sub {
+      color: var(--muted); font-size: 15px; max-width: 520px; margin-bottom: 28px;
+    }
+    .base-url-box {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: var(--bg-code); border: 1px solid var(--border);
+      border-radius: 6px; padding: 10px 18px; font-family: monospace; font-size: 13px;
+    }
+    .base-url-box .lbl { color: var(--orange); font-weight: 700; font-size: 11px; }
+    .base-url-box .url { color: var(--accent); }
+
+    /* ── Section ─────────────────────────────────────────────── */
+    .section { margin-bottom: 52px; }
+    h2 {
+      font-size: 22px; font-weight: 700; margin-bottom: 8px;
+      display: flex; align-items: center; gap: 10px; color: var(--text);
+    }
+    h3 {
+      font-size: 11px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 1px; color: var(--muted); margin-bottom: 8px; margin-top: 20px;
+    }
+    p { color: var(--muted); margin-bottom: 12px; font-size: 14px; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 44px 0; }
+
+    /* ── Info box ────────────────────────────────────────────── */
+    .info-box {
+      display: flex; align-items: flex-start; gap: 10px;
+      background: rgba(102,192,244,.07); border: 1px solid rgba(102,192,244,.2);
+      border-radius: 6px; padding: 12px 16px; font-size: 13px; color: var(--text);
+      margin: 16px 0;
+    }
+    .info-box .icon { color: var(--accent); flex-shrink: 0; margin-top: 1px; }
+
+    /* ── Endpoint card ───────────────────────────────────────── */
+    .endpoint {
+      border: 1px solid var(--border); border-radius: var(--r);
+      overflow: hidden; margin-top: 16px;
+    }
+    .ep-head {
+      display: flex; align-items: center; gap: 12px;
+      padding: 14px 20px; background: rgba(0,0,0,.25);
+      border-bottom: 1px solid var(--border);
+    }
+    .ep-method {
+      font-size: 11px; font-weight: 800; padding: 4px 10px; border-radius: 4px;
+      background: var(--orange); color: #fff; font-family: monospace;
+    }
+    .ep-path { font-family: monospace; font-size: 15px; color: var(--accent); }
+    .ep-tagline { color: var(--muted); font-size: 13px; margin-left: auto; }
+    .ep-body { padding: 20px 24px; }
+
+    /* ── Table ───────────────────────────────────────────────── */
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th {
+      text-align: left; padding: 8px 14px;
+      background: rgba(0,0,0,.2); color: var(--muted);
+      font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .8px;
+    }
+    td { padding: 10px 14px; border-top: 1px solid var(--border); vertical-align: top; }
+    .td-name { font-family: monospace; color: var(--accent); font-weight: 600; }
+    .td-type { font-family: monospace; color: var(--green); font-size: 11px; }
+    .td-req  { color: var(--red); font-size: 11px; font-weight: 700; }
+    code {
+      background: rgba(255,255,255,.07); padding: 1px 6px; border-radius: 4px;
+      font-family: monospace; font-size: 12px; color: var(--accent);
+    }
+
+    /* ── Code block ──────────────────────────────────────────── */
+    .cb {
+      background: var(--bg-code); border: 1px solid var(--border);
+      border-radius: 6px; padding: 16px 18px; font-family: monospace;
+      font-size: 12.5px; line-height: 1.7; overflow-x: auto;
+      margin: 8px 0;
+    }
+    .jk { color: #79c0ff; }
+    .js { color: #a5d6ff; }
+    .jn { color: #f0883e; }
+    .jb { color: #ff7b72; }
+    .jnu { color: #8b949e; }
+
+    /* ── Tags ────────────────────────────────────────────────── */
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+    .tag {
+      background: rgba(255,255,255,.06); border: 1px solid var(--border);
+      padding: 4px 12px; border-radius: 20px; font-size: 12px; color: var(--muted);
+    }
+
+    /* ── Tester ──────────────────────────────────────────────── */
+    .tester {
+      border: 1px solid var(--border); border-radius: var(--r);
+      overflow: hidden; margin-bottom: 24px;
+    }
+    .tester-head {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 13px 20px; background: rgba(0,0,0,.25);
+      border-bottom: 1px solid var(--border);
+    }
+    .tester-title { font-size: 14px; font-weight: 600; }
+    .tester-meta  { font-size: 12px; color: var(--muted); }
+    .tester-body  { padding: 20px 24px; }
+
+    .form-group { margin-bottom: 16px; }
+    .form-label {
+      display: block; font-size: 11px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: .8px; color: var(--muted); margin-bottom: 6px;
+    }
+    .form-input {
+      width: 100%; background: var(--bg-code); border: 1px solid var(--border);
+      border-radius: 6px; padding: 9px 14px; color: var(--text);
+      font-size: 14px; font-family: inherit; transition: border-color .15s;
+    }
+    .form-input:focus { outline: none; border-color: var(--accent); }
+    .form-input::placeholder { color: var(--muted); }
+
+    .btn {
+      display: inline-flex; align-items: center; gap: 7px;
+      padding: 9px 20px; border-radius: 6px; border: none;
+      font-size: 13px; font-weight: 600; cursor: pointer; transition: all .15s;
+    }
+    .btn-primary { background: var(--accent); color: #0d1117; }
+    .btn-primary:hover { background: var(--accent2); }
+    .btn-primary:disabled { background: var(--border); color: var(--muted); cursor: not-allowed; }
+
+    /* ── SW status ───────────────────────────────────────────── */
+    .sw-bar {
+      display: flex; align-items: center; gap: 8px;
+      padding: 10px 16px; border-radius: 6px; font-size: 13px; font-weight: 500;
+      margin-bottom: 20px;
+    }
+    .sw-bar.loading { background: rgba(102,192,244,.08); border: 1px solid rgba(102,192,244,.2); color: var(--accent); }
+    .sw-bar.ready   { background: rgba(164,208,7,.08);  border: 1px solid rgba(164,208,7,.25);  color: var(--green); }
+    .sw-bar.error   { background: rgba(231,76,60,.08);  border: 1px solid rgba(231,76,60,.25);  color: var(--red);   }
+    .sw-bar.warn    { background: rgba(246,133,27,.08); border: 1px solid rgba(246,133,27,.25); color: var(--orange); }
+    .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .dot-green  { background: var(--green); }
+    .dot-blue   { background: var(--accent); animation: pulse 1.4s infinite; }
+    .dot-red    { background: var(--red); }
+    .dot-orange { background: var(--orange); }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.25} }
+
+    /* ── Response ────────────────────────────────────────────── */
+    .resp-section { margin-top: 16px; }
+    .resp-meta {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 8px;
+    }
+    .status-pill {
+      padding: 3px 10px; border-radius: 20px; font-size: 11px;
+      font-weight: 700; font-family: monospace;
+    }
+    .s200 { background: rgba(164,208,7,.18); color: var(--green); }
+    .s404 { background: rgba(231,76,60,.18); color: var(--red); }
+    .s400 { background: rgba(246,133,27,.18); color: var(--orange); }
+    .s500 { background: rgba(231,76,60,.18); color: var(--red); }
+    .resp-ms { font-size: 12px; color: var(--muted); }
+    .json-out {
+      background: var(--bg-code); border: 1px solid var(--border);
+      border-radius: 6px; padding: 16px 18px;
+      font-family: monospace; font-size: 12.5px; line-height: 1.7;
+      overflow: auto; max-height: 520px; white-space: pre;
+    }
+
+    /* ── Spinner ─────────────────────────────────────────────── */
+    .spin {
+      width: 14px; height: 14px; border: 2px solid var(--border);
+      border-top-color: var(--accent); border-radius: 50%;
+      animation: rot .7s linear infinite; display: inline-block;
+    }
+    @keyframes rot { to { transform: rotate(360deg); } }
+
+    /* ── Responsive ──────────────────────────────────────────── */
+    @media (max-width: 800px) {
+      .sidebar { display: none; }
+      .main { padding: 24px 20px; }
+      .hero { padding: 28px 24px; }
+      .hero-title { font-size: 26px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ─ Header ─────────────────────────────────────────── -->
+<header>
+  <a class="logo" href="#overview">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+      <path d="M2 17l10 5 10-5"/>
+      <path d="M2 12l10 5 10-5"/>
+    </svg>
+    Steam API
+  </a>
+  <div class="header-right">
+    <span class="version-tag">v1.0 · Static SW</span>
+  </div>
+</header>
+
+<div class="layout">
+
+  <!-- ─ Sidebar ──────────────────────────────────────── -->
+  <nav class="sidebar">
+    <div class="sb-group">
+      <div class="sb-label">Intro</div>
+      <button class="sb-link active" onclick="goto('overview')">📖 Overview</button>
+      <button class="sb-link" onclick="goto('how')">⚙️ How it works</button>
+    </div>
+    <div class="sb-group">
+      <div class="sb-label">Endpoints</div>
+      <button class="sb-link" onclick="goto('search-doc')">
+        <span class="method-pill">POST</span> Search Game
+      </button>
+      <button class="sb-link" onclick="goto('download-doc')">
+        <span class="method-pill">POST</span> Download Links
+      </button>
+    </div>
+    <div class="sb-group">
+      <div class="sb-label">Tester</div>
+      <button class="sb-link" onclick="goto('tester')">🧪 Try it out</button>
+    </div>
+  </nav>
+
+  <!-- ─ Main ─────────────────────────────────────────── -->
+  <main class="main">
+
+    <!-- Hero -->
+    <div class="hero" id="overview">
+      <div class="hero-badge">Static · No server required</div>
+      <div class="hero-title">Steam Game API</div>
+      <p class="hero-sub">
+        Search Steam for game info and find torrent magnet links — all running in your browser
+        via a Service Worker. Zero backend, zero infrastructure.
+      </p>
+      <div class="base-url-box">
+        <span class="lbl">POST</span>
+        <span class="url">./api.html</span>
+      </div>
+    </div>
+
+    <!-- How it works -->
+    <div class="section" id="how">
+      <h2>⚙️ How it works</h2>
+      <p>
+        A <strong>Service Worker</strong> (api-sw.js) intercepts every
+        <code>POST</code> request made to <code>api.html</code> and returns a JSON response
+        before it even hits the network. Direct browser visits (<code>GET</code>) are
+        immediately redirected here.
+      </p>
+      <div class="info-box">
+        <span class="icon">ℹ</span>
+        <span>The SW installs automatically when you open this page. After activation, all POST
+        requests to <code>api.html</code> are handled locally — no round-trips, no server.</span>
+      </div>
+      <h3>Usage from JavaScript</h3>
+      <div class="cb"><span class="jk">const</span> res = <span class="jk">await</span> fetch(<span class="js">'./api.html'</span>, {
+  method:  <span class="js">'POST'</span>,
+  headers: { <span class="js">'Content-Type'</span>: <span class="js">'application/json'</span> },
+  body:    JSON.stringify({ action: <span class="js">'search'</span>, query: <span class="js">'cyberpunk'</span> })
+});
+<span class="jk">const</span> data = <span class="jk">await</span> res.json();</div>
+    </div>
+
+    <hr>
+
+    <!-- ── Endpoint 1: Search ─────────────────────────── -->
+    <div class="section" id="search-doc">
+      <h2>🔍 Search Game</h2>
+      <p>
+        Finds the single best-matching game on Steam by name. Supports partial and fuzzy queries.
+        Returns price, discount, description, images, and metadata.
+      </p>
+
+      <div class="endpoint">
+        <div class="ep-head">
+          <span class="ep-method">POST</span>
+          <span class="ep-path">./api.html</span>
+          <span class="ep-tagline">Search Steam catalogue</span>
+        </div>
+        <div class="ep-body">
+
+          <h3>Request body (JSON)</h3>
+          <table>
+            <thead><tr><th>Field</th><th>Type</th><th>Req</th><th>Description</th></tr></thead>
+            <tbody>
+              <tr>
+                <td class="td-name">action</td>
+                <td class="td-type">string</td>
+                <td class="td-req">✓</td>
+                <td>Must be <code>"search"</code></td>
+              </tr>
+              <tr>
+                <td class="td-name">query</td>
+                <td class="td-type">string</td>
+                <td class="td-req">✓</td>
+                <td>Game name — partial or fuzzy</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>Request example</h3>
+          <div class="cb">{ <span class="jk">"action"</span>: <span class="js">"search"</span>, <span class="jk">"query"</span>: <span class="js">"cyberpunk 2077"</span> }</div>
+
+          <h3>Response fields</h3>
+          <table>
+            <thead><tr><th>Field</th><th>Type</th><th>Description</th></tr></thead>
+            <tbody>
+              <tr><td class="td-name">id</td><td class="td-type">number</td><td>Steam App ID</td></tr>
+              <tr><td class="td-name">name</td><td class="td-type">string</td><td>Official game name</td></tr>
+              <tr><td class="td-name">image</td><td class="td-type">string</td><td>Header image URL</td></tr>
+              <tr><td class="td-name">screenshots</td><td class="td-type">string[]</td><td>Up to 3 thumbnail URLs</td></tr>
+              <tr><td class="td-name">description</td><td class="td-type">string</td><td>Short description</td></tr>
+              <tr><td class="td-name">price</td><td class="td-type">string</td><td>Original price (e.g. <code>$59.99</code>)</td></tr>
+              <tr><td class="td-name">current_price</td><td class="td-type">string</td><td>Price after discount</td></tr>
+              <tr><td class="td-name">discount</td><td class="td-type">number</td><td>Discount % (0 if none)</td></tr>
+              <tr><td class="td-name">sale_price</td><td class="td-type">string|null</td><td>Sale price or <code>null</code></td></tr>
+              <tr><td class="td-name">genres</td><td class="td-type">string[]</td><td>Genre list</td></tr>
+              <tr><td class="td-name">developers</td><td class="td-type">string[]</td><td>Developer(s)</td></tr>
+              <tr><td class="td-name">metacritic</td><td class="td-type">number|null</td><td>Metacritic score</td></tr>
+              <tr><td class="td-name">release_date</td><td class="td-type">string|null</td><td>Release date string</td></tr>
+              <tr><td class="td-name">store_url</td><td class="td-type">string</td><td>Steam store page URL</td></tr>
+            </tbody>
+          </table>
+
+          <h3>Response example (200)</h3>
+          <div class="cb">{
+  <span class="jk">"id"</span>:            <span class="jn">1091500</span>,
+  <span class="jk">"name"</span>:          <span class="js">"Cyberpunk 2077"</span>,
+  <span class="jk">"image"</span>:         <span class="js">"https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg"</span>,
+  <span class="jk">"screenshots"</span>:   [<span class="js">"https://..."</span>],
+  <span class="jk">"description"</span>:   <span class="js">"An open-world, action-adventure RPG..."</span>,
+  <span class="jk">"price"</span>:         <span class="js">"$59.99"</span>,
+  <span class="jk">"current_price"</span>: <span class="js">"$29.99"</span>,
+  <span class="jk">"discount"</span>:      <span class="jn">50</span>,
+  <span class="jk">"sale_price"</span>:    <span class="js">"$29.99"</span>,
+  <span class="jk">"genres"</span>:        [<span class="js">"RPG"</span>, <span class="js">"Action"</span>],
+  <span class="jk">"developers"</span>:    [<span class="js">"CD PROJEKT RED"</span>],
+  <span class="jk">"metacritic"</span>:    <span class="jn">86</span>,
+  <span class="jk">"release_date"</span>:  <span class="js">"Dec 10, 2020"</span>,
+  <span class="jk">"store_url"</span>:     <span class="js">"https://store.steampowered.com/app/1091500"</span>
+}</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Endpoint 2: Download ───────────────────────── -->
+    <div class="section" id="download-doc">
+      <h2>⬇️ Download Links</h2>
+      <p>
+        Searches across all local repack databases and returns every matching
+        entry with its magnet links. Results are sorted by fuzzy-match score.
+      </p>
+
+      <div class="endpoint">
+        <div class="ep-head">
+          <span class="ep-method">POST</span>
+          <span class="ep-path">./api.html</span>
+          <span class="ep-tagline">Find torrent magnets</span>
+        </div>
+        <div class="ep-body">
+
+          <h3>Request body (JSON)</h3>
+          <table>
+            <thead><tr><th>Field</th><th>Type</th><th>Req</th><th>Description</th></tr></thead>
+            <tbody>
+              <tr>
+                <td class="td-name">action</td>
+                <td class="td-type">string</td>
+                <td class="td-req">✓</td>
+                <td>Must be <code>"download"</code></td>
+              </tr>
+              <tr>
+                <td class="td-name">query</td>
+                <td class="td-type">string</td>
+                <td class="td-req">✓</td>
+                <td>Game name to search for (partial match OK)</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>Sources</h3>
+          <div class="tags">
+            <span class="tag">🔵 FitGirl Repacks</span>
+            <span class="tag">🔴 DODI</span>
+            <span class="tag">🟠 Xatab</span>
+            <span class="tag">🟢 OnlineFix</span>
+          </div>
+
+          <h3>Request example</h3>
+          <div class="cb">{ <span class="jk">"action"</span>: <span class="js">"download"</span>, <span class="jk">"query"</span>: <span class="js">"elden ring"</span> }</div>
+
+          <h3>Response fields</h3>
+          <table>
+            <thead><tr><th>Field</th><th>Type</th><th>Description</th></tr></thead>
+            <tbody>
+              <tr><td class="td-name">query</td><td class="td-type">string</td><td>Your original query</td></tr>
+              <tr><td class="td-name">total</td><td class="td-type">number</td><td>Number of matches found</td></tr>
+              <tr><td class="td-name">results</td><td class="td-type">object[]</td><td>Matched entries (up to 20)</td></tr>
+              <tr><td class="td-name">results[].source</td><td class="td-type">string</td><td>Repack source name</td></tr>
+              <tr><td class="td-name">results[].title</td><td class="td-type">string</td><td>Full repack title</td></tr>
+              <tr><td class="td-name">results[].fileSize</td><td class="td-type">string</td><td>Download size</td></tr>
+              <tr><td class="td-name">results[].uploadDate</td><td class="td-type">string</td><td>ISO 8601 upload date</td></tr>
+              <tr><td class="td-name">results[].magnets</td><td class="td-type">string[]</td><td>Magnet URIs</td></tr>
+            </tbody>
+          </table>
+
+          <h3>Response example (200)</h3>
+          <div class="cb">{
+  <span class="jk">"query"</span>:   <span class="js">"elden ring"</span>,
+  <span class="jk">"total"</span>:   <span class="jn">3</span>,
+  <span class="jk">"results"</span>: [
+    {
+      <span class="jk">"source"</span>:     <span class="js">"FitGirl"</span>,
+      <span class="jk">"title"</span>:      <span class="js">"Elden Ring v1.12.3 + All DLC [FitGirl Repack]"</span>,
+      <span class="jk">"fileSize"</span>:   <span class="js">"34.2 GB"</span>,
+      <span class="jk">"uploadDate"</span>: <span class="js">"2024-06-01T00:00:00.000Z"</span>,
+      <span class="jk">"magnets"</span>:    [<span class="js">"magnet:?xt=urn:btih:..."</span>]
+    }
+  ]
+}</div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- ── Tester ─────────────────────────────────────── -->
+    <div class="section" id="tester">
+      <h2>🧪 Try it out</h2>
+      <p>Live API tester — requests are processed locally by the Service Worker.</p>
+
+      <!-- SW status -->
+      <div id="sw-status" class="sw-bar loading">
+        <span class="dot dot-blue"></span>
+        <span id="sw-msg">Initializing Service Worker…</span>
+      </div>
+
+      <!-- Search tester -->
+      <div class="tester">
+        <div class="tester-head">
+          <span class="tester-title">🔍 Search Game</span>
+          <span class="tester-meta">POST · action: "search"</span>
+        </div>
+        <div class="tester-body">
+          <div class="form-group">
+            <label class="form-label" for="sq">Game name</label>
+            <input id="sq" class="form-input" type="text" placeholder="e.g. cyberpunk, elden ring, witcher…" value="cyberpunk 2077">
+          </div>
+          <button class="btn btn-primary" id="sb" onclick="runSearch()">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            </svg>
+            Send
+          </button>
+          <div id="sr" class="resp-section" style="display:none"></div>
+        </div>
+      </div>
+
+      <!-- Download tester -->
+      <div class="tester">
+        <div class="tester-head">
+          <span class="tester-title">⬇️ Download Links</span>
+          <span class="tester-meta">POST · action: "download"</span>
+        </div>
+        <div class="tester-body">
+          <div class="form-group">
+            <label class="form-label" for="dq">Game name</label>
+            <input id="dq" class="form-input" type="text" placeholder="e.g. elden ring, gta, witcher 3…" value="elden ring">
+          </div>
+          <button class="btn btn-primary" id="db" onclick="runDownload()">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            Send
+          </button>
+          <div id="dr" class="resp-section" style="display:none"></div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<script>
+  // ── Embedded API logic (fallback when SW unavailable) ──────
+  const _SOURCES = [
+    { name: 'FitGirl',   path: './games/fitgirl.json'   },
+    { name: 'DODI',      path: './games/dodi.json'       },
+    { name: 'Xatab',     path: './games/xatab.json'      },
+    { name: 'OnlineFix', path: './games/onlinefix.json'  },
+  ];
+  let _gameCache = null;
+
+  async function _proxyJSON(url) {
+    const proxies = [
+      async () => { const r = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent(url)}`); const { contents } = await r.json(); return JSON.parse(contents); },
+      async () => { const r = await fetch(`https://corsproxy.io/?${encodeURIComponent(url)}`); return r.json(); },
+    ];
+    for (const p of proxies) { try { return await p(); } catch {} }
+    throw new Error('CORS proxies unavailable. Check your internet connection.');
+  }
+
+  function _norm(s) {
+    return s.toLowerCase().replace(/[:\-–—]/g,' ').replace(/[^a-z0-9 ]/g,'').replace(/\s+/g,' ').trim();
+  }
+  function _sim(a, b) {
+    const na = _norm(a), nb = _norm(b);
+    if (na === nb) return 1;
+    if (nb.includes(na)) return 0.9;
+    if (na.includes(nb)) return 0.85;
+    const aw = na.split(' ').filter(Boolean), bw = nb.split(' ').filter(Boolean), bSet = new Set(bw);
+    let hits = 0;
+    for (const w of aw) { if (bSet.has(w)) hits++; else if (bw.some(t => t.includes(w)||w.includes(t))) hits += 0.5; }
+    return hits / Math.max(aw.length, bw.length, 1);
+  }
+  function _best(q, items, fn) {
+    let best = items[0], top = -1;
+    for (const x of items) { const s = _sim(q, fn(x)); if (s > top) { top = s; best = x; } }
+    return best;
+  }
+
+  async function _apiSearch(query) {
+    const sd = await _proxyJSON(`https://store.steampowered.com/api/storesearch/?term=${encodeURIComponent(query)}&l=english&cc=US`);
+    if (!sd?.items?.length) { const e = new Error(`No game found for: "${query}"`); e.status = 404; throw e; }
+    const best = _best(query, sd.items, i => i.name);
+    const dd = await _proxyJSON(`https://store.steampowered.com/api/appdetails?appids=${best.id}&cc=US&l=english`);
+    const app = dd?.[best.id]?.data;
+    if (!app) { const e = new Error('Game details unavailable'); e.status = 404; throw e; }
+    const p = app.price_overview;
+    return {
+      id: app.steam_appid, name: app.name, image: app.header_image,
+      screenshots: (app.screenshots||[]).slice(0,3).map(s=>s.path_thumbnail),
+      description: app.short_description,
+      price: p ? p.initial_formatted : 'Free to Play',
+      current_price: p ? p.final_formatted : 'Free to Play',
+      discount: p ? p.discount_percent : 0,
+      sale_price: (p&&p.discount_percent>0) ? p.final_formatted : null,
+      genres: (app.genres||[]).map(g=>g.description),
+      developers: app.developers||[], publishers: app.publishers||[],
+      metacritic: app.metacritic?.score??null, platforms: app.platforms||{},
+      release_date: app.release_date?.date??null,
+      store_url: `https://store.steampowered.com/app/${app.steam_appid}`,
+    };
+  }
+
+  async function _apiDownload(query) {
+    if (!_gameCache) {
+      _gameCache = await Promise.all(_SOURCES.map(async ({ name, path }) => {
+        try { const r = await fetch(path); const d = await r.json(); return { name, downloads: d.downloads||[] }; }
+        catch (e) {
+          if (location.protocol === 'file:') throw new Error('Download search requires an HTTP server. Run: python -m http.server 8080');
+          return { name, downloads: [] };
+        }
+      }));
+    }
+    const results = [];
+    for (const { name, downloads } of _gameCache) {
+      for (const g of downloads) {
+        const score = _sim(query, g.title);
+        if (score >= 0.25) results.push({ score, source: name, title: g.title, fileSize: g.fileSize, uploadDate: g.uploadDate, magnets: g.uris||[] });
+      }
+    }
+    results.sort((a,b) => b.score - a.score);
+    const out = results.slice(0,20).map(({score,...r}) => r);
+    return { query, total: out.length, results: out };
+  }
+
+  // ── Service Worker ─────────────────────────────────────────
+  let swActive = false;
+
+  async function initSW() {
+    const bar = document.getElementById('sw-status');
+
+    if (location.protocol === 'file:') {
+      setBar(bar, 'warn', 'Running on file:// — Service Worker disabled. Tester uses built-in fallback (search ✓, download requires HTTP server)');
+      return;
+    }
+    if (!('serviceWorker' in navigator)) {
+      setBar(bar, 'warn', 'Service Workers not supported — using built-in fallback');
+      return;
+    }
+
+    try {
+      const reg = await navigator.serviceWorker.register('./api-sw.js', { scope: './' });
+      if (navigator.serviceWorker.controller) { swActive = true; setBar(bar, 'ready', 'Service Worker active — POST to api.html returns JSON'); return; }
+      const sw = reg.installing || reg.waiting;
+      if (sw) sw.addEventListener('statechange', () => { if (sw.state === 'activated') { swActive = true; setBar(bar, 'ready', 'Service Worker active — POST to api.html returns JSON'); } });
+      navigator.serviceWorker.addEventListener('controllerchange', () => { swActive = true; setBar(bar, 'ready', 'Service Worker active — POST to api.html returns JSON'); });
+    } catch (e) {
+      setBar(bar, 'warn', `SW unavailable (${e.message.split(':')[0]}) — using built-in fallback`);
+    }
+  }
+
+  function setBar(el, state, text) {
+    const map = { ready: ['dot-green','sw-bar ready'], warn: ['dot-orange','sw-bar warn'], error: ['dot-red','sw-bar error'], loading: ['dot-blue','sw-bar loading'] };
+    const [dot, cls] = map[state] || map.loading;
+    el.className = cls;
+    el.innerHTML = `<span class="dot ${dot}"></span><span>${text}</span>`;
+  }
+
+  // ── API call (SW if active, else inline fallback) ──────────
+  async function callAPI(action, query) {
+    const t0 = Date.now();
+    if (swActive) {
+      const res = await fetch('./api.html', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ action, query }) });
+      return { status: res.status, data: await res.json(), ms: Date.now() - t0 };
+    }
+    try {
+      const data = action === 'search' ? await _apiSearch(query) : await _apiDownload(query);
+      return { status: 200, data, ms: Date.now() - t0 };
+    } catch (e) {
+      return { status: e.status || 500, data: { error: e.message }, ms: Date.now() - t0 };
+    }
+  }
+
+  // ── Testers ────────────────────────────────────────────────
+  async function runSearch() {
+    const q = document.getElementById('sq').value.trim();
+    if (!q) return;
+    await runTest('sb', 'sr', 'search', q, 'Fetching from Steam API…');
+  }
+
+  async function runDownload() {
+    const q = document.getElementById('dq').value.trim();
+    if (!q) return;
+    await runTest('db', 'dr', 'download', q, 'Scanning game databases…');
+  }
+
+  async function runTest(btnId, outId, action, query, loadingMsg) {
+    const btn = document.getElementById(btnId);
+    const out = document.getElementById(outId);
+    const orig = btn.innerHTML;
+
+    btn.disabled = true;
+    btn.innerHTML = `<span class="spin"></span> ${loadingMsg}`;
+    out.style.display = 'block';
+    out.innerHTML = `<div style="color:var(--muted);font-size:13px;padding:8px 0">
+      <span class="spin" style="vertical-align:middle;margin-right:8px"></span>${loadingMsg}
+    </div>`;
+
+    try {
+      const { status, data, ms } = await callAPI(action, query);
+      const cls = `s${status}`;
+      const label = status === 200 ? 'OK' : status === 404 ? 'NOT FOUND' : 'ERROR';
+      out.innerHTML = `
+        <div class="resp-meta">
+          <span class="status-pill ${cls}">${status} ${label}</span>
+          <span class="resp-ms">${ms} ms</span>
+        </div>
+        <div class="json-out">${highlight(JSON.stringify(data, null, 2))}</div>`;
+    } catch (e) {
+      out.innerHTML = `<div style="color:var(--red);font-size:13px;padding:8px 0">
+        ✗ ${e.message}<br>
+        <span style="color:var(--muted)">Make sure the Service Worker is active (green bar above).</span>
+      </div>`;
+    }
+
+    btn.disabled = false;
+    btn.innerHTML = orig;
+  }
+
+  // ── JSON syntax highlight ──────────────────────────────────
+  function highlight(json) {
+    return json
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(
+        /("(?:\\u[\da-fA-F]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(?:true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+-]?\d+)?)/g,
+        m => {
+          if (/^"/.test(m)) return /:$/.test(m) ? `<span style="color:#79c0ff">${m}</span>` : `<span style="color:#a5d6ff">${m}</span>`;
+          if (/true|false/.test(m)) return `<span style="color:#ff7b72">${m}</span>`;
+          if (/null/.test(m))       return `<span style="color:#8b949e">${m}</span>`;
+          return `<span style="color:#f0883e">${m}</span>`;
+        }
+      );
+  }
+
+  // ── Sidebar active state ───────────────────────────────────
+  function goto(id) {
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    document.querySelectorAll('.sb-link').forEach(l => l.classList.remove('active'));
+    event.currentTarget?.classList.add('active');
+  }
+
+  // ── Enter key support ──────────────────────────────────────
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Enter') {
+      if (e.target.id === 'sq') runSearch();
+      if (e.target.id === 'dq') runDownload();
+    }
+  });
+
+  initSW();
+</script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s \"https://raw.githubusercontent.com/leinstay/steamdb/main/steamdb.min.json\")",
+      "Bash(python -c \" import json, sys raw = sys.stdin.read\\(\\) print\\('Size:', len\\(raw\\), 'bytes'\\) print\\('First 500 chars:', raw[:500]\\) \")"
+    ]
+  }
+}
