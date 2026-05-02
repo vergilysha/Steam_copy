@@ -158,12 +158,21 @@
 .price.no-disc{
     color:#c6d4df;
 }
-
+.search-more-block{
+    width: 100%;
+    height: 97px;
+    background: #16202D;
+    display: flex;
+    align-items: center;
+}
 .search-title{
     color: #C7D5E0;
     font-size: 14px;
 }
 .search-space{
     width: 500px;
+    height: 36px;
+    border: 1px solid #1b2838;
+    border-radius: 3px;
     background: #36475C;
 }
