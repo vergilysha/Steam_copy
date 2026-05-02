@@ -158,3 +158,12 @@
 .price.no-disc{
     color:#c6d4df;
 }
+
+.search-title{
+    color: #C7D5E0;
+    font-size: 14px;
+}
+.search-space{
+    width: 500px;
+    background: #36475C;
+}
