@@ -199,3 +199,30 @@
     color: #FFFFFF;
     font-size: 12px;
 }
+.steam-footer{
+    width: 100%;
+    height: 340px;
+    background: #171A21;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bottom-text-footer{
+    color: #536270;
+}
+.h4-footer-title{
+    color: #C7D5E0;
+    font-size: 14px;
+}
+.links{
+    text-decoration: none;
+    color: #5EA0C9;
+}
+.card-with-info{
+        display: flex;
+    flex-direction: column;
+}
+.block-with-logo-and-three-cards{
+        display: flex;
+    justify-content: space-around;
+}
