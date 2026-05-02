@@ -8,6 +8,99 @@
   <title>Document</title>
 </head>
 <body>
+
+<header class="steam-header">
+        <div class="steam-topbar">
+            <div class="container steam-topbar__inner">
+                <a class="steam-logo" href="index.html">
+                    <img src="img/logo_steam 1.png" alt="Steam" class="steam-logo__img">
+                </a>
+
+                <nav class="steam-mainnav" aria-label="Primary">
+                    <a class="steam-mainnav__link" href="#">МАГАЗИН</a>
+                    <a class="steam-mainnav__link" href="#">ПРО НАС</a>
+                    <a class="steam-mainnav__link" href="#">ПІДТРИМКА</a>
+                </nav>
+
+                <div class="steam-actions">
+                    <a class="btn btn--primary" href="login.html">Увійти</a>
+                    <button class="btn btn--ghost" type="button">Встановити Steam</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="steam-subbar">
+            <div class="container steam-subbar__inner">
+                <nav class="steam-subnav" aria-label="Store">
+                    <a class="steam-subnav__link" href="#">Магазин</a>
+                    <a class="steam-subnav__link" href="#">Нове та популярне</a>
+                    <a class="steam-subnav__link" href="#">Топ продажів</a>
+                    <a class="steam-subnav__link" href="#">Акції</a>
+                    <a class="steam-subnav__link" href="#">Перегляд за категорією</a>
+                </nav>
+
+                <form class="steam-search" action="#" method="get" role="search">
+                    <input class="steam-search__input" type="search" name="q" placeholder="Пошук у крамниці" aria-label="Search">
+                    <button class="steam-search__btn" type="submit" aria-label="Search"></button>
+                    <div class="steam-search__popup" role="listbox" aria-label="Popular search queries">
+                        <div class="steam-search__popup-title">Популярні пошукові запити</div>
+
+                        <a class="steam-search-item" href="#" role="option">
+                            <div class="steam-search-item__thumb" aria-hidden="true">
+                                <img class="steam-search-item__img" src="img/capsule_616x353 2.png" alt="">
+                            </div>
+                            <div class="steam-search-item__name">GTA V</div>
+                            <div class="steam-search-item__meta">
+                                <span class="steam-search-item__discount">-90%</span>
+                                <span class="steam-search-item__old">670 грн</span>
+                                <span class="steam-search-item__price">67 грн</span>
+                            </div>
+                        </a>
+
+                        <a class="steam-search-item" href="#" role="option">
+                            <div class="steam-search-item__thumb" aria-hidden="true">
+                                <img class="steam-search-item__img" src="img/image 4.png" alt="">
+                            </div>
+                            <div class="steam-search-item__name">Geometry Dash</div>
+                            <div class="steam-search-item__meta">
+                                <span class="steam-search-item__discount">-90%</span>
+                                <span class="steam-search-item__old">670 грн</span>
+                                <span class="steam-search-item__price">67 грн</span>
+                            </div>
+                        </a>
+
+                        <a class="steam-search-item" href="#" role="option">
+                            <div class="steam-search-item__thumb" aria-hidden="true">
+                                <img class="steam-search-item__img" src="img/image 5.png" alt="">
+                            </div>
+                            <div class="steam-search-item__name">Minecraft Bugrock</div>
+                            <div class="steam-search-item__meta">
+                                <span class="steam-search-item__discount">-90%</span>
+                                <span class="steam-search-item__old">670 грн</span>
+                                <span class="steam-search-item__price">67 грн</span>
+                            </div>
+                        </a>
+
+                        <a class="steam-search-item" href="#" role="option">
+                            <div class="steam-search-item__thumb" aria-hidden="true">
+                                <img class="steam-search-item__img" src="img/cs2 2.png" alt="">
+                            </div>
+                            <div class="steam-search-item__name">Counter-Strike 2</div>
+                            <div class="steam-search-item__meta">
+                                <span class="steam-search-item__discount">-90%</span>
+                                <span class="steam-search-item__old">670 грн</span>
+                                <span class="steam-search-item__price">67 грн</span>
+                            </div>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+    <div class="banner">
+      <img src="img/banner_Steam.png" alt="Banner">
+    </div>
+
   <div class="slider">
     <div class="main-row">
       <div class="hero">
@@ -69,6 +162,158 @@
     <div class="dot"></div>
   </div>
 </div>
+
+  <section class="store-specials">
+    <div class="container store-specials__inner">
+      <div class="store-specials__top">
+        <h2 class="store-specials__title">Спеціальні пропозиції</h2>
+        <a class="store-specials__more" href="#">Дивитись більше</a>
+      </div>
+
+      <div class="store-specials__grid">
+        <a class="special-card" href="#">
+          <div class="special-card__img">
+            <img src="img/witcher.jpg" alt="The_witcher">
+            <div class="special-card__overlay">
+              <div class="special-card__name">The witcher 3</div>
+            </div>
+          </div>
+          <div class="special-card__tags">
+            <span class="special-card__tag">РПГ</span>
+            <span class="special-card__tag">Відкритий світ</span>
+          </div>
+          <div class="special-card__rating">
+            <span class="special-card__stars" aria-hidden="true">★★★★★</span>
+            <span class="special-card__rating-text">Дуже позитивні</span>
+          </div>
+          <div class="special-card__bottom">
+            <span class="special-card__discount">-90%</span>
+            <span class="special-card__old">670 грн</span>
+            <span class="special-card__price">67 грн</span>
+          </div>
+        </a>
+
+        <a class="special-card" href="#">
+          <div class="special-card__img">
+            <img src="img/hollow_knight.jpg" alt="Hollow Knight">
+            <div class="special-card__overlay">
+              <div class="special-card__name">Hollow Knight</div>
+            </div>
+          </div>
+          <div class="special-card__tags">
+            <span class="special-card__tag">Платформер</span>
+            <span class="special-card__tag">метроїдвіан</span>
+          </div>
+          <div class="special-card__rating">
+            <span class="special-card__stars" aria-hidden="true">★★★★★</span>
+            <span class="special-card__rating-text">Дуже позитивні</span>
+          </div>
+          <div class="special-card__bottom">
+            <span class="special-card__discount">-50%</span>
+            <span class="special-card__old">299 грн</span>
+            <span class="special-card__price">149 грн</span>
+          </div>
+        </a>
+
+        <a class="special-card" href="#">
+          <div class="special-card__img">
+            <img src="img/stardew_valley.jpg" alt="Stardew Valley">
+            <div class="special-card__overlay">
+              <div class="special-card__name">Stardew Valley</div>
+            </div>
+          </div>
+          <div class="special-card__tags">
+            <span class="special-card__tag">Симулятор ферми</span>
+            <span class="special-card__tag">Рпг</span>
+          </div>
+          <div class="special-card__rating">
+            <span class="special-card__stars" aria-hidden="true">★★★★★</span>
+            <span class="special-card__rating-text">Дуже позитивні</span>
+          </div>
+          <div class="special-card__bottom">
+            <span class="special-card__discount">-50%</span>
+            <span class="special-card__old">999 грн</span>
+            <span class="special-card__price">499 грн</span>
+          </div>
+        </a>
+
+        <a class="special-card" href="#">
+          <div class="special-card__img">
+            <img src="img/portal2.jpg" alt="Portal 2">
+            <div class="special-card__overlay">
+              <div class="special-card__name">Portal 2</div>
+            </div>
+          </div>
+          <div class="special-card__tags">
+            <span class="special-card__tag">Головоломка</span>
+            <span class="special-card__tag">Кооператив</span>
+          </div>
+          <div class="special-card__rating">
+            <span class="special-card__stars" aria-hidden="true">★★★★★</span>
+            <span class="special-card__rating-text">Дуже позитивні</span>
+          </div>
+          <div class="special-card__bottom">
+            <span class="special-card__discount">-20%</span>
+            <span class="special-card__old">899 грн</span>
+            <span class="special-card__price">719 грн</span>
+          </div>
+        </a>
+
+        <a class="special-card" href="#">
+          <div class="special-card__img">
+            <img src="img/terrria.jpg" alt="Terraria">
+            <div class="special-card__overlay">
+              <div class="special-card__name">Terraria</div>
+            </div>
+          </div>
+          <div class="special-card__tags">
+            <span class="special-card__tag">Пісочниця</span>
+            <span class="special-card__tag">Пригоди</span>
+          </div>
+          <div class="special-card__rating">
+            <span class="special-card__stars" aria-hidden="true">★★★★★</span>
+            <span class="special-card__rating-text">Дуже позитивні</span>
+          </div>
+          <div class="special-card__bottom">
+            <span class="special-card__discount">-60%</span>
+            <span class="special-card__old">799 грн</span>
+            <span class="special-card__price">319 грн</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="store-cats">
+        <div class="store-cats__title">ПЕРЕГЛЯД ЗА КАТЕГОРІЄЮ</div>
+        <div class="store-cats__wrap">
+          <button class="store-cats__nav store-cats__nav--prev" type="button" aria-label="Previous"></button>
+          <div class="store-cats__list" role="list">
+            <a class="cat-tile cat-tile--rpg" href="#" role="listitem">
+              <span class="cat-tile__label">РОЛЬОВІ</span>
+            </a>
+            <a class="cat-tile cat-tile--scifi" href="#" role="listitem">
+              <span class="cat-tile__label">НАУКОВА ФАНТАСТИКА<br>Й КІБЕРПАНК</span>
+            </a>
+            <a class="cat-tile cat-tile--vr" href="#" role="listitem">
+              <span class="cat-tile__label">ПРОДУКТИ З VR</span>
+            </a>
+            <a class="cat-tile cat-tile--sim" href="#" role="listitem">
+              <span class="cat-tile__label">СИМУЛЯТОРИ</span>
+            </a>
+          </div>
+          <button class="store-cats__nav store-cats__nav--next" type="button" aria-label="Next"></button>
+        </div>
+
+        <div class="store-cats__dots" aria-label="Category pages">
+          <span class="store-cats__dot active"></span>
+          <span class="store-cats__dot"></span>
+          <span class="store-cats__dot"></span>
+          <span class="store-cats__dot"></span>
+          <span class="store-cats__dot"></span>
+          <span class="store-cats__dot"></span>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
 
