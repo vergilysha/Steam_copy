@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #1B2838;
+    color: #C7D5E0;
+}
+
+.container{
+    width: min(1040px, calc(100% - 32px));
+    margin: 0 auto;
+}
+
+.steam-header{
+    width: 100%;
+}
+
+.steam-topbar{
+    background: #171A21;
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+
+.steam-topbar__inner{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.steam-logo{
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.steam-logo__img{
+    height: 30px;
+    width: auto;
+    display: block;
+}
+
+.steam-mainnav{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.steam-mainnav__link{
+    color: #C7D5E0;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: .02em;
+    font-size: 14px;
+    line-height: 1;
+    text-transform: uppercase;
+    padding: 6px 4px;
+}
+
+.steam-mainnav__link:hover{
+    color: #FFFFFF;
+}
+
+.steam-actions{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.btn{
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 7px 12px;
+    font-size: 13px;
+    line-height: 1;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.btn--primary{
+    background: #4C9ACC;
+    color: #FFFFFF;
+}
+
+.btn--primary:hover{
+    background: #67B0DD;
+}
+
+.btn--ghost{
+    background: rgba(255,255,255,.12);
+    color: #FFFFFF;
+}
+
+.btn--ghost:hover{
+    background: rgba(255,255,255,.18);
+}
+
+.steam-subbar{
+    background: linear-gradient(180deg, #2A475E 0%, #20364A 100%);
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.steam-subbar__inner{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.steam-subnav{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.steam-subnav__link{
+    color: #DCE7F1;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 5px 6px;
+    border-radius: 2px;
+    white-space: nowrap;
+}
+
+.steam-subnav__link:hover{
+    background: rgba(255,255,255,.08);
+}

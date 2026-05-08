@@ -2,10 +2,99 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/game.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steam - Ігри</title>
 </head>
 <body>
-    
+    <header class="steam-header">
+        <div class="steam-topbar">
+            <div class="container steam-topbar__inner">
+                <a class="steam-logo" href="index.html">
+                    <img src="img/logo_steam 1.png" alt="Steam" class="steam-logo__img">
+                </a>
+
+                <nav class="steam-mainnav" aria-label="Primary">
+                    <a class="steam-mainnav__link" href="#">МАГАЗИН</a>
+                    <a class="steam-mainnav__link" href="#">ПРО НАС</a>
+                    <a class="steam-mainnav__link" href="#">ПІДТРИМКА</a>
+                </nav>
+
+                <div class="steam-actions">
+                    <a class="btn btn--primary" href="login.html">Увійти</a>
+                    <button class="btn btn--ghost" type="button">Встановити Steam</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="steam-subbar">
+            <div class="container steam-subbar__inner">
+                <nav class="steam-subnav" aria-label="Store">
+                    <a class="steam-subnav__link" href="#">Магазин</a>
+                    <a class="steam-subnav__link" href="#">Нове та популярне</a>
+                    <a class="steam-subnav__link" href="#">Топ продажів</a>
+                    <a class="steam-subnav__link" href="#">Акції</a>
+                    <a class="steam-subnav__link" href="#">Перегляд за категорією</a>
+                </nav>
+
+                <form class="steam-search" action="#" method="get" role="search">
+                    <input class="steam-search__input" type="search" name="q" placeholder="Пошук у крамниці" aria-label="Search">
+                    <button class="steam-search__btn" type="submit" aria-label="Search"></button>
+                    <div class="steam-search__popup" role="listbox" aria-label="Popular search queries">
+                        <div class="steam-search__popup-title">Популярні пошукові запити</div>
+
+                        <a class="steam-search-item" href="#" role="option">
+                            <div class="steam-search-item__thumb" aria-hidden="true">
+                                <img class="steam-search-item__img" src="img/capsule_616x353 2.png" alt="">
+                            </div>
+                            <div class="steam-search-item__name">GTA V</div>
+                            <div class="steam-search-item__meta">
+                                <span class="steam-search-item__discount">-90%</span>
+                                <span class="steam-search-item__old">670 грн</span>
+                                <span class="steam-search-item__price">67 грн</span>
+                            </div>
+                        </a>
+
+                        <a class="steam-search-item" href="#" role="option">
+                            <div class="steam-search-item__thumb" aria-hidden="true">
+                                <img class="steam-search-item__img" src="img/image 4.png" alt="">
+                            </div>
+                            <div class="steam-search-item__name">Geometry Dash</div>
+                            <div class="steam-search-item__meta">
+                                <span class="steam-search-item__discount">-90%</span>
+                                <span class="steam-search-item__old">670 грн</span>
+                                <span class="steam-search-item__price">67 грн</span>
+                            </div>
+                        </a>
+
+                        <a class="steam-search-item" href="#" role="option">
+                            <div class="steam-search-item__thumb" aria-hidden="true">
+                                <img class="steam-search-item__img" src="img/image 5.png" alt="">
+                            </div>
+                            <div class="steam-search-item__name">Minecraft Bugrock</div>
+                            <div class="steam-search-item__meta">
+                                <span class="steam-search-item__discount">-90%</span>
+                                <span class="steam-search-item__old">670 грн</span>
+                                <span class="steam-search-item__price">67 грн</span>
+                            </div>
+                        </a>
+
+                        <a class="steam-search-item" href="#" role="option">
+                            <div class="steam-search-item__thumb" aria-hidden="true">
+                                <img class="steam-search-item__img" src="img/cs2 2.png" alt="">
+                            </div>
+                            <div class="steam-search-item__name">Counter-Strike 2</div>
+                            <div class="steam-search-item__meta">
+                                <span class="steam-search-item__discount">-90%</span>
+                                <span class="steam-search-item__old">670 грн</span>
+                                <span class="steam-search-item__price">67 грн</span>
+                            </div>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+</html>
 </body>
 </html>
