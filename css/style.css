@@ -184,7 +184,7 @@
 .block-with-search-and-button-and-title{
     display: flex;
     flex-direction: column;
-    margin-left: 125px;
+    margin-left: 200px;
 }
 .search-for-more-button{
     width: 80px;
