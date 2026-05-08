@@ -184,7 +184,7 @@
 .block-with-search-and-button-and-title{
     display: flex;
     flex-direction: column;
-    margin-left: 125px;
+    margin-left: 200px;
 }
 .search-for-more-button{
     width: 80px;
@@ -194,6 +194,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 10px;
 }
 .button-title{
     color: #FFFFFF;
