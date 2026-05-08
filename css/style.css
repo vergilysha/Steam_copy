@@ -773,3 +773,129 @@ body{
          grid-template-columns: 28px minmax(0, 1fr) 28px;
      }
  }
+
+ .search-more-block{
+     width: 100%;
+     height: 97px;
+     background: #16202D;
+     display: flex;
+     align-items: center;
+ }
+
+ .search-title{
+     color: #C7D5E0;
+     font-size: 14px;
+ }
+
+ .search-space{
+     width: 500px;
+     height: 36px;
+     border: 1px solid #1b2838;
+     border-radius: 3px;
+     background: #36475C;
+     padding-left: 10px;
+     color: #FFFFFF;
+     outline: none;
+ }
+
+ .search-space::placeholder{
+     color: rgba(255,255,255,.7);
+ }
+
+ .block-with-search-and-button{
+     display: flex;
+     align-items: center;
+ }
+
+ .block-with-search-and-button-and-title{
+     display: flex;
+     flex-direction: column;
+     margin-left: 125px;
+ }
+
+ .search-for-more-button{
+     width: 80px;
+     height: 36px;
+     background: #5EA0C9;
+     border-radius: 3px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .button-title{
+     color: #FFFFFF;
+     font-size: 12px;
+ }
+
+ .steam-footer{
+     margin-top: 22px;
+     padding: 22px 0;
+     background: #171A21;
+     color: #C7D5E0;
+ }
+
+ .block-with-logo-and-three-cards{
+     width: min(1040px, calc(100% - 32px));
+     margin: 0 auto;
+     display: grid;
+     grid-template-columns: 180px repeat(3, minmax(0, 1fr));
+     gap: 18px;
+     align-items: start;
+ }
+
+ .logo img{
+     width: 160px;
+     height: auto;
+     display: block;
+ }
+
+ .h4-footer-title{
+     margin: 0 0 10px;
+     font-size: 12px;
+     color: #FFFFFF;
+     letter-spacing: .04em;
+ }
+
+ .card-with-info{
+     display: flex;
+     flex-direction: column;
+     gap: 8px;
+ }
+
+ .links{
+     color: rgba(255,255,255,.7);
+     text-decoration: none;
+     font-size: 12px;
+ }
+
+ .links:hover{
+     color: #66C0F4;
+ }
+
+ .bottom-text-footer{
+     width: min(1040px, calc(100% - 32px));
+     margin: 18px auto 0;
+     font-size: 12px;
+     line-height: 1.5;
+     color: rgba(255,255,255,.6);
+ }
+
+ @media (max-width: 900px){
+     .block-with-logo-and-three-cards{
+         grid-template-columns: 1fr;
+     }
+
+     .logo img{
+         width: 140px;
+     }
+
+     .block-with-search-and-button-and-title{
+         margin-left: 24px;
+         margin-right: 24px;
+     }
+
+     .search-space{
+         width: min(500px, 70vw);
+     }
+ }
