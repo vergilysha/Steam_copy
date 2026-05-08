@@ -7,7 +7,7 @@ html, body{
 }
 
 body{
-    margin: 0;
+   margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background: #1B2838;
     color: #C7D5E0;
@@ -140,3 +140,148 @@ body{
 .steam-subnav__link:hover{
     background: rgba(255,255,255,.08);
 }
+.steam-search{
+    margin-left: auto;
+    display: flex;
+    align-items: stretch;
+    height: 28px;
+    width: min(330px, 45vw);
+    position: relative;
+}
+
+.steam-search__input{
+    width: 100%;
+    padding: 0 10px;
+    border: 1px solid rgba(255,255,255,.18);
+    border-right: 0;
+    background: rgba(0,0,0,.22);
+    color: #FFFFFF;
+    outline: none;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    font-size: 13px;
+}
+
+.steam-search__input::placeholder{
+    color: rgba(255,255,255,.65);
+}
+
+.steam-search__btn{
+    width: 34px;
+    border: 1px solid rgba(255,255,255,.18);
+    border-left: 0;
+    background: #4C9ACC;
+    cursor: pointer;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.steam-search__btn:hover{
+    background: #67B0DD;
+}
+
+.steam-search__btn::before{
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    margin: 0 auto;
+    background: currentColor;
+    -webkit-mask: radial-gradient(circle at 55% 45%, transparent 6px, #000 6px) 0 0/100% 100% no-repeat;
+    mask: radial-gradient(circle at 55% 45%, transparent 6px, #000 6px) 0 0/100% 100% no-repeat;
+    color: #FFFFFF;
+}
+
+.steam-search__popup{
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    right: 0;
+    background: #C7D5E0;
+    color: #0F1720;
+    border: 1px solid rgba(0,0,0,.18);
+    box-shadow: 0 10px 28px rgba(0,0,0,.35);
+    padding: 10px;
+    display: none;
+    z-index: 50;
+}
+
+.steam-search:focus-within .steam-search__popup{
+    display: block;
+}
+
+.steam-search__popup-title{
+    font-size: 14px;
+    color: rgba(0,0,0,.75);
+    padding: 2px 4px 10px;
+}
+
+.steam-search-item{
+    display: grid;
+    grid-template-columns: 92px minmax(0, 1fr) auto;
+    grid-template-rows: auto auto;
+    gap: 12px;
+    align-items: start;
+    padding: 10px;
+    margin: 8px 0;
+    background: #2A475E;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.steam-search-item:hover{
+    background: #355A76;
+}
+
+.steam-search-item__thumb{
+    height: 44px;
+    width: 92px;
+    background: linear-gradient(90deg, rgba(255,255,255,.18) 0%, rgba(255,255,255,.08) 40%, rgba(255,255,255,.12) 100%);
+    overflow: hidden;
+    grid-row: 1 / span 2;
+}
+
+.steam-search-item__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.steam-search-item__name{
+    font-weight: 700;
+    font-size: 14px;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    grid-column: 2 / 4;
+    grid-row: 1;
+}
+
+.steam-search-item__meta{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    grid-column: 2 / 4;
+    grid-row: 2;
+    align-self: end;
+}
+
+.steam-search-item__discount{
+    background: #4C6B22;
+    color: #BEF05B;
+    padding: 3px 7px;
+    font-weight: 700;
+}
+
+.steam-search-item__old{
+    color: rgba(255,255,255,.6);
+    text-decoration: line-through;
+}
+
+.steam-search-item__price{
+    font-weight: 700;
+}
+
