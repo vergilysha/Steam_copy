@@ -7,7 +7,7 @@ html, body{
 }
 
 body{
-   margin: 0;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background: #1B2838;
     color: #C7D5E0;
@@ -74,6 +74,7 @@ body{
     align-items: center;
     gap: 10px;
 }
+
 .btn{
     border: 0;
     cursor: pointer;
@@ -140,6 +141,7 @@ body{
 .steam-subnav__link:hover{
     background: rgba(255,255,255,.08);
 }
+
 .steam-search{
     margin-left: auto;
     display: flex;
@@ -284,4 +286,5 @@ body{
 .steam-search-item__price{
     font-weight: 700;
 }
+
 
