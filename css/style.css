@@ -454,18 +454,15 @@ body{
     width:100%;
     height:auto;
 }
-<<<<<<< HEAD
 .search-title{
     color: #C7D5E0;
     font-size: 14px;
     margin-bottom: 10px;
-=======
+}
 .banner img{
     width:100%;
     height:auto;
-    display:block;
->>>>>>> d273d02b3cad1c0f39e14d3714d1bd76479ee09c
-}
+    display:block;}
 
  .store-specials{
      padding: 18px 0 28px;
