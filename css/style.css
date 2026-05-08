@@ -206,9 +206,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 .bottom-text-footer{
     color: #536270;
+        width: 1200px;
 }
 .h4-footer-title{
     color: #C7D5E0;
@@ -221,8 +223,12 @@
 .card-with-info{
         display: flex;
     flex-direction: column;
+        padding: 50px;
 }
 .block-with-logo-and-three-cards{
         display: flex;
     justify-content: space-around;
+}
+.logo{
+    margin-top: 50px;
 }
