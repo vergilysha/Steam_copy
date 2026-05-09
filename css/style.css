@@ -452,9 +452,33 @@ body{
 }
 .main-row{
     display:flex;
+    align-items: stretch;
     gap:4px;
     justify-content: center;
 }
+
+/* NAV BUTTONS */
+.nav-btn {
+    background: rgba(0,0,0,0.4);
+    border: none;
+    color: #c6d4df;
+    font-size: 36px;
+    line-height: 1;
+    width: 32px;
+    cursor: pointer;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, color 0.2s;
+    user-select: none;
+    padding: 0;
+}
+.nav-btn:hover {
+    background: rgba(102,192,244,0.18);
+    color: #66c0f4;
+}
+
 .hero{
     position:relative;
     flex:0 0 560px;
@@ -464,6 +488,7 @@ body{
     height:330px;
     object-fit:cover;
     display:block;
+    transition: opacity 0.15s ease;
 }
 .hero-info{
     position:absolute;
@@ -472,6 +497,14 @@ body{
     right:0;
     padding:14px 16px;
     background:#000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+.hero-left {
+    flex: 1;
+    min-width: 0;
 }
 .hero-title{
     color:#fff;
@@ -495,6 +528,7 @@ body{
     border-radius:50%;
     background:#4a5c6a;
     cursor:pointer;
+    transition: background 0.2s;
 }
 .dot.active{
     background:#66C0F4;
@@ -503,7 +537,8 @@ body{
     max-width: 332px;
     flex:1;
     display:flex;
-    flex-direction:column;
+    flex-wrap: wrap;
+    flex-direction:row;
     gap:2px;
 }
 .sidebar-title{
@@ -528,6 +563,7 @@ body{
     cursor:pointer;
     background:#16202d;
     flex:1;
+    transition: background 0.2s;
 }
 
 /* colors */
@@ -555,6 +591,7 @@ body{
 }
 .game-row.active{
     background:#2a3f5f;
+    outline: 1px solid #66c0f4;
 }
 .game-row img{
     width:90px;

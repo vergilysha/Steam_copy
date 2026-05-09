@@ -288,3 +288,17 @@ body{
 }
 
 
+.main-image{
+    width: 634px;
+}
+.button{
+    background: #141F2B;
+    width: 24px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block-with-images-and-buttons{
+    display: flex;
+}
