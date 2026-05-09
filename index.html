@@ -24,7 +24,44 @@
         </nav>
 
         <div class="steam-actions">
-          <a class="btn btn--primary" href="login.html">Увійти</a>
+          <div class="steam-login">
+            <input class="steam-login__toggle" type="checkbox" id="steam-login-toggle" aria-hidden="true">
+            <label class="btn btn--primary" for="steam-login-toggle">Увійти</label>
+            <div class="steam-login__panel" role="dialog" aria-label="Login">
+              <div class="steam-login__title">ВІТАЄМО В STEAM!</div>
+
+              <form class="steam-login__form" action="#" method="post">
+                <label class="steam-login__field">
+                  <span class="steam-login__label">Ел. Пошта</span>
+                  <input class="steam-login__input" type="email" name="email" autocomplete="email">
+                </label>
+
+                <label class="steam-login__field">
+                  <span class="steam-login__label">Пароль</span>
+                  <input class="steam-login__input" type="password" name="password" autocomplete="current-password">
+                </label>
+
+                <label class="steam-login__field">
+                  <span class="steam-login__label">Повт. Пароль</span>
+                  <input class="steam-login__input" type="password" name="password_repeat" autocomplete="current-password">
+                </label>
+
+                <div class="steam-login__actions">
+                  <button class="steam-login__btn steam-login__btn--submit" type="submit">УВІЙТИ</button>
+                  <label class="steam-login__btn steam-login__btn--cancel" for="steam-login-toggle">ВІДМІНА</label>
+                </div>
+
+                <a class="steam-login__forgot" href="#">ЗАБУВ ПАРОЛЬ</a>
+
+                <div class="steam-login__social" aria-label="Social login">
+                  <a class="steam-login__soc" href="#" aria-label="Apple"></a>
+                  <a class="steam-login__soc" href="#" aria-label="Windows">⊞</a>
+                  <a class="steam-login__soc" href="#" aria-label="Facebook">f</a>
+                  <a class="steam-login__soc" href="#" aria-label="Google">G</a>
+                </div>
+              </form>
+            </div>
+          </div>
           <button class="btn btn--ghost" type="button">Встановити Steam</button>
         </div>
       </div>
@@ -104,25 +141,35 @@
 
   <div class="slider">
     <div class="main-row">
+
+      <button class="nav-btn nav-prev" aria-label="Previous">&#8249;</button>
+
       <div class="hero">
-        <img src="img/cyber.jpg" alt="Cyberpunk 2077">
+        <img src="img/cyber.jpg" alt="Cyberpunk 2077" id="hero-img">
         <div class="hero-info">
-          <div class="hero-title">Cyberpunk 2077</div>
-          <div class="hero-rating">Very Positive &nbsp;(98,231 reviews)</div>
+          <div class="hero-left">
+            <div class="hero-title" id="hero-title">Cyberpunk 2077</div>
+            <div class="hero-rating" id="hero-rating">Very Positive &nbsp;(98,231 reviews)</div>
+          </div>
+          <div class="price-wrap">
+            <span class="discount" id="hero-discount">-36%</span>
+            <span class="price-old" id="hero-price-old">$89.99</span>
+            <span class="price" id="hero-price">$49.99</span>
+          </div>
         </div>
       </div>
 
       <div class="sidebar">
         <div class="sidebar-title">FEATURED &amp; RECOMMENDED</div>
         <div class="games">
-          <div class="game-row">
+          <div class="game-row" data-index="1">
             <img src="img/rdr2.jpg" alt="RDR2">
             <div class="game-info">
               <div class="game-name">Red Dead Redemption 2</div>
               <div class="price-wrap"><span class="price no-disc">$59.99</span></div>
             </div>
           </div>
-          <div class="game-row">
+          <div class="game-row" data-index="2">
             <img src="img/elden.jpg" alt="Elden Ring">
             <div class="game-info">
               <div class="game-name">Elden Ring</div>
@@ -133,14 +180,14 @@
               </div>
             </div>
           </div>
-          <div class="game-row">
+          <div class="game-row" data-index="3">
             <img src="img/baldur.jpg" alt="Baldur's Gate 3">
             <div class="game-info">
               <div class="game-name">Baldur's Gate 3</div>
               <div class="price-wrap"><span class="price no-disc">$59.99</span></div>
             </div>
           </div>
-          <div class="game-row">
+          <div class="game-row" data-index="4">
             <img src="img/gtav.jpg" alt="GTA V">
             <div class="game-info">
               <div class="game-name">GTA V</div>
@@ -152,16 +199,28 @@
             </div>
           </div>
         </div>
-      </div>
+
+      <button class="nav-btn nav-next" aria-label="Next">&#8250;</button>
+
+  </div>
+
+
     </div>
 
-    <div class="dots">
+    <!-- <div class="dots">
       <div class="dot active"></div>
       <div class="dot"></div>
       <div class="dot"></div>
       <div class="dot"></div>
       <div class="dot"></div>
-    </div>
+    </div> -->
+      <div class="dots">
+    <div class="dot active" data-index="0"></div>
+    <div class="dot" data-index="1"></div>
+    <div class="dot" data-index="2"></div>
+    <div class="dot" data-index="3"></div>
+    <div class="dot" data-index="4"></div>
+      </div>
   </div>
 
   <section class="store-specials">
@@ -361,11 +420,12 @@
       </div>
     </div>
     </div>
-    <p class="bottom-text-footer">© 2026 BeneneCraft Corporation. Усі права не захищені. Усі торгові марки не належать
-      їхнім власникам у США та інших країнах.
-      ПДВ включено у всі ціни, де це застосовно. Політика конфіденційності | Правова інформація | Угода підписника Steam
-      | Файли cookie</p>
+  </div>
+  <p class="bottom-text-footer">© 2026 BeneneCraft Corporation. Усі права не захищені. Усі торгові марки не належать їхнім власникам у США та інших країнах.
+ПДВ включено у всі ціни, де це застосовно.  Політика конфіденційності  |  Правова інформація  |  Угода підписника Steam  |  Файли cookie</p>
+</footer>
+
+<script src="js/script.js"></script>
   </footer>
 </body>
-
 </html>

@@ -77,6 +77,149 @@ body{
     gap: 10px;
 }
 
+ .steam-login{
+     position: relative;
+     display: inline-flex;
+     align-items: center;
+ }
+
+ .steam-login__toggle{
+     position: absolute;
+     opacity: 0;
+     pointer-events: none;
+ }
+
+ .steam-login__panel{
+     position: absolute;
+     top: calc(100% + 10px);
+     right: 0;
+     width: 340px;
+     background: #1B2838;
+     border: 1px solid rgba(255,255,255,.10);
+     box-shadow: 0 18px 46px rgba(0,0,0,.45);
+     padding: 18px 18px 16px;
+     display: none;
+     z-index: 60;
+ }
+
+ .steam-login__toggle:checked ~ .steam-login__panel{
+     display: block;
+ }
+
+ .steam-login__title{
+     text-align: center;
+     font-weight: 700;
+     letter-spacing: .04em;
+     color: #C7D5E0;
+     margin-bottom: 14px;
+ }
+
+ .steam-login__form{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+ }
+
+ .steam-login__field{
+     display: grid;
+     grid-template-columns: 92px 1fr;
+     align-items: center;
+     gap: 10px;
+ }
+
+ .steam-login__label{
+     color: rgba(199,213,224,.9);
+     font-size: 14px;
+ }
+
+ .steam-login__input{
+     height: 34px;
+     border-radius: 3px;
+     border: 1px solid rgba(0,0,0,.35);
+     background: #D7DEE6;
+     color: #0F1720;
+     padding: 0 10px;
+     outline: none;
+ }
+
+ .steam-login__actions{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 14px;
+     margin-top: 6px;
+ }
+
+ .steam-login__btn{
+     height: 32px;
+     border-radius: 2px;
+     border: 0;
+     cursor: pointer;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     font-weight: 700;
+     font-size: 12px;
+     letter-spacing: .03em;
+     user-select: none;
+ }
+
+ .steam-login__btn--submit{
+     background: #2A475E;
+     color: #FFFFFF;
+ }
+
+ .steam-login__btn--cancel{
+     background: #2A475E;
+     color: #FFFFFF;
+ }
+
+ .steam-login__btn--submit:hover,
+ .steam-login__btn--cancel:hover{
+     background: #355A76;
+ }
+
+ .steam-login__forgot{
+     display: block;
+     margin-top: 2px;
+     text-decoration: none;
+     text-align: center;
+     background: #2A475E;
+     color: #C7D5E0;
+     padding: 9px 10px;
+     border-radius: 2px;
+     font-weight: 700;
+     font-size: 12px;
+ }
+
+ .steam-login__forgot:hover{
+     background: #355A76;
+     color: #FFFFFF;
+ }
+
+ .steam-login__social{
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+     margin-top: 12px;
+ }
+
+ .steam-login__soc{
+     width: 34px;
+     height: 34px;
+     border-radius: 50%;
+     background: #D7DEE6;
+     color: #0F1720;
+     text-decoration: none;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     font-weight: 700;
+ }
+
+ .steam-login__soc:hover{
+     background: #FFFFFF;
+ }
+
 .btn{
     border: 0;
     cursor: pointer;
@@ -309,9 +452,33 @@ body{
 }
 .main-row{
     display:flex;
+    align-items: stretch;
     gap:4px;
     justify-content: center;
 }
+
+/* NAV BUTTONS */
+.nav-btn {
+    background: rgba(0,0,0,0.4);
+    border: none;
+    color: #c6d4df;
+    font-size: 36px;
+    line-height: 1;
+    width: 32px;
+    cursor: pointer;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, color 0.2s;
+    user-select: none;
+    padding: 0;
+}
+.nav-btn:hover {
+    background: rgba(102,192,244,0.18);
+    color: #66c0f4;
+}
+
 .hero{
     position:relative;
     flex:0 0 560px;
@@ -321,6 +488,7 @@ body{
     height:330px;
     object-fit:cover;
     display:block;
+    transition: opacity 0.15s ease;
 }
 .hero-info{
     position:absolute;
@@ -329,6 +497,14 @@ body{
     right:0;
     padding:14px 16px;
     background:#000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+.hero-left {
+    flex: 1;
+    min-width: 0;
 }
 .hero-title{
     color:#fff;
@@ -352,6 +528,7 @@ body{
     border-radius:50%;
     background:#4a5c6a;
     cursor:pointer;
+    transition: background 0.2s;
 }
 .dot.active{
     background:#66C0F4;
@@ -360,7 +537,8 @@ body{
     max-width: 332px;
     flex:1;
     display:flex;
-    flex-direction:column;
+    flex-wrap: wrap;
+    flex-direction:row;
     gap:2px;
 }
 .sidebar-title{
@@ -385,6 +563,7 @@ body{
     cursor:pointer;
     background:#16202d;
     flex:1;
+    transition: background 0.2s;
 }
 
 /* colors */
@@ -412,6 +591,7 @@ body{
 }
 .game-row.active{
     background:#2a3f5f;
+    outline: 1px solid #66c0f4;
 }
 .game-row img{
     width:90px;
