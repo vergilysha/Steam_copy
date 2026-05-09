@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 *{
     box-sizing: border-box;
 }
@@ -392,7 +394,8 @@ body{
     max-width: 332px;
     flex:1;
     display:flex;
-    flex-direction:column;
+    flex-wrap: wrap;
+    flex-direction:row;
     gap:2px;
 }
 .sidebar-title{
