@@ -1,172 +1,343 @@
 <!doctype html>
 <html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/games.css">
-    <title>Steam - Ігри</title>
-    <!-- НЕ КИДАЙТЕ НА ЦЮ СТОРІНКУ БЕЗ ПАРАМЕТРІВ!!! ВОНА УНІВЕРСАЛЬНА -->
-  </head>
 
-  <body>
-    <header class="steam-header">
-      <div class="steam-topbar">
-        <div class="container steam-topbar__inner">
-          <a class="steam-logo" href="index.html">
-            <img
-              src="img/logo_steam 1.png"
-              alt="Steam"
-              class="steam-logo__img"
-            />
-          </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/games.css">
+  <title>Steam - Ігри</title>
+  <!-- НЕ КИДАЙТЕ НА ЦЮ СТОРІНКУ БЕЗ ПАРАМЕТРІВ!!! ВОНА УНІВЕРСАЛЬНА -->
+</head>
 
-          <nav class="steam-mainnav" aria-label="Primary">
-            <a class="steam-mainnav__link" href="#">МАГАЗИН</a>
-            <a class="steam-mainnav__link" href="#">ПРО НАС</a>
-            <a class="steam-mainnav__link" href="#">ПІДТРИМКА</a>
-          </nav>
+<body>
+  <header class="steam-header">
+    <div class="steam-topbar">
+      <div class="container steam-topbar__inner">
+        <a class="steam-logo" href="index.html">
+          <img src="img/logo_steam 1.png" alt="Steam" class="steam-logo__img" />
+        </a>
 
-          <div class="steam-actions">
-            <a class="btn btn--primary" href="login.html">Увійти</a>
-            <button class="btn btn--ghost" type="button">
-              Встановити Steam
-            </button>
-          </div>
+        <nav class="steam-mainnav" aria-label="Primary">
+          <a class="steam-mainnav__link" href="#">МАГАЗИН</a>
+          <a class="steam-mainnav__link" href="#">ПРО НАС</a>
+          <a class="steam-mainnav__link" href="#">ПІДТРИМКА</a>
+        </nav>
+
+        <div class="steam-actions">
+          <a class="btn btn--primary" href="login.html">Увійти</a>
+          <button class="btn btn--ghost" type="button">
+            Встановити Steam
+          </button>
         </div>
       </div>
-
-      <div class="steam-subbar">
-        <div class="container steam-subbar__inner">
-          <nav class="steam-subnav" aria-label="Store">
-            <a class="steam-subnav__link" href="#">Магазин</a>
-            <a class="steam-subnav__link" href="#">Нове та популярне</a>
-            <a class="steam-subnav__link" href="#">Топ продажів</a>
-            <a class="steam-subnav__link" href="#">Акції</a>
-            <a class="steam-subnav__link" href="#">Перегляд за категорією</a>
-          </nav>
-
-          <form class="steam-search" action="#" method="get" role="search">
-            <input
-              class="steam-search__input"
-              type="search"
-              name="q"
-              placeholder="Пошук у крамниці"
-              aria-label="Search"
-            />
-            <button
-              class="steam-search__btn"
-              type="submit"
-              aria-label="Search"
-            ></button>
-            <div
-              class="steam-search__popup"
-              role="listbox"
-              aria-label="Popular search queries"
-            >
-              <div class="steam-search__popup-title">
-                Популярні пошукові запити
-              </div>
-
-              <a class="steam-search-item" href="#" role="option">
-                <div class="steam-search-item__thumb" aria-hidden="true">
-                  <img
-                    class="steam-search-item__img"
-                    src="img/capsule_616x353 2.png"
-                    alt=""
-                  />
-                </div>
-                <div class="steam-search-item__name">GTA V</div>
-                <div class="steam-search-item__meta">
-                  <span class="steam-search-item__discount">-90%</span>
-                  <span class="steam-search-item__old">670 грн</span>
-                  <span class="steam-search-item__price">67 грн</span>
-                </div>
-              </a>
-
-              <a class="steam-search-item" href="#" role="option">
-                <div class="steam-search-item__thumb" aria-hidden="true">
-                  <img
-                    class="steam-search-item__img"
-                    src="img/image 4.png"
-                    alt=""
-                  />
-                </div>
-                <div class="steam-search-item__name">Geometry Dash</div>
-                <div class="steam-search-item__meta">
-                  <span class="steam-search-item__discount">-90%</span>
-                  <span class="steam-search-item__old">670 грн</span>
-                  <span class="steam-search-item__price">67 грн</span>
-                </div>
-              </a>
-
-              <a class="steam-search-item" href="#" role="option">
-                <div class="steam-search-item__thumb" aria-hidden="true">
-                  <img
-                    class="steam-search-item__img"
-                    src="img/image 5.png"
-                    alt=""
-                  />
-                </div>
-                <div class="steam-search-item__name">Minecraft Bugrock</div>
-                <div class="steam-search-item__meta">
-                  <span class="steam-search-item__discount">-90%</span>
-                  <span class="steam-search-item__old">670 грн</span>
-                  <span class="steam-search-item__price">67 грн</span>
-                </div>
-              </a>
-
-              <a class="steam-search-item" href="#" role="option">
-                <div class="steam-search-item__thumb" aria-hidden="true">
-                  <img
-                    class="steam-search-item__img"
-                    src="img/cs2 2.png"
-                    alt=""
-                  />
-                </div>
-                <div class="steam-search-item__name">Counter-Strike 2</div>
-                <div class="steam-search-item__meta">
-                  <span class="steam-search-item__discount">-90%</span>
-                  <span class="steam-search-item__old">670 грн</span>
-                  <span class="steam-search-item__price">67 грн</span>
-                </div>
-              </a>
-            </div>
-          </form>
-        </div>
-      </div>
-    </header>
-    <div class="banner">
-      <img src="img/banner_Steam.png" alt="Banner" />
     </div>
 
-    <main class="main">
-        <div class="top">
-            <h1 class="title">Всі ігри</h1>
-            <button class="filter">
-                <p>Фільтр</p>
-                <img src="img/filter.svg" alt="filter icon">
-            </button>
-        </div>
+    <div class="steam-subbar">
+      <div class="container steam-subbar__inner">
+        <nav class="steam-subnav" aria-label="Store">
+          <a class="steam-subnav__link" href="#">Магазин</a>
+          <a class="steam-subnav__link" href="#">Нове та популярне</a>
+          <a class="steam-subnav__link" href="#">Топ продажів</a>
+          <a class="steam-subnav__link" href="#">Акції</a>
+          <a class="steam-subnav__link" href="#">Перегляд за категорією</a>
+        </nav>
 
-        <div class="rows">
-          <div class="row">
-            <img src="img/cs2 2.png" alt="game img" class="row-img">
-            <div class="texts">
-              <p class="row-title">Counter-Strike 2</p>
-              <p class="types">Екшн, Шутер від першої особи, Мультиплеєр</p>
-              <p class="reviews r-blue">Надзвичайно позитивні</p>
+        <form class="steam-search" action="#" method="get" role="search">
+          <input class="steam-search__input" type="search" name="q" placeholder="Пошук у крамниці"
+            aria-label="Search" />
+          <button class="steam-search__btn" type="submit" aria-label="Search"></button>
+          <div class="steam-search__popup" role="listbox" aria-label="Popular search queries">
+            <div class="steam-search__popup-title">
+              Популярні пошукові запити
             </div>
-            <div class="price">
-              <div class="discount">
-                <p>-90%</p>
+
+            <a class="steam-search-item" href="#" role="option">
+              <div class="steam-search-item__thumb" aria-hidden="true">
+                <img class="steam-search-item__img" src="img/capsule_616x353 2.png" alt="" />
               </div>
-              <p class="old-price">670 грн</p>
-              <p class="new-price">67 грн</p>
-            </div>
-          </div>
-        </div>
-    </main>
+              <div class="steam-search-item__name">GTA V</div>
+              <div class="steam-search-item__meta">
+                <span class="steam-search-item__discount">-90%</span>
+                <span class="steam-search-item__old">670 грн</span>
+                <span class="steam-search-item__price">67 грн</span>
+              </div>
+            </a>
 
-  </body>
+            <a class="steam-search-item" href="#" role="option">
+              <div class="steam-search-item__thumb" aria-hidden="true">
+                <img class="steam-search-item__img" src="img/image 4.png" alt="" />
+              </div>
+              <div class="steam-search-item__name">Geometry Dash</div>
+              <div class="steam-search-item__meta">
+                <span class="steam-search-item__discount">-90%</span>
+                <span class="steam-search-item__old">670 грн</span>
+                <span class="steam-search-item__price">67 грн</span>
+              </div>
+            </a>
+
+            <a class="steam-search-item" href="#" role="option">
+              <div class="steam-search-item__thumb" aria-hidden="true">
+                <img class="steam-search-item__img" src="img/image 5.png" alt="" />
+              </div>
+              <div class="steam-search-item__name">Minecraft Bugrock</div>
+              <div class="steam-search-item__meta">
+                <span class="steam-search-item__discount">-90%</span>
+                <span class="steam-search-item__old">670 грн</span>
+                <span class="steam-search-item__price">67 грн</span>
+              </div>
+            </a>
+
+            <a class="steam-search-item" href="#" role="option">
+              <div class="steam-search-item__thumb" aria-hidden="true">
+                <img class="steam-search-item__img" src="img/cs2 2.png" alt="" />
+              </div>
+              <div class="steam-search-item__name">Counter-Strike 2</div>
+              <div class="steam-search-item__meta">
+                <span class="steam-search-item__discount">-90%</span>
+                <span class="steam-search-item__old">670 грн</span>
+                <span class="steam-search-item__price">67 грн</span>
+              </div>
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </header>
+  <div class="banner">
+    <img src="img/banner_Steam.png" alt="Banner" />
+  </div>
+
+  <main class="main">
+    <div class="top">
+      <h1 class="title">Всі ігри</h1>
+      <button class="filter">
+        <p>Фільтр</p>
+        <img src="img/filter.svg" alt="filter icon">
+      </button>
+    </div>
+
+    <div class="rows">
+      <div class="row">
+        <img src="img/cs2 2.png" alt="game img" class="row-img">
+        <div class="texts">
+          <p class="row-title">Counter-Strike 2</p>
+          <p class="types">Екшн, Шутер від першої особи, Мультиплеєр</p>
+          <p class="reviews r-blue">Надзвичайно позитивні</p>
+        </div>
+        <div class="price">
+          <div class="discount">
+            <p>-90%</p>
+          </div>
+          <p class="old-price">670 грн</p>
+          <p class="new-price">67 грн</p>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/cs2 2.png" alt="game img" class="row-img">
+        <div class="texts">
+          <p class="row-title">Counter-Strike 2</p>
+          <p class="types">Екшн, Шутер від першої особи, Мультиплеєр</p>
+          <p class="reviews r-blue">Надзвичайно позитивні</p>
+        </div>
+        <div class="price">
+          <div class="discount">
+            <p>-90%</p>
+          </div>
+          <p class="old-price">670 грн</p>
+          <p class="new-price">67 грн</p>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/cs2 2.png" alt="game img" class="row-img">
+        <div class="texts">
+          <p class="row-title">Counter-Strike 2</p>
+          <p class="types">Екшн, Шутер від першої особи, Мультиплеєр</p>
+          <p class="reviews r-blue">Надзвичайно позитивні</p>
+        </div>
+        <div class="price">
+          <div class="discount">
+            <p>-90%</p>
+          </div>
+          <p class="old-price">670 грн</p>
+          <p class="new-price">67 грн</p>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/cs2 2.png" alt="game img" class="row-img">
+        <div class="texts">
+          <p class="row-title">Counter-Strike 2</p>
+          <p class="types">Екшн, Шутер від першої особи, Мультиплеєр</p>
+          <p class="reviews r-blue">Надзвичайно позитивні</p>
+        </div>
+        <div class="price">
+          <div class="discount">
+            <p>-90%</p>
+          </div>
+          <p class="old-price">670 грн</p>
+          <p class="new-price">67 грн</p>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/cs2 2.png" alt="game img" class="row-img">
+        <div class="texts">
+          <p class="row-title">Counter-Strike 2</p>
+          <p class="types">Екшн, Шутер від першої особи, Мультиплеєр</p>
+          <p class="reviews r-blue">Надзвичайно позитивні</p>
+        </div>
+        <div class="price">
+          <div class="discount">
+            <p>-90%</p>
+          </div>
+          <p class="old-price">670 грн</p>
+          <p class="new-price">67 грн</p>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/cs2 2.png" alt="game img" class="row-img">
+        <div class="texts">
+          <p class="row-title">Counter-Strike 2</p>
+          <p class="types">Екшн, Шутер від першої особи, Мультиплеєр</p>
+          <p class="reviews r-blue">Надзвичайно позитивні</p>
+        </div>
+        <div class="price">
+          <div class="discount">
+            <p>-90%</p>
+          </div>
+          <p class="old-price">670 грн</p>
+          <p class="new-price">67 грн</p>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/cs2 2.png" alt="game img" class="row-img">
+        <div class="texts">
+          <p class="row-title">Counter-Strike 2</p>
+          <p class="types">Екшн, Шутер від першої особи, Мультиплеєр</p>
+          <p class="reviews r-blue">Надзвичайно позитивні</p>
+        </div>
+        <div class="price">
+          <div class="discount">
+            <p>-90%</p>
+          </div>
+          <p class="old-price">670 грн</p>
+          <p class="new-price">67 грн</p>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/cs2 2.png" alt="game img" class="row-img">
+        <div class="texts">
+          <p class="row-title">Counter-Strike 2</p>
+          <p class="types">Екшн, Шутер від першої особи, Мультиплеєр</p>
+          <p class="reviews r-blue">Надзвичайно позитивні</p>
+        </div>
+        <div class="price">
+          <div class="discount">
+            <p>-90%</p>
+          </div>
+          <p class="old-price">670 грн</p>
+          <p class="new-price">67 грн</p>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/cs2 2.png" alt="game img" class="row-img">
+        <div class="texts">
+          <p class="row-title">Counter-Strike 2</p>
+          <p class="types">Екшн, Шутер від першої особи, Мультиплеєр</p>
+          <p class="reviews r-blue">Надзвичайно позитивні</p>
+        </div>
+        <div class="price">
+          <div class="discount">
+            <p>-90%</p>
+          </div>
+          <p class="old-price">670 грн</p>
+          <p class="new-price">67 грн</p>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/cs2 2.png" alt="game img" class="row-img">
+        <div class="texts">
+          <p class="row-title">Counter-Strike 2</p>
+          <p class="types">Екшн, Шутер від першої особи, Мультиплеєр</p>
+          <p class="reviews r-blue">Надзвичайно позитивні</p>
+        </div>
+        <div class="price">
+          <div class="discount">
+            <p>-90%</p>
+          </div>
+          <p class="old-price">670 грн</p>
+          <p class="new-price">67 грн</p>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/cs2 2.png" alt="game img" class="row-img">
+        <div class="texts">
+          <p class="row-title">Counter-Strike 2</p>
+          <p class="types">Екшн, Шутер від першої особи, Мультиплеєр</p>
+          <p class="reviews r-blue">Надзвичайно позитивні</p>
+        </div>
+        <div class="price">
+          <div class="discount">
+            <p>-90%</p>
+          </div>
+          <p class="old-price">670 грн</p>
+          <p class="new-price">67 грн</p>
+        </div>
+      </div>
+      <div class="row">
+        <img src="img/cs2 2.png" alt="game img" class="row-img">
+        <div class="texts">
+          <p class="row-title">Counter-Strike 2</p>
+          <p class="types">Екшн, Шутер від першої особи, Мультиплеєр</p>
+          <p class="reviews r-blue">Надзвичайно позитивні</p>
+        </div>
+        <div class="price">
+          <div class="discount">
+            <p>-90%</p>
+          </div>
+          <p class="old-price">670 грн</p>
+          <p class="new-price">67 грн</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="steam-footer">
+    <div class="block-with-logo-and-three-cards">
+      <div class="logo">
+        <img src="img/steambiglogo.png" alt="">
+      </div>
+      <div class="card-with-info">
+        <h4 class="h4-footer-title">ПРО STEAM</h4>
+        <a href="" class="links">Що таке Steam?</a>
+        <a href="" class="links">Steamworks</a>
+        <a href="" class="links">Обладнання Steam</a>
+        <a href="" class="links">Вакансії</a>
+        <a href="" class="links">Блог Steam</a>
+      </div>
+      <div class="card-with-info">
+        <h4 class="h4-footer-title">КОРИСНІ ПОСИЛАННЯ</h4>
+        <a href="" class="links">Допомога</a>
+        <a href="" class="links">Обговорення Steam</a>
+        <a href="" class="links">Новини Steam</a>
+        <a href="" class="links">Тест швидкості</a>
+        <a href="" class="links">Повідомити про помилку</a>
+      </div>
+      <div class="card-with-info">
+        <h4 class="h4-footer-title">СПІЛЬНОТА</h4>
+        <a href="" class="links">Майстерня</a>
+        <a href="" class="links">Greenlight</a>
+        <a href="" class="links">Групи</a>
+        <a href="" class="links">Центр спільноти</a>
+        <a href="" class="links">Відгуки</a>
+      </div>
+    </div>
+    </div>
+    </div>
+    <p class="bottom-text-footer">© 2026 BeneneCraft Corporation. Усі права не захищені. Усі торгові марки не належать
+      їхнім власникам у США та інших країнах.
+      ПДВ включено у всі ціни, де це застосовно. Політика конфіденційності | Правова інформація | Угода підписника Steam
+      | Файли cookie</p>
+  </footer>
+
+</body>
+
 </html>
