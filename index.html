@@ -22,7 +22,44 @@
                 </nav>
 
                 <div class="steam-actions">
-                    <a class="btn btn--primary" href="login.html">Увійти</a>
+                    <div class="steam-login">
+                        <input class="steam-login__toggle" type="checkbox" id="steam-login-toggle" aria-hidden="true">
+                        <label class="btn btn--primary" for="steam-login-toggle">Увійти</label>
+                        <div class="steam-login__panel" role="dialog" aria-label="Login">
+                            <div class="steam-login__title">ВІТАЄМО В STEAM!</div>
+
+                            <form class="steam-login__form" action="#" method="post">
+                                <label class="steam-login__field">
+                                    <span class="steam-login__label">Ел. Пошта</span>
+                                    <input class="steam-login__input" type="email" name="email" autocomplete="email">
+                                </label>
+
+                                <label class="steam-login__field">
+                                    <span class="steam-login__label">Пароль</span>
+                                    <input class="steam-login__input" type="password" name="password" autocomplete="current-password">
+                                </label>
+
+                                <label class="steam-login__field">
+                                    <span class="steam-login__label">Повт. Пароль</span>
+                                    <input class="steam-login__input" type="password" name="password_repeat" autocomplete="current-password">
+                                </label>
+
+                                <div class="steam-login__actions">
+                                    <button class="steam-login__btn steam-login__btn--submit" type="submit">УВІЙТИ</button>
+                                    <label class="steam-login__btn steam-login__btn--cancel" for="steam-login-toggle">ВІДМІНА</label>
+                                </div>
+
+                                <a class="steam-login__forgot" href="#">ЗАБУВ ПАРОЛЬ</a>
+
+                                <div class="steam-login__social" aria-label="Social login">
+                                    <a class="steam-login__soc" href="#" aria-label="Apple"></a>
+                                    <a class="steam-login__soc" href="#" aria-label="Windows">⊞</a>
+                                    <a class="steam-login__soc" href="#" aria-label="Facebook">f</a>
+                                    <a class="steam-login__soc" href="#" aria-label="Google">G</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                     <button class="btn btn--ghost" type="button">Встановити Steam</button>
                 </div>
             </div>
