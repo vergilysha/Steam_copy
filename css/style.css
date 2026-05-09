@@ -1085,3 +1085,14 @@ body{
          width: min(500px, 70vw);
      }
  }
+
+
+ .r-blue {
+    color: #66C0F4;
+ }
+ .r-green {
+    color: #64C864;
+ }
+ .r-yellow {
+    color: #C8B464;
+ }
