@@ -291,7 +291,7 @@ body{
 .main-image{
     width: 634px;
 }
-.button{
+.prev-btn, .next-btn{
     background: #141F2B;
     width: 24px;
     height: 62px;
@@ -301,4 +301,26 @@ body{
 }
 .block-with-images-and-buttons{
     display: flex;
+}
+.dots{
+    display:flex;
+    gap:10px;
+    margin-left: 40%;
+    padding:6px 0 0;
+}
+.dot{
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    background:#4a5c6a;
+    cursor:pointer;
+    transition: background 0.2s;
+}
+.dot.active{
+    background:#66C0F4;
+}
+.small-image{
+    width: 120px;
+    height: 68px;
+    cursor: pointer;
 }
