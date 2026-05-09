@@ -292,12 +292,22 @@ body{
     width: 634px;
 }
 .prev-btn, .next-btn{
-    background: #141F2B;
+    background: rgba(0, 0, 0, 0.4);
+    border: none;
+    color: #c6d4df;
+    font-size: 24px;
+    height: 68px;
+    line-height: 1;
     width: 24px;
-    height: 62px;
+    cursor: pointer;
+    flex-shrink: 0;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    transition: background 0.2s, color 0.2s;
+    user-select: none;
+    padding: 0;
+    
 }
 .block-with-images-and-buttons{
     display: flex;
@@ -323,4 +333,8 @@ body{
     width: 120px;
     height: 68px;
     cursor: pointer;
+}
+.arrow{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }

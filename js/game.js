@@ -1,8 +1,8 @@
 const mainImg = document.querySelector('.main-image');
         const thumbs = document.querySelectorAll('.block-with-small-images img');
         const dots = document.querySelectorAll('.dot');
-        const prevBtn = document.getElementById('prev-btn');
-        const nextBtn = document.getElementById('next-btn');
+        const prevBtn = document.getElementsByClassName('prev-btn')[0];
+        const nextBtn = document.getElementsByClassName('next-btn')[0];
 
         let currentIndex = 0;
 
