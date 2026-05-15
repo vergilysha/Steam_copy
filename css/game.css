@@ -315,7 +315,7 @@ body{
 .dots{
     display:flex;
     gap:10px;
-    margin-left: 40%;
+    margin-left: 15%;
     padding:6px 0 0;
 }
 .dot{
@@ -343,4 +343,15 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
+}
+.block-with-image-and-texts{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+}
+.block-with-texts{
+    margin-left: 10px;
+}
+.free-indicator{
+        color: #66C0F4;
 }
