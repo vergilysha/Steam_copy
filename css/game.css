@@ -366,6 +366,8 @@ body{
     align-items: center;
     width: 1200px;
     background-color: #2E4259;
+    height: 60px;
+    margin-top: 40px;
 }
 .button{
     width: 100px;
@@ -377,6 +379,7 @@ body{
     border: 1px solid #5ea0c9;
     border-radius: 2px;
     color: whitesmoke;
+    margin-left: 10px;
 }
 .spec-button{
     width: 148px;
@@ -388,6 +391,7 @@ body{
     border: 1px solid #5ea0c9;
     border-radius: 2px;
     color: whitesmoke;
+    margin-right: 10px;
 }
 .special-button{
     width: 22px;
@@ -399,4 +403,7 @@ body{
     border: 1px solid #5ea0c9;
     border-radius: 2px;
     color: whitesmoke;
+}
+.block-with-two-buttons{
+    display: flex;
 }
