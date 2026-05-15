@@ -348,6 +348,7 @@ body{
     display: flex;
     justify-content: center;
     width: 1200px;
+    margin-top: 50px;
 }
 .block-with-texts{
     margin-left: 10px;
