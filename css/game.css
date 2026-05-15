@@ -356,3 +356,19 @@ body{
 .free-indicator{
         color: #66C0F4;
 }
+.buttons-label{
+    display: flex;
+    justify-content: center;
+}
+.buttons-label-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
