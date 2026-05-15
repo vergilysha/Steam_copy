@@ -380,6 +380,7 @@ body{
     border-radius: 2px;
     color: whitesmoke;
     margin-left: 10px;
+    cursor: pointer;
 }
 .spec-button{
     width: 148px;
@@ -392,6 +393,7 @@ body{
     border-radius: 2px;
     color: whitesmoke;
     margin-right: 10px;
+    cursor: pointer;
 }
 .special-button{
     width: 22px;
@@ -403,6 +405,7 @@ body{
     border: 1px solid #5ea0c9;
     border-radius: 2px;
     color: whitesmoke;
+    cursor: pointer;
 }
 .block-with-two-buttons{
     display: flex;
