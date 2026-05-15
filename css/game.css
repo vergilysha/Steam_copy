@@ -363,7 +363,9 @@ body{
 .buttons-label-flex{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 1200px;
+    background-color: #2E4259;
 }
 .button{
     width: 100px;
@@ -371,4 +373,30 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #5ea0c9;
+    border: 1px solid #5ea0c9;
+    border-radius: 2px;
+    color: whitesmoke;
+}
+.spec-button{
+    width: 148px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5ea0c9;
+    border: 1px solid #5ea0c9;
+    border-radius: 2px;
+    color: whitesmoke;
+}
+.special-button{
+    width: 22px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5ea0c9;
+    border: 1px solid #5ea0c9;
+    border-radius: 2px;
+    color: whitesmoke;
 }
