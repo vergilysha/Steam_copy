@@ -406,7 +406,66 @@ body{
     border-radius: 2px;
     color: whitesmoke;
     cursor: pointer;
+    margin-left: 1px;
 }
 .block-with-two-buttons{
     display: flex;
+}
+.black-label{
+    width: 100px;
+    height: 30px;
+    background: #02111B;
+    border: 1px solid #02111B;
+    border-radius: 2px;
+    color: whitesmoke;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}
+.buy-button{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #64C864;
+    border: 1px solid #64C864;
+    border-radius: 2px;
+    color: whitesmoke;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.game-label{
+    display: flex;
+    justify-content: center;
+}
+.game-label-flex{
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1200px;
+    background-color: #2E4259;
+    height: 60px;
+    margin-top: 40px;
+}
+.block-with-buttons{
+        display: flex;
+    width: 1131px;
+    justify-content: space-between;
+    align-items: center;
+}
+.block-with-black-block-and-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.block-with-os-images{
+        margin-top: 30px;
+}
+.block-with-images-and-button{
+        display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
