@@ -1455,3 +1455,7 @@ letter-spacing: 0%;
 .games_new-price {
     margin-left: 6px;
 }
+.best-sell {
+    justify-self: center;
+    margin-bottom: 60px;
+}
