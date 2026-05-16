@@ -488,3 +488,11 @@ body{
 .block-with-black-block-and-green-button2{
         display: flex;
 }
+.block-with-title-and-logos{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;    
+}
+.describ{
+    width: 500px;
+}
