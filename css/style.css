@@ -1339,3 +1339,119 @@ letter-spacing: 0%;
  .r-yellow {
     color: #C8B464;
  }
+
+/* Games page styles */
+.games_top {
+    width: 1103px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 41px;
+}
+
+.games_main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.games_title {
+    color: white;
+    font-size: 48px;
+}
+
+.games_filter {
+    border: none;
+    background-color: #d9d9d9b5;
+    width: 161px;
+    height: 45px;
+    display: flex;
+}
+
+.games_filter p {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 11px;
+}
+
+.games_filter img {
+    width: 32px;
+    height: 32px;
+    margin-top: 7px;
+    margin-left: 23px;
+}
+
+.games_rows {
+    width: 960px;
+    margin-top: 58px;
+}
+
+.games_row {
+    display: flex;
+    width: 100%;
+    background-color: #101620;
+    height: 72px;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.games_row-img {
+    width: 120px;
+    height: 60px;
+    margin-left: 56px;
+}
+
+.games_row:not(:first-child) {
+    margin-top: 4px;
+}
+
+.games_texts {
+    margin-left: 16px;
+}
+
+.games_row-title {
+    color: white;
+    font-size: 14px;
+}
+
+.games_types {
+    color: #8F98A0;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.games_reviews {
+    margin-top: 6px;
+    font-size: 11px;
+}
+
+.games_price {
+    color: #a4d007;
+    font-size: 13px;
+    font-weight: 700;
+    height: 20px;
+    display: flex;
+    margin-left: 410px;
+}
+
+.games_discount {
+    background: #4c6b22;
+    color: #a4d007;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 2px 4px;
+    height: 20px;
+}
+
+.games_old-price {
+    color: #8F98A0;
+    font-size: 10px;
+    margin-left: 4px;
+}
+
+.games_new-price {
+    margin-left: 6px;
+}
