@@ -469,3 +469,22 @@ body{
     flex-direction: column;
     align-items: flex-end;
 }
+.prime-label-flex{
+    display: flex;
+    justify-content: center;
+}
+.block-with-buttons2{
+    display: flex;
+    flex-direction: column;
+    background: #2E4259;
+    width: 1200px;
+    height: 191px;
+    margin-top: 40px;
+}
+.block-with-black-block-and-button2{
+        display: flex;
+    justify-content: space-between;
+}
+.block-with-black-block-and-green-button2{
+        display: flex;
+}
