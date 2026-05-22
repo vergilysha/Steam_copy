@@ -336,6 +336,9 @@
     </div>
     <div class="sb-group">
       <div class="sb-label">Endpoints</div>
+      <button class="sb-link" onclick="goto('games-doc')">
+        <span class="method-pill" style="background:var(--green)">GET</span> Popular Games
+      </button>
       <button class="sb-link" onclick="goto('search-doc')">
         <span class="method-pill">POST</span> Search Game
       </button>
@@ -387,6 +390,61 @@
   body:    JSON.stringify({ action: <span class="js">'search'</span>, query: <span class="js">'cyberpunk'</span> })
 });
 <span class="jk">const</span> data = <span class="jk">await</span> res.json();</div>
+    </div>
+
+    <hr>
+
+    <!-- ── Endpoint 0: Popular Games ───────────────────── -->
+    <div class="section" id="games-doc">
+      <h2>🎮 Popular Games</h2>
+      <p>
+        Returns a curated list of 49 popular games with details from Steam API.
+        Includes name, description, header image, genres, developers, publishers, release date, and store URL.
+      </p>
+
+      <div class="endpoint">
+        <div class="ep-head">
+          <span class="ep-method" style="background:var(--green)">GET</span>
+          <span class="ep-path">./api/games</span>
+          <span class="ep-tagline">Get popular games list</span>
+        </div>
+        <div class="ep-body">
+
+          <h3>Request</h3>
+          <p>No request body required. Simply make a GET request to the endpoint.</p>
+
+          <h3>Response fields</h3>
+          <table>
+            <thead><tr><th>Field</th><th>Type</th><th>Description</th></tr></thead>
+            <tbody>
+              <tr><td class="td-name">id</td><td class="td-type">number</td><td>Steam App ID</td></tr>
+              <tr><td class="td-name">name</td><td class="td-type">string</td><td>Game name</td></tr>
+              <tr><td class="td-name">description</td><td class="td-type">string</td><td>Short description</td></tr>
+              <tr><td class="td-name">image</td><td class="td-type">string</td><td>Header image URL</td></tr>
+              <tr><td class="td-name">genres</td><td class="td-type">string[]</td><td>Genre list</td></tr>
+              <tr><td class="td-name">developers</td><td class="td-type">string[]</td><td>Developer(s)</td></tr>
+              <tr><td class="td-name">publishers</td><td class="td-type">string[]</td><td>Publisher(s)</td></tr>
+              <tr><td class="td-name">release_date</td><td class="td-type">string|null</td><td>Release date string</td></tr>
+              <tr><td class="td-name">store_url</td><td class="td-type">string</td><td>Steam store page URL</td></tr>
+            </tbody>
+          </table>
+
+          <h3>Response example (200)</h3>
+          <div class="cb">[
+  {
+    <span class="jk">"id"</span>: <span class="jn">730</span>,
+    <span class="jk">"name"</span>: <span class="js">"Counter-Strike 2"</span>,
+    <span class="jk">"description"</span>: <span class="js">"For over two decades, Counter-Strike has offered an elite competitive experience..."</span>,
+    <span class="jk">"image"</span>: <span class="js">"https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg"</span>,
+    <span class="jk">"genres"</span>: [<span class="js">"Action"</span>, <span class="js">"Free To Play"</span>],
+    <span class="jk">"developers"</span>: [<span class="js">"Valve"</span>],
+    <span class="jk">"publishers"</span>: [<span class="js">"Valve"</span>],
+    <span class="jk">"release_date"</span>: <span class="js">"Aug 21, 2012"</span>,
+    <span class="jk">"store_url"</span>: <span class="js">"https://store.steampowered.com/app/730"</span>
+  }
+]</div>
+        </div>
+      </div>
     </div>
 
     <hr>
@@ -561,6 +619,24 @@
       <div id="sw-status" class="sw-bar loading">
         <span class="dot dot-blue"></span>
         <span id="sw-msg">Initializing Service Worker…</span>
+      </div>
+
+      <!-- Games tester -->
+      <div class="tester">
+        <div class="tester-head">
+          <span class="tester-title">🎮 Popular Games</span>
+          <span class="tester-meta">GET · /api/games</span>
+        </div>
+        <div class="tester-body">
+          <button class="btn btn-primary" id="gb" onclick="runGames()">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            Get Games
+          </button>
+          <div id="gr" class="resp-section" style="display:none"></div>
+        </div>
       </div>
 
       <!-- Search tester -->
@@ -743,6 +819,10 @@
   }
 
   // ── Testers ────────────────────────────────────────────────
+  async function runGames() {
+    await runGamesTest('gb', 'gr');
+  }
+
   async function runSearch() {
     const q = document.getElementById('sq').value.trim();
     if (!q) return;
@@ -774,6 +854,42 @@
       out.innerHTML = `
         <div class="resp-meta">
           <span class="status-pill ${cls}">${status} ${label}</span>
+          <span class="resp-ms">${ms} ms</span>
+        </div>
+        <div class="json-out">${highlight(JSON.stringify(data, null, 2))}</div>`;
+    } catch (e) {
+      out.innerHTML = `<div style="color:var(--red);font-size:13px;padding:8px 0">
+        ✗ ${e.message}<br>
+        <span style="color:var(--muted)">Make sure the Service Worker is active (green bar above).</span>
+      </div>`;
+    }
+
+    btn.disabled = false;
+    btn.innerHTML = orig;
+  }
+
+  async function runGamesTest(btnId, outId) {
+    const btn = document.getElementById(btnId);
+    const out = document.getElementById(outId);
+    const orig = btn.innerHTML;
+    const t0 = Date.now();
+
+    btn.disabled = true;
+    btn.innerHTML = `<span class="spin"></span> Loading games…`;
+    out.style.display = 'block';
+    out.innerHTML = `<div style="color:var(--muted);font-size:13px;padding:8px 0">
+      <span class="spin" style="vertical-align:middle;margin-right:8px"></span>Loading games…
+    </div>`;
+
+    try {
+      const res = await fetch('./api/games');
+      const data = await res.json();
+      const ms = Date.now() - t0;
+      const cls = `s${res.status}`;
+      const label = res.status === 200 ? 'OK' : 'ERROR';
+      out.innerHTML = `
+        <div class="resp-meta">
+          <span class="status-pill ${cls}">${res.status} ${label}</span>
           <span class="resp-ms">${ms} ms</span>
         </div>
         <div class="json-out">${highlight(JSON.stringify(data, null, 2))}</div>`;

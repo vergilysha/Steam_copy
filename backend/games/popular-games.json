@@ -1,0 +1,2904 @@
+[
+  {
+    "id": 730,
+    "name": "Counter-Strike 2",
+    "description": "For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/header.jpg?t=1749053861",
+    "genres": [
+      "Action",
+      "Free To Play"
+    ],
+    "developers": [
+      "Valve"
+    ],
+    "publishers": [
+      "Valve"
+    ],
+    "release_date": "Aug 21, 2012",
+    "store_url": "https://store.steampowered.com/app/730"
+  },
+  {
+    "id": 578080,
+    "name": "PUBG: BATTLEGROUNDS",
+    "description": "PUBG: BATTLEGROUNDS, the high-stakes winner-take-all shooter that started the Battle Royale craze, is free-to-play! Drop into diverse maps, loot unique weapons and supplies, and survive in an ever-shrinking zone where every turn could be your last.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/841ea38bc58cabb70aef65365cf50bc2d79329d9/header.jpg?t=1778634253",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Massively Multiplayer",
+      "Free To Play"
+    ],
+    "developers": [
+      "PUBG Corporation"
+    ],
+    "publishers": [
+      "KRAFTON, Inc."
+    ],
+    "release_date": "Dec 21, 2017",
+    "store_url": "https://store.steampowered.com/app/578080"
+  },
+  {
+    "id": 570,
+    "name": "Dota 2",
+    "description": "Every day, millions of players worldwide enter battle as one of over a hundred Dota heroes. And no matter if it's their 10th hour of play or 1,000th, there's always something new to discover. With regular updates that ensure a constant evolution of gameplay, features, and heroes, Dota 2 has taken on a life of its own.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/header.jpg?t=1769535998",
+    "genres": [
+      "Action",
+      "Strategy",
+      "Free To Play"
+    ],
+    "developers": [
+      "Valve"
+    ],
+    "publishers": [
+      "Valve"
+    ],
+    "release_date": "Jul 9, 2013",
+    "store_url": "https://store.steampowered.com/app/570"
+  },
+  {
+    "id": 2483190,
+    "name": "Forza Horizon 6",
+    "description": "Discover the breathtaking landscapes of Japan in over 550 real-world cars and become a racing Legend in Forza Horizon's biggest open world driving adventure yet.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2483190/27abb1584a118d50d0e3950fd48d557c51981db7/header.jpg?t=1779221600",
+    "genres": [
+      "Racing",
+      "Simulation",
+      "Sports"
+    ],
+    "developers": [
+      "Playground Games"
+    ],
+    "publishers": [
+      "Xbox Game Studios"
+    ],
+    "release_date": "May 18, 2026",
+    "store_url": "https://store.steampowered.com/app/2483190"
+  },
+  {
+    "id": 1172470,
+    "name": "Apex Legends™",
+    "description": "Apex Legends is the award-winning, free-to-play Hero Shooter from Respawn Entertainment. Master an ever-growing roster of legendary characters with powerful abilities, and experience strategic squad play and innovative gameplay in the next evolution of Hero Shooter and Battle Royale.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/0bd74245b869287a2dc7f682e6013f7ed08d98e3/header.jpg?t=1778502442",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Free To Play"
+    ],
+    "developers": [
+      "Respawn"
+    ],
+    "publishers": [
+      "Electronic Arts"
+    ],
+    "release_date": "Nov 4, 2020",
+    "store_url": "https://store.steampowered.com/app/1172470"
+  },
+  {
+    "id": 3419430,
+    "name": "Bongo Cat",
+    "description": "Bongo cat needs your help. Bongo cat needz more hatz!!! Every time you press a key, Bongo cat will punch your taskbar. Type, click, play, work to collect more points. Which hats will you find?",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419430/2e6c93c020fe13d09d8120bb9164ed7cb58f00c5/header.jpg?t=1776080084",
+    "genres": [
+      "Casual",
+      "Indie",
+      "Massively Multiplayer",
+      "Simulation",
+      "Free To Play"
+    ],
+    "developers": [
+      "Marcel Zurawka",
+      "Julius Krüger"
+    ],
+    "publishers": [
+      "Irox Games"
+    ],
+    "release_date": "Mar 5, 2025",
+    "store_url": "https://store.steampowered.com/app/3419430"
+  },
+  {
+    "id": 2868840,
+    "name": "Slay the Spire 2",
+    "description": "The iconic roguelike deckbuilder returns. Craft a unique deck, encounter bizarre creatures, and discover relics of immense power in Slay the Spire 2!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2868840/b0958d387dc366211e0f353443710cfcf9fdb020/header.jpg?t=1776735385",
+    "genres": [
+      "Indie",
+      "Strategy",
+      "Early Access"
+    ],
+    "developers": [
+      "Mega Crit"
+    ],
+    "publishers": [
+      "Mega Crit"
+    ],
+    "release_date": "Mar 5, 2026",
+    "store_url": "https://store.steampowered.com/app/2868840"
+  },
+  {
+    "id": 2507950,
+    "name": "Delta Force",
+    "description": "Play for free in operator-based extraction and full-scale combined arms warfare. Become elite Operators, customize an ever-expanding arsenal of weapons, and deploy into thrill-packed missions across multiple modes.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2507950/e0fd3a3cd0cdf81e961c8465c8218491fd001069/header_alt_assets_11.jpg?t=1779265091",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Massively Multiplayer",
+      "Free To Play"
+    ],
+    "developers": [
+      "Team Jade"
+    ],
+    "publishers": [
+      "TiMi Studio Group"
+    ],
+    "release_date": "Dec 4, 2024",
+    "store_url": "https://store.steampowered.com/app/2507950"
+  },
+  {
+    "id": 252490,
+    "name": "Rust",
+    "description": "The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife, other inhabitants, the environment, and other survivors. Do whatever it takes to last another night.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg?t=1778597738",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie",
+      "Massively Multiplayer",
+      "RPG"
+    ],
+    "developers": [
+      "Facepunch Studios"
+    ],
+    "publishers": [
+      "Facepunch Studios"
+    ],
+    "release_date": "Feb 8, 2018",
+    "store_url": "https://store.steampowered.com/app/252490"
+  },
+  {
+    "id": 431960,
+    "name": "Wallpaper Engine",
+    "description": "Use stunning live wallpapers on your desktop. Animate your own images to create new wallpapers or import videos/websites and share them on the Steam Workshop!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/431960/header.jpg?t=1779452230",
+    "genres": [
+      "Casual",
+      "Indie",
+      "Animation & Modeling",
+      "Design & Illustration",
+      "Photo Editing",
+      "Utilities"
+    ],
+    "developers": [
+      "Wallpaper Engine Team"
+    ],
+    "publishers": [
+      "Wallpaper Engine Team"
+    ],
+    "release_date": "Nov 16, 2018",
+    "store_url": "https://store.steampowered.com/app/431960"
+  },
+  {
+    "id": 2676230,
+    "name": "FiveM",
+    "description": "",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2676230/9e8a2df18bfdd24267aefa6d3e14778c2ecb1708/header.jpg?t=1778609608",
+    "genres": [],
+    "developers": [],
+    "publishers": [],
+    "release_date": null,
+    "store_url": "https://store.steampowered.com/app/2676230"
+  },
+  {
+    "id": 413150,
+    "name": "Stardew Valley",
+    "description": "You've inherited your grandfather's old farm plot in Stardew Valley. Armed with hand-me-down tools and a few coins, you set out to begin your new life. Can you learn to live off the land and turn these overgrown fields into a thriving home?",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1754692865",
+    "genres": [
+      "Indie",
+      "RPG",
+      "Simulation"
+    ],
+    "developers": [
+      "ConcernedApe"
+    ],
+    "publishers": [
+      "ConcernedApe"
+    ],
+    "release_date": "Feb 26, 2016",
+    "store_url": "https://store.steampowered.com/app/413150"
+  },
+  {
+    "id": 1962700,
+    "name": "Subnautica 2",
+    "description": "Subnautica 2 is an underwater survival adventure set on an all-new alien world, developed by Unknown Worlds. Play alone or with friends in 4-player co-op. Adapt to survive by building custom bases and crafting tools. Explore the unknown to uncover the mysteries hidden within the depths.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1962700/header.jpg?t=1779437128",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Early Access"
+    ],
+    "developers": [
+      "Unknown Worlds Entertainment"
+    ],
+    "publishers": [
+      "Unknown Worlds Entertainment"
+    ],
+    "release_date": "May 14, 2026",
+    "store_url": "https://store.steampowered.com/app/1962700"
+  },
+  {
+    "id": 271590,
+    "name": "Grand Theft Auto V Legacy",
+    "description": "Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg?t=1765387725",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "developers": [
+      "Rockstar North"
+    ],
+    "publishers": [
+      "Rockstar Games"
+    ],
+    "release_date": "Apr 13, 2015",
+    "store_url": "https://store.steampowered.com/app/271590"
+  },
+  {
+    "id": 236390,
+    "name": "War Thunder",
+    "description": "War Thunder is the most comprehensive free-to-play, cross-platform, MMO military game dedicated to aviation, armoured vehicles, and naval craft, from the early 20th century to the most advanced modern combat units. Join now and take part in major battles on land, in the air, and at sea.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236390/ceff9434460880755b42a90b8915e87dff4482ad/header.jpg?t=1779186880",
+    "genres": [
+      "Action",
+      "Massively Multiplayer",
+      "Simulation",
+      "Free To Play"
+    ],
+    "developers": [
+      "Gaijin Entertainment"
+    ],
+    "publishers": [
+      "Gaijin Network Ltd"
+    ],
+    "release_date": "Aug 15, 2013",
+    "store_url": "https://store.steampowered.com/app/236390"
+  },
+  {
+    "id": 1973530,
+    "name": "Limbus Company",
+    "description": "As the Executive Manager of Limbus Company, lead your group of twelve Sinners, venture into the buried facilities of Lobotomy Corporation, and lay claim on the Golden Boughs.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1973530/header.jpg?t=1779459451",
+    "genres": [],
+    "developers": [
+      "ProjectMoon"
+    ],
+    "publishers": [
+      "ProjectMoon"
+    ],
+    "release_date": "Feb 26, 2023",
+    "store_url": "https://store.steampowered.com/app/1973530"
+  },
+  {
+    "id": 1203220,
+    "name": "NARAKA: BLADEPOINT",
+    "description": "Dive into the legends of the Far East in NARAKA: BLADEPOINT; team up with friends in fast-paced melee fights for a Battle Royale experience unlike any other. Find your playstyle with a varied cast of heroes with unique skills. More than 40 million players have already joined the fray, play free now!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1203220/54ba28138d3123da5e078bee8714340d565cb436/header.jpg?t=1778037276",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Massively Multiplayer",
+      "Free To Play"
+    ],
+    "developers": [
+      "24 Entertainment"
+    ],
+    "publishers": [
+      "NetEase Games "
+    ],
+    "release_date": "Aug 11, 2021",
+    "store_url": "https://store.steampowered.com/app/1203220"
+  },
+  {
+    "id": 230410,
+    "name": "Warframe",
+    "description": "Awaken as an unstoppable warrior and battle alongside your friends in this story-driven free-to-play online action game",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/230410/60ce7425b864dd3c0dd855bfc66004c6f9ca4844/header.jpg?t=1778595605",
+    "genres": [
+      "Action",
+      "RPG",
+      "Free To Play"
+    ],
+    "developers": [
+      "Digital Extremes"
+    ],
+    "publishers": [
+      "Digital Extremes"
+    ],
+    "release_date": "Mar 25, 2013",
+    "store_url": "https://store.steampowered.com/app/230410"
+  },
+  {
+    "id": 3240220,
+    "name": "Grand Theft Auto V Enhanced",
+    "description": "Experience entertainment blockbusters Grand Theft Auto V and Grand Theft Auto Online — now upgraded for a new generation with stunning visuals, faster loading, 3D audio, and more, plus exclusive content for GTA Online players.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3240220/header.jpg?t=1765479644",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Racing"
+    ],
+    "developers": [
+      "Rockstar North"
+    ],
+    "publishers": [
+      "Rockstar Games"
+    ],
+    "release_date": "Mar 4, 2025",
+    "store_url": "https://store.steampowered.com/app/3240220"
+  },
+  {
+    "id": 322170,
+    "name": "Geometry Dash",
+    "description": "Jump and fly your way through danger in this rhythm-based action platformer!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322170/header.jpg?t=1775300400",
+    "genres": [
+      "Action",
+      "Indie"
+    ],
+    "developers": [
+      "RobTop Games"
+    ],
+    "publishers": [
+      "RobTop Games"
+    ],
+    "release_date": "Dec 22, 2014",
+    "store_url": "https://store.steampowered.com/app/322170"
+  },
+  {
+    "id": 440,
+    "name": "Team Fortress 2",
+    "description": "Nine distinct classes provide a broad range of tactical abilities and personalities. Constantly updated with new game modes, maps, equipment and, most importantly, hats!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/440/header.jpg?t=1757348372",
+    "genres": [
+      "Action",
+      "Free To Play"
+    ],
+    "developers": [
+      "Valve"
+    ],
+    "publishers": [
+      "Valve"
+    ],
+    "release_date": "Oct 10, 2007",
+    "store_url": "https://store.steampowered.com/app/440"
+  },
+  {
+    "id": 552990,
+    "name": "World of Warships",
+    "description": "Immerse yourself in thrilling naval battles and assemble an armada of over 800 ships from the first half of the 20th century — from stealthy destroyers to gigantic battleships. Change the look of your ship, choose upgrades to suit your play style, and go into battle with other players!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552990/981dcaf1779849f5f1b957e64889204b04118cd2/header.jpg?t=1779365658",
+    "genres": [
+      "Action",
+      "Massively Multiplayer",
+      "Simulation",
+      "Strategy",
+      "Free To Play"
+    ],
+    "developers": [
+      "Wargaming Group Limited"
+    ],
+    "publishers": [
+      "Wargaming Group Limited"
+    ],
+    "release_date": "Nov 15, 2017",
+    "store_url": "https://store.steampowered.com/app/552990"
+  },
+  {
+    "id": 2357570,
+    "name": "Overwatch®",
+    "description": "Overwatch®, A FUTURE WORTH FIGHTING FOR! Overwatch® is an always-on and ever-evolving free-to-play, team-based action game set in an optimistic future, where every match is the ultimate 5v5 or 6v6 battlefield brawl.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/1f84e73b8095ab9f40b1bc2c81845330979afc09/header_alt_assets_20.jpg?t=1778610036",
+    "genres": [
+      "Action",
+      "Free To Play"
+    ],
+    "developers": [
+      "Blizzard Entertainment, Inc."
+    ],
+    "publishers": [
+      "Blizzard Entertainment, Inc."
+    ],
+    "release_date": "Aug 10, 2023",
+    "store_url": "https://store.steampowered.com/app/2357570"
+  },
+  {
+    "id": 3241660,
+    "name": "R.E.P.O.",
+    "description": "An online co-op horror game with up to 6 players. Locate valuable, fully physics-based objects and handle them with care as you retrieve and extract to satisfy your creator's desires.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/a12c92856b71315da885924ea5e1d5290c8025b8/header_alt_assets_2.jpg?t=1778158882",
+    "genres": [
+      "Action",
+      "Early Access"
+    ],
+    "developers": [
+      "semiwork"
+    ],
+    "publishers": [
+      "semiwork"
+    ],
+    "release_date": "Feb 26, 2025",
+    "store_url": "https://store.steampowered.com/app/3241660"
+  },
+  {
+    "id": 394360,
+    "name": "Hearts of Iron IV",
+    "description": "Victory is at your fingertips! Your ability to lead your nation is your supreme weapon, the strategy game Hearts of Iron IV lets you take command of any nation in World War II; the most engaging conflict in world history.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1779455252",
+    "genres": [
+      "Simulation",
+      "Strategy"
+    ],
+    "developers": [
+      "Paradox Development Studio"
+    ],
+    "publishers": [
+      "Paradox Interactive"
+    ],
+    "release_date": "Jun 6, 2016",
+    "store_url": "https://store.steampowered.com/app/394360"
+  },
+  {
+    "id": 2767030,
+    "name": "Marvel Rivals",
+    "description": "Marvel Rivals is a Super Hero Team-Based PVP Shooter! Assemble an all-star Marvel squad, devise countless strategies by combining powers to form unique Team-Up skills and fight in destructible, ever-changing battlefields across the continually evolving Marvel universe!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2767030/1c28b9ed355e516c85b84b1332aa91ea727f60b1/header.jpg?t=1778835753",
+    "genres": [
+      "Action",
+      "Free To Play"
+    ],
+    "developers": [
+      "NetEase Games"
+    ],
+    "publishers": [
+      "NetEase Games"
+    ],
+    "release_date": "Dec 5, 2024",
+    "store_url": "https://store.steampowered.com/app/2767030"
+  },
+  {
+    "id": 4128580,
+    "name": "BidKing",
+    "description": "Bid King is a multiplayer tactical strategy game of bid auctions and collectible appraisal. Read your rivals, judge through uncertainty, score valuable items at low prices, and bluff others into overpaying for junk. In this auction house of deception, only one thing matters: your wits.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4128580/b7e0ff7f05df2c97692bc61c5d3ddf751acb3477/header.jpg?t=1776746728",
+    "genres": [
+      "Casual",
+      "Indie",
+      "Massively Multiplayer",
+      "Simulation",
+      "Sports",
+      "Strategy"
+    ],
+    "developers": [
+      "MindSurge Network & Games"
+    ],
+    "publishers": [
+      "Elegoose Games"
+    ],
+    "release_date": "Apr 15, 2026",
+    "store_url": "https://store.steampowered.com/app/4128580"
+  },
+  {
+    "id": 359550,
+    "name": "Tom Clancy's Rainbow Six Siege",
+    "description": "Rainbow Six® Siege is the reference in tactical team shooters, where elite strategy and execution triumph. Enjoy free access to Quick Match, Unranked, and Dual Front game modes with a selection of operators.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359550/ac4f6daf0d8afee2754e9964077a9a7d5bdb8ab8/header_alt_assets_22.jpg?t=1779209046",
+    "genres": [
+      "Action",
+      "Free To Play"
+    ],
+    "developers": [
+      "Ubisoft Montreal"
+    ],
+    "publishers": [
+      "Ubisoft"
+    ],
+    "release_date": "Dec 1, 2015",
+    "store_url": "https://store.steampowered.com/app/359550"
+  },
+  {
+    "id": 1808500,
+    "name": "ARC Raiders",
+    "description": "ARC Raiders is a multiplayer extraction adventure, set in a lethal future earth, ravaged by a mysterious mechanized threat known as ARC.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1808500/04baafaf64a5aa5f46ecda5d71889a4848dc0628/header.jpg?t=1776865359",
+    "genres": [
+      "Action"
+    ],
+    "developers": [
+      "Embark Studios"
+    ],
+    "publishers": [
+      "Embark Studios"
+    ],
+    "release_date": "Oct 30, 2025",
+    "store_url": "https://store.steampowered.com/app/1808500"
+  },
+  {
+    "id": 381210,
+    "name": "Dead by Daylight",
+    "description": "10 years of horror. 10 years of jump scares and close calls. 10 years of brutal sacrifices and thrilling escapes. Trapped forever in a realm of eldritch evil where even death is not an escape, four determined Survivors face a bloodthirsty Killer in a vicious game of nerve and wits.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/8512297f0f02ec3e592f45b21779f61624941964/header_alt_assets_6.jpg?t=1778880603",
+    "genres": [
+      "Action"
+    ],
+    "developers": [
+      "Behaviour Interactive Inc."
+    ],
+    "publishers": [
+      "Behaviour Interactive Inc."
+    ],
+    "release_date": "Jun 14, 2016",
+    "store_url": "https://store.steampowered.com/app/381210"
+  },
+  {
+    "id": 3405690,
+    "name": "EA SPORTS FC™ 26",
+    "description": "The Club is Yours in EA SPORTS FC™ 26. Play your way with an overhauled gameplay experience powered by community feedback, Manager Live Challenges that bring fresh storylines to the new season, and Archetypes inspired by greats of the game.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3405690/2d96aa1b06e453cd62dae9029d412f19e61932c3/header.jpg?t=1777414590",
+    "genres": [
+      "Simulation",
+      "Sports"
+    ],
+    "developers": [
+      "EA Canada",
+      "EA Romania"
+    ],
+    "publishers": [
+      "Electronic Arts"
+    ],
+    "release_date": "Sep 25, 2025",
+    "store_url": "https://store.steampowered.com/app/3405690"
+  },
+  {
+    "id": 3472040,
+    "name": "NBA 2K26",
+    "description": "Bragging rights are on the line in MyCAREER, MyTEAM, MyNBA, The W, and Play Now. Showcase your bag of moves with hyper realism, Powered by ProPLAY™, and challenge your friends, or rivals, in NBA 2K26’s competitive modes—and leave no doubt that you wear the crown.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3472040/3c8f3700289081daa466b27681cd08cd2eeff04d/header_alt_assets_5.jpg?t=1778857348",
+    "genres": [
+      "Sports"
+    ],
+    "developers": [
+      "Visual Concepts"
+    ],
+    "publishers": [
+      "2K"
+    ],
+    "release_date": "Sep 4, 2025",
+    "store_url": "https://store.steampowered.com/app/3472040"
+  },
+  {
+    "id": 438100,
+    "name": "VRChat",
+    "description": "Join our growing community as you explore, play, and help craft the future of social VR. Create worlds and custom avatars. Welcome to VRChat.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/438100/header.jpg?t=1762366454",
+    "genres": [
+      "Adventure",
+      "Casual",
+      "Massively Multiplayer",
+      "Simulation",
+      "Sports",
+      "Free To Play",
+      "Early Access"
+    ],
+    "developers": [
+      "VRChat Inc."
+    ],
+    "publishers": [
+      "VRChat Inc."
+    ],
+    "release_date": "Feb 1, 2017",
+    "store_url": "https://store.steampowered.com/app/438100"
+  },
+  {
+    "id": 322330,
+    "name": "Don't Starve Together",
+    "description": "Fight, Farm, Build and Explore Together in the standalone multiplayer expansion to the uncompromising wilderness survival game, Don't Starve.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/322330/14496a5926156fbaf8b026f8224ba8c34e9b5096/header_alt_assets_49.jpg?t=1777913126",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie",
+      "RPG",
+      "Simulation",
+      "Strategy"
+    ],
+    "developers": [
+      "Klei Entertainment"
+    ],
+    "publishers": [
+      "Klei Entertainment"
+    ],
+    "release_date": "Apr 21, 2016",
+    "store_url": "https://store.steampowered.com/app/322330"
+  },
+  {
+    "id": 1366800,
+    "name": "Crosshair X",
+    "description": "Improve your aim and accuracy in every shooter you play. Crosshair X overlays a custom crosshair on top of any game, even games that do not include one. Choose from thousands of community designs or build your own with the designer.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1366800/22e1a703a4d8f45c900741b53a4f933862798a10/header.jpg?t=1779302642",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie",
+      "Software Training",
+      "Utilities"
+    ],
+    "developers": [
+      "CenterPoint Gaming"
+    ],
+    "publishers": [
+      "CenterPoint Gaming"
+    ],
+    "release_date": "Aug 17, 2020",
+    "store_url": "https://store.steampowered.com/app/1366800"
+  },
+  {
+    "id": 289070,
+    "name": "Sid Meier’s Civilization® VI",
+    "description": "Expand your empire, advance your culture and go head-to-head against history’s greatest leaders. Will your civilization stand the test of time?",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/289070/header.jpg?t=1740607040",
+    "genres": [
+      "Strategy"
+    ],
+    "developers": [
+      "Firaxis Games",
+      "Aspyr (Mac)",
+      "Aspyr (Linux)"
+    ],
+    "publishers": [
+      "2K",
+      "Aspyr (Mac)",
+      "Aspyr (Linux)"
+    ],
+    "release_date": "Oct 20, 2016",
+    "store_url": "https://store.steampowered.com/app/289070"
+  },
+  {
+    "id": 264710,
+    "name": "Subnautica",
+    "description": "Descend into the depths of an alien underwater world filled with wonder and peril. Craft equipment, pilot submarines and out-smart wildlife to explore lush coral reefs, volcanoes, cave systems, and more - all while trying to survive.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg?t=1777456112",
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "developers": [
+      "Unknown Worlds Entertainment"
+    ],
+    "publishers": [
+      "Unknown Worlds Entertainment"
+    ],
+    "release_date": "Jan 23, 2018",
+    "store_url": "https://store.steampowered.com/app/264710"
+  },
+  {
+    "id": 218620,
+    "name": "PAYDAY 2",
+    "description": "PAYDAY 2 is an action-packed, four-player co-op shooter that once again lets gamers don the masks of the original PAYDAY crew - Dallas, Hoxton, Wolf and Chains - as they descend on Washington DC for an epic crime spree.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/218620/header.jpg?t=1779319712",
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "developers": [
+      "OVERKILL - a Starbreeze Studio."
+    ],
+    "publishers": [
+      "Starbreeze Entertainment"
+    ],
+    "release_date": "Aug 13, 2013",
+    "store_url": "https://store.steampowered.com/app/218620"
+  },
+  {
+    "id": 1174180,
+    "name": "Red Dead Redemption 2",
+    "description": "Arthur Morgan and the Van der Linde Gang are outlaws on the run. With federal agents and bounty hunters massing on their heels, the gang must rob, steal, and fight their way across the rugged heartland in order to survive.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1759502961",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "developers": [
+      "Rockstar Games"
+    ],
+    "publishers": [
+      "Rockstar Games"
+    ],
+    "release_date": "Dec 5, 2019",
+    "store_url": "https://store.steampowered.com/app/1174180"
+  },
+  {
+    "id": 227300,
+    "name": "Euro Truck Simulator 2",
+    "description": "Travel across Europe as king of the road, a trucker who delivers important cargo across impressive distances! With dozens of cities to explore, your endurance, skill and speed will all be pushed to their limits.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/9a81dc3126c56637297b654f9dcac057cfd79b77/header.jpg?t=1773641450",
+    "genres": [
+      "Indie",
+      "Simulation"
+    ],
+    "developers": [
+      "SCS Software"
+    ],
+    "publishers": [
+      "SCS Software"
+    ],
+    "release_date": "Oct 12, 2012",
+    "store_url": "https://store.steampowered.com/app/227300"
+  },
+  {
+    "id": 221100,
+    "name": "DayZ",
+    "description": "How long can you survive a post-apocalyptic world? A land overrun with an infected &quot;zombie&quot; population, where you compete with other survivors for limited resources. Will you team up with strangers and stay strong together? Or play as a lone wolf to avoid betrayal? This is DayZ – this is your story.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/221100/header.jpg?t=1769695513",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Massively Multiplayer"
+    ],
+    "developers": [
+      "Bohemia Interactive"
+    ],
+    "publishers": [
+      "Bohemia Interactive"
+    ],
+    "release_date": "Dec 13, 2018",
+    "store_url": "https://store.steampowered.com/app/221100"
+  },
+  {
+    "id": 240,
+    "name": "Counter-Strike: Source",
+    "description": "Counter-Strike: Source blends Counter-Strike's award-winning teamplay action with the advanced technology of Source™ technology.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/240/header.jpg?t=1745368575",
+    "genres": [
+      "Action"
+    ],
+    "developers": [
+      "Valve"
+    ],
+    "publishers": [
+      "Valve"
+    ],
+    "release_date": "Nov 1, 2004",
+    "store_url": "https://store.steampowered.com/app/240"
+  },
+  {
+    "id": 3551340,
+    "name": "Football Manager 26",
+    "description": "Step into the dugout and experience the future of football management.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3551340/7d28b9aa8dcfcd96593d112736f58b4b1d3cc7a4/header.jpg?t=1775667513",
+    "genres": [
+      "Simulation",
+      "Sports",
+      "Strategy"
+    ],
+    "developers": [
+      "Sports Interactive"
+    ],
+    "publishers": [
+      "SEGA"
+    ],
+    "release_date": "Nov 4, 2025",
+    "store_url": "https://store.steampowered.com/app/3551340"
+  },
+  {
+    "id": 2807960,
+    "name": "Battlefield™ 6",
+    "description": "The ultimate all-out warfare experience. In a war of tanks, fighter jets, and massive combat arsenals, your squad is the deadliest weapon.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2807960/c12d12ce3c7d217398d3fcad77427bfc9d57c570/header.jpg?t=1778612637",
+    "genres": [
+      "Action"
+    ],
+    "developers": [
+      "Battlefield Studios"
+    ],
+    "publishers": [
+      "Electronic Arts"
+    ],
+    "release_date": "Oct 10, 2025",
+    "store_url": "https://store.steampowered.com/app/2807960"
+  },
+  {
+    "id": 1086940,
+    "name": "Baldur's Gate 3",
+    "description": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons &amp; Dragons, where your choices shape a tale of fellowship and betrayal, survival and sacrifice, and the lure of absolute power.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/48a2fcbda8565bb45025e98fd8ebde8a7203f6a0/header.jpg?t=1777363040",
+    "genres": [
+      "Adventure",
+      "RPG",
+      "Strategy"
+    ],
+    "developers": [
+      "Larian Studios"
+    ],
+    "publishers": [
+      "Larian Studios"
+    ],
+    "release_date": "Aug 3, 2023",
+    "store_url": "https://store.steampowered.com/app/1086940"
+  },
+  {
+    "id": 3321460,
+    "name": "Crimson Desert",
+    "description": "Crimson Desert is an open-world action-adventure set on the continent of Pywel. Join Kliff on his journey to rebuild the Greymane faction and to save the land from a looming threat. From vast wilderness and cities to ruins and the mysterious Abyss, forge your path through battles and discovery.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3321460/abd7dbdeaede8b6c9a6d40bf116ff2b883f2dd45/header.jpg?t=1777016399",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "developers": [
+      "Pearl Abyss"
+    ],
+    "publishers": [
+      "Pearl Abyss"
+    ],
+    "release_date": "Mar 19, 2026",
+    "store_url": "https://store.steampowered.com/app/3321460"
+  },
+  {
+    "id": 1281930,
+    "name": "tModLoader",
+    "description": "Dig, Fight, and Build your way through the world of player-created mods on Terraria with tModLoader - this DLC makes modding Terraria a reality!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1281930/header.jpg?t=1718143594",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie",
+      "RPG",
+      "Free To Play"
+    ],
+    "developers": [
+      "TML Team"
+    ],
+    "publishers": [
+      "Re-Logic",
+      "TML Team"
+    ],
+    "release_date": "May 16, 2020",
+    "store_url": "https://store.steampowered.com/app/1281930"
+  },
+  {
+    "id": 1245620,
+    "name": "ELDEN RING",
+    "description": "THE CRITICALLY ACCLAIMED FANTASY ACTION RPG. Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1767883716",
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "developers": [
+      "FromSoftware, Inc."
+    ],
+    "publishers": [
+      "FromSoftware, Inc.",
+      "Bandai Namco Entertainment"
+    ],
+    "release_date": "Feb 24, 2022",
+    "store_url": "https://store.steampowered.com/app/1245620"
+  },
+  {
+    "id": 1364780,
+    "name": "Street Fighter™ 6",
+    "description": "Here comes Capcom’s newest challenger! Street Fighter™ 6 launches worldwide on June 2nd, 2023 and represents the next evolution of the Street Fighter™ series! Street Fighter 6 spans three distinct game modes, including World Tour, Fighting Ground and Battle Hub.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1364780/header.jpg?t=1776917924",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "publishers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "release_date": "Jun 1, 2023",
+    "store_url": "https://store.steampowered.com/app/1364780"
+  },
+  {
+    "id": 1091500,
+    "name": "Cyberpunk 2077",
+    "description": "Cyberpunk 2077 is an open-world, action-adventure RPG set in the dark future of Night City — a dangerous megalopolis obsessed with power, glamor, and ceaseless body modification.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/e9047d8ec47ae3d94bb8b464fb0fc9e9972b4ac7/header.jpg?t=1769690377",
+    "genres": [
+      "RPG"
+    ],
+    "developers": [
+      "CD PROJEKT RED"
+    ],
+    "publishers": [
+      "CD PROJEKT RED"
+    ],
+    "release_date": "Dec 9, 2020",
+    "store_url": "https://store.steampowered.com/app/1091500"
+  },
+  {
+    "id": 292030,
+    "name": "The Witcher 3: Wild Hunt",
+    "description": "You are Geralt of Rivia, mercenary monster slayer. Before you stands a war-torn, monster-infested continent you can explore at will. Your current contract? Tracking down Ciri — the Child of Prophecy, a living weapon that can alter the shape of the world.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ad9240e088f953a84aee814034c50a6a92bf4516/header.jpg?t=1768303991",
+    "genres": [
+      "RPG"
+    ],
+    "developers": [
+      "CD PROJEKT RED"
+    ],
+    "publishers": [
+      "CD PROJEKT RED"
+    ],
+    "release_date": "May 18, 2015",
+    "store_url": "https://store.steampowered.com/app/292030"
+  },
+  {
+    "id": 359320,
+    "name": "Elite Dangerous",
+    "description": "Take control of your own starship and blaze your trail in an ever-changing galaxy. Master the arts of combat, mining and trade or venture out into the unknown across a 1:1 scale universe.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359320/header.jpg?t=1759842966",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Massively Multiplayer",
+      "RPG",
+      "Simulation",
+      "Strategy"
+    ],
+    "developers": [
+      "Frontier Developments"
+    ],
+    "publishers": [
+      "Frontier Developments"
+    ],
+    "release_date": "Apr 2, 2015",
+    "store_url": "https://store.steampowered.com/app/359320"
+  },
+  {
+    "id": 1151640,
+    "name": "Horizon Zero Dawn™ Complete Edition",
+    "description": "Experience Aloy’s legendary quest to unravel the mysteries of a future Earth ruled by Machines. Use devastating tactical attacks against your prey and explore a majestic open world in this award-winning action RPG!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1151640/header.jpg?t=1776465788",
+    "genres": [
+      "Action",
+      "Adventure",
+      "RPG"
+    ],
+    "developers": [
+      "Guerrilla"
+    ],
+    "publishers": [
+      "PlayStation Publishing LLC"
+    ],
+    "release_date": "Aug 7, 2020",
+    "store_url": "https://store.steampowered.com/app/1151640"
+  },
+  {
+    "id": 1593500,
+    "name": "God of War",
+    "description": "His vengeance against the Gods of Olympus years behind him, Kratos now lives as a man in the realm of Norse Gods and monsters. It is in this harsh, unforgiving world that he must fight to survive… and teach his son to do the same.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1593500/header.jpg?t=1763059412",
+    "genres": [
+      "Action",
+      "Adventure",
+      "RPG"
+    ],
+    "developers": [
+      "Santa Monica Studio",
+      "Jetpack Interactive"
+    ],
+    "publishers": [
+      "PlayStation Publishing LLC"
+    ],
+    "release_date": "Jan 14, 2022",
+    "store_url": "https://store.steampowered.com/app/1593500"
+  },
+  {
+    "id": 275850,
+    "name": "No Man's Sky",
+    "description": "No Man's Sky is a game about exploration and survival in an infinite procedurally generated universe.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/0daeafb115c92d9afd4c7a670384688adbde91e0/header_alt_assets_25.jpg?t=1776675618",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "developers": [
+      "Hello Games"
+    ],
+    "publishers": [
+      "Hello Games"
+    ],
+    "release_date": "Aug 12, 2016",
+    "store_url": "https://store.steampowered.com/app/275850"
+  },
+  {
+    "id": 107410,
+    "name": "Arma 3",
+    "description": "Experience true combat gameplay in a massive military sandbox. Deploy with a wide variety of single- and multiplayer content, a massive arsenal of modern weapons and vehicles, and limitless opportunities for content creation. Authentic, diverse, open - Arma 3 sends you to war.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/107410/header.jpg?t=1777566947",
+    "genres": [
+      "Action",
+      "Simulation",
+      "Strategy"
+    ],
+    "developers": [
+      "Bohemia Interactive"
+    ],
+    "publishers": [
+      "Bohemia Interactive"
+    ],
+    "release_date": "Sep 12, 2013",
+    "store_url": "https://store.steampowered.com/app/107410"
+  },
+  {
+    "id": 41070,
+    "name": "Serious Sam 3: BFE",
+    "description": "Serious Sam 3: BFE is a prequel to the original indie fast action FPS and Game of the Year sensation - Serious Sam: The First Encounter!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/41070/header.jpg?t=1728688460",
+    "genres": [
+      "Action",
+      "Indie"
+    ],
+    "developers": [
+      "Croteam"
+    ],
+    "publishers": [
+      "Devolver Digital"
+    ],
+    "release_date": "Nov 22, 2011",
+    "store_url": "https://store.steampowered.com/app/41070"
+  },
+  {
+    "id": 632360,
+    "name": "Risk of Rain 2",
+    "description": "Escape a chaotic alien planet by fighting through hordes of frenzied monsters – with your friends, or on your own. Combine loot in surprising ways and master each character until you become the havoc you feared upon your first crash landing.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/632360/header.jpg?t=1775753930",
+    "genres": [
+      "Action",
+      "Indie"
+    ],
+    "developers": [
+      "Hopoo Games"
+    ],
+    "publishers": [
+      "Gearbox Publishing"
+    ],
+    "release_date": "Aug 11, 2020",
+    "store_url": "https://store.steampowered.com/app/632360"
+  },
+  {
+    "id": 105600,
+    "name": "Terraria",
+    "description": "Dig, fight, explore, build! Nothing is impossible in this action-packed adventure game. Four Pack also available!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg?t=1769844435",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie",
+      "RPG"
+    ],
+    "developers": [
+      "Re-Logic"
+    ],
+    "publishers": [
+      "Re-Logic"
+    ],
+    "release_date": "May 16, 2011",
+    "store_url": "https://store.steampowered.com/app/105600"
+  },
+  {
+    "id": 294100,
+    "name": "RimWorld",
+    "description": "A sci-fi colony sim driven by an intelligent AI storyteller. Generates stories by simulating psychology, ecology, gunplay, melee combat, climate, biomes, diplomacy, interpersonal relationships, art, medicine, trade, and more.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/294100/76e0613b8197327299d5dbabb0a7fd7828a689a2/header.jpg?t=1776194377",
+    "genres": [
+      "Indie",
+      "Simulation",
+      "Strategy"
+    ],
+    "developers": [
+      "Ludeon Studios"
+    ],
+    "publishers": [
+      "Ludeon Studios"
+    ],
+    "release_date": "Oct 17, 2018",
+    "store_url": "https://store.steampowered.com/app/294100"
+  },
+  {
+    "id": 252950,
+    "name": "Rocket League®",
+    "description": "Rocket League is a high-powered hybrid of arcade-style soccer and vehicular mayhem with easy-to-understand controls and fluid, physics-driven competition. Rocket League includes casual and competitive Online Matches, a fully-featured offline Season Mode, special “Mutators” that let you change the rules entirely, hockey and...",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252950/1bcf75584d0c3613b02b2d0a2721a6b411375784/header_alt_assets_15.jpg?t=1773251703",
+    "genres": [
+      "Action",
+      "Indie",
+      "Racing",
+      "Sports"
+    ],
+    "developers": [
+      "Psyonix LLC"
+    ],
+    "publishers": [
+      "Psyonix LLC"
+    ],
+    "release_date": "Jul 6, 2015",
+    "store_url": "https://store.steampowered.com/app/252950"
+  },
+  {
+    "id": 489830,
+    "name": "The Elder Scrolls V: Skyrim Special Edition",
+    "description": "Winner of more than 200 Game of the Year Awards, The Elder Scrolls V: Skyrim Special Edition brings the epic fantasy to life in stunning detail. The Special Edition includes the critically acclaimed game and add-ons with all-new features.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/489830/header.jpg?t=1753715778",
+    "genres": [
+      "RPG"
+    ],
+    "developers": [
+      "Bethesda Game Studios"
+    ],
+    "publishers": [
+      "Bethesda Softworks"
+    ],
+    "release_date": "Oct 27, 2016",
+    "store_url": "https://store.steampowered.com/app/489830"
+  },
+  {
+    "id": 377160,
+    "name": "Fallout 4",
+    "description": "From Bethesda Game Studios, the award-winning creators of Starfield and The Elder Scrolls V: Skyrim, comes Fallout 4. A landmark in open-world RPG design and winner of over 200 ‘Best Of’ honors, including the DICE and BAFTA Game of the Year.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/377160/header.jpg?t=1764687456",
+    "genres": [
+      "RPG"
+    ],
+    "developers": [
+      "Bethesda Game Studios"
+    ],
+    "publishers": [
+      "Bethesda Softworks"
+    ],
+    "release_date": "Nov 9, 2015",
+    "store_url": "https://store.steampowered.com/app/377160"
+  },
+  {
+    "id": 220200,
+    "name": "Kerbal Space Program",
+    "description": "In Kerbal Space Program, take charge of the space program for the alien race known as the Kerbals. You have access to an array of parts to assemble fully-functional spacecraft that flies (or doesn’t) based on realistic aerodynamic and orbital physics.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220200/header.jpg?t=1738037585",
+    "genres": [
+      "Indie",
+      "Simulation"
+    ],
+    "developers": [
+      "Squad"
+    ],
+    "publishers": [
+      "Private Division"
+    ],
+    "release_date": "Apr 27, 2015",
+    "store_url": "https://store.steampowered.com/app/220200"
+  },
+  {
+    "id": 236850,
+    "name": "Europa Universalis IV",
+    "description": "Rule your land and dominate the world with unparalleled freedom, depth and historical accuracy. Write a new history of the world and build an empire for the ages.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236850/header.jpg?t=1778249292",
+    "genres": [
+      "Simulation",
+      "Strategy"
+    ],
+    "developers": [
+      "Paradox Development Studio",
+      "Paradox Tinto"
+    ],
+    "publishers": [
+      "Paradox Interactive"
+    ],
+    "release_date": "Aug 13, 2013",
+    "store_url": "https://store.steampowered.com/app/236850"
+  },
+  {
+    "id": 281990,
+    "name": "Stellaris",
+    "description": "Explore a galaxy full of wonders in this sci-fi grand strategy game from Paradox Development Studios. Interact with diverse alien races, discover strange new worlds with unexpected events and expand the reach of your empire. Each new adventure holds almost limitless possibilities.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281990/3e1fd59709cf82b6ad682760bcd2622068d05bd8/header_alt_assets_11.jpg?t=1779090735",
+    "genres": [
+      "Simulation",
+      "Strategy"
+    ],
+    "developers": [
+      "Paradox Development Studio"
+    ],
+    "publishers": [
+      "Paradox Interactive"
+    ],
+    "release_date": "May 9, 2016",
+    "store_url": "https://store.steampowered.com/app/281990"
+  },
+  {
+    "id": 364360,
+    "name": "Total War: WARHAMMER",
+    "description": "Addictive turn-based empire-building with colossal, real-time battles, all set in a world of legendary heroes, giant monsters, flying creatures and storms of magical power.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/364360/73d9ae73e605cec8ff985db192fa3da11dcdefa6/header_alt_assets_5.jpg?t=1779439803",
+    "genres": [
+      "Action",
+      "Strategy"
+    ],
+    "developers": [
+      "CREATIVE ASSEMBLY",
+      "Feral Interactive (Linux)",
+      "Feral Interactive (Mac)"
+    ],
+    "publishers": [
+      "SEGA",
+      "Feral Interactive (Linux)",
+      "Feral Interactive (Mac)"
+    ],
+    "release_date": "May 24, 2016",
+    "store_url": "https://store.steampowered.com/app/364360"
+  },
+  {
+    "id": 200510,
+    "name": "XCOM: Enemy Unknown",
+    "description": "The XCOM: Enemy Unknown - Slingshot Pack is Now Available!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200510/header.jpg?t=1777585174",
+    "genres": [
+      "Strategy"
+    ],
+    "developers": [
+      "Firaxis Games",
+      "Feral Interactive (Linux)"
+    ],
+    "publishers": [
+      "2K",
+      "Feral Interactive (Linux)"
+    ],
+    "release_date": "Oct 8, 2012",
+    "store_url": "https://store.steampowered.com/app/200510"
+  },
+  {
+    "id": 582010,
+    "name": "Monster Hunter: World",
+    "description": "Welcome to a new world! In Monster Hunter: World, the latest installment in the series, you can enjoy the ultimate hunting experience, using everything at your disposal to hunt monsters in a new world teeming with surprises and excitement.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/header.jpg?t=1773328926",
+    "genres": [
+      "Action"
+    ],
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "publishers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "release_date": "Aug 8, 2018",
+    "store_url": "https://store.steampowered.com/app/582010"
+  },
+  {
+    "id": 546560,
+    "name": "Half-Life: Alyx",
+    "description": "Half-Life: Alyx is Valve’s VR return to the Half-Life series. It’s the story of an impossible fight against a vicious alien race known as the Combine, set between the events of Half-Life and Half-Life 2. Playing as Alyx Vance, you are humanity’s only chance for survival.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/546560/header.jpg?t=1762986588",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "developers": [
+      "Valve"
+    ],
+    "publishers": [
+      "Valve"
+    ],
+    "release_date": "Mar 23, 2020",
+    "store_url": "https://store.steampowered.com/app/546560"
+  },
+  {
+    "id": 620,
+    "name": "Portal 2",
+    "description": "The &quot;Perpetual Testing Initiative&quot; has been expanded to allow you to design co-op puzzles for you and your friends!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/header.jpg?t=1745363004",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "developers": [
+      "Valve"
+    ],
+    "publishers": [
+      "Valve"
+    ],
+    "release_date": "Apr 18, 2011",
+    "store_url": "https://store.steampowered.com/app/620"
+  },
+  {
+    "id": 220,
+    "name": "Half-Life 2",
+    "description": "Reawakened from stasis in the occupied metropolis of City 17, Gordon Freeman is joined by Alyx Vance as he leads a desperate human resistance. Experience the landmark first-person shooter packed with immersive world-building, boundary-pushing physics, and exhilarating combat.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/220/header.jpg?t=1745368545",
+    "genres": [
+      "Action"
+    ],
+    "developers": [
+      "Valve"
+    ],
+    "publishers": [
+      "Valve"
+    ],
+    "release_date": "Nov 16, 2004",
+    "store_url": "https://store.steampowered.com/app/220"
+  },
+  {
+    "id": 10500,
+    "name": "Total War: EMPIRE – Definitive Edition",
+    "description": "Command the seas, control the land, forge a new nation, and conquer the globe.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/10500/header.jpg?t=1763646960",
+    "genres": [
+      "Strategy"
+    ],
+    "developers": [
+      "CREATIVE ASSEMBLY",
+      "Feral Interactive (Mac)",
+      "Feral Interactive (Linux)"
+    ],
+    "publishers": [
+      "SEGA",
+      "Feral Interactive (Mac)",
+      "Feral Interactive (Linux)"
+    ],
+    "release_date": "Mar 4, 2009",
+    "store_url": "https://store.steampowered.com/app/10500"
+  },
+  {
+    "id": 44000,
+    "name": "2XL Supercross",
+    "description": "Bury the competition as you ride like a pro! Discover secret jump combination within each track as you master the physics of motocross in this high-speed racing adventure. 2XL Supercross is an all-new off-road racing experience from the creative team that brought you such popular hits as: Motocross Madness, ATV Off-road Fury and MX...",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/44000/header.jpg?t=1447352743",
+    "genres": [
+      "Racing"
+    ],
+    "developers": [
+      "2XL Games"
+    ],
+    "publishers": [
+      "2XL Games"
+    ],
+    "release_date": "Apr 6, 2010",
+    "store_url": "https://store.steampowered.com/app/44000"
+  },
+  {
+    "id": 204360,
+    "name": "Castle Crashers®",
+    "description": "Hack, slash, and smash your way to victory in this award winning 2D arcade adventure from The Behemoth!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/204360/header.jpg?t=1764096331",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Casual",
+      "Indie",
+      "RPG"
+    ],
+    "developers": [
+      "The Behemoth"
+    ],
+    "publishers": [
+      "The Behemoth"
+    ],
+    "release_date": "Sep 26, 2012",
+    "store_url": "https://store.steampowered.com/app/204360"
+  },
+  {
+    "id": 219740,
+    "name": "Don't Starve",
+    "description": "Don’t Starve is an uncompromising wilderness survival game full of science and magic. Enter a strange and unexplored world full of strange creatures, dangers, and surprises. Gather resources to craft items and structures that match your survival style.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/219740/88641e235d75934ea9f7ed4e947edfd9da682732/header.jpg?t=1777913121",
+    "genres": [
+      "Adventure",
+      "Indie",
+      "Simulation"
+    ],
+    "developers": [
+      "Klei Entertainment"
+    ],
+    "publishers": [
+      "Klei Entertainment"
+    ],
+    "release_date": "Apr 23, 2013",
+    "store_url": "https://store.steampowered.com/app/219740"
+  },
+  {
+    "id": 233270,
+    "name": "Far Cry 3 - Blood Dragon",
+    "description": "Far Cry® 3: Blood Dragon is THE Kick-Ass Cyber Shooter.Welcome to an 80’s vision of the future. The year is 2007 and you are Sargent Rex Colt, a Mark IV Cyber Commando. Your mission: get the girl, kill the baddies, and save the world.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233270/header.jpg?t=1752169303",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "developers": [
+      "Ubisoft Montreal"
+    ],
+    "publishers": [
+      "Ubisoft"
+    ],
+    "release_date": "May 1, 2013",
+    "store_url": "https://store.steampowered.com/app/233270"
+  },
+  {
+    "id": 203770,
+    "name": "Crusader Kings II",
+    "description": "Explore one of the defining periods in world history in an experience crafted by the masters of Grand Strategy.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/203770/header.jpg?t=1740566844",
+    "genres": [
+      "RPG",
+      "Simulation",
+      "Strategy",
+      "Free To Play"
+    ],
+    "developers": [
+      "Paradox Development Studio"
+    ],
+    "publishers": [
+      "Paradox Interactive"
+    ],
+    "release_date": "Feb 14, 2012",
+    "store_url": "https://store.steampowered.com/app/203770"
+  },
+  {
+    "id": 307130,
+    "name": "Asteria",
+    "description": "Asteria is a fast paced indie platformer, wrapped up in a sandbox sci-fi world where everything is destructible, mineable, collectable, craftable and creatable.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/307130/header.jpg?t=1657478540",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie"
+    ],
+    "developers": [
+      "Legend Studio"
+    ],
+    "publishers": [
+      "Legend Studio"
+    ],
+    "release_date": "Jul 3, 2014",
+    "store_url": "https://store.steampowered.com/app/307130"
+  },
+  {
+    "id": 224760,
+    "name": "FEZ",
+    "description": "Gomez is a 2D creature living in a 2D world. Or is he? When the existence of a mysterious 3rd dimension is revealed to him, Gomez is sent out on a journey that will take him to the very end of time and space. Use your ability to navigate 3D structures from 4 distinct classic 2D perspectives.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/224760/header.jpg?t=1572375251",
+    "genres": [
+      "Indie"
+    ],
+    "developers": [
+      "Polytron Corporation"
+    ],
+    "publishers": [
+      "Trapdoor"
+    ],
+    "release_date": "May 1, 2013",
+    "store_url": "https://store.steampowered.com/app/224760"
+  },
+  {
+    "id": 250900,
+    "name": "The Binding of Isaac: Rebirth",
+    "description": "The Binding of Isaac: Rebirth is a randomly generated action RPG shooter with heavy Rogue-like elements. Following Isaac on his journey players will find bizarre treasures that change Isaac’s form giving him super human abilities and enabling him to fight off droves of mysterious creatures, discover secrets and fight his way to safety.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250900/header.jpg?t=1731977365",
+    "genres": [
+      "Action"
+    ],
+    "developers": [
+      "Nicalis, Inc.",
+      "Edmund McMillen"
+    ],
+    "publishers": [
+      "Nicalis, Inc."
+    ],
+    "release_date": "Nov 4, 2014",
+    "store_url": "https://store.steampowered.com/app/250900"
+  },
+  {
+    "id": 212480,
+    "name": "Sonic & All-Stars Racing Transformed Collection",
+    "description": "Compete across land, water and air in incredible transforming vehicles that change from cars to boats to planes mid-race.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/212480/header.jpg?t=1762752125",
+    "genres": [
+      "Racing",
+      "Sports"
+    ],
+    "developers": [
+      "Sumo Digital"
+    ],
+    "publishers": [
+      "SEGA"
+    ],
+    "release_date": "Jan 31, 2013",
+    "store_url": "https://store.steampowered.com/app/212480"
+  },
+  {
+    "id": 250320,
+    "name": "The Wolf Among Us",
+    "description": "From the makers of the 2012 Game of the Year: The Walking Dead, comes a thriller based on the award-winning Fables comic books. As Bigby Wolf you will discover that a brutal, bloody murder is just a taste of things to come in a game series where your every decision can have enormous consequences.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/250320/header.jpg?t=1734104991",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Casual"
+    ],
+    "developers": [
+      "Telltale"
+    ],
+    "publishers": [
+      "Telltale"
+    ],
+    "release_date": "Oct 11, 2013",
+    "store_url": "https://store.steampowered.com/app/250320"
+  },
+  {
+    "id": 200900,
+    "name": "Cave Story+",
+    "description": "Run, jump, shoot, fly and explore your way through a massive action-adventure reminiscent of classic 8- and 16-bit games.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200900/23d8972e068689b1d688f20972fa343813e0431f/header.jpg?t=1776323422",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie"
+    ],
+    "developers": [
+      "Nicalis, Inc.",
+      "Studio Pixel"
+    ],
+    "publishers": [
+      "Nicalis, Inc."
+    ],
+    "release_date": "Nov 22, 2011",
+    "store_url": "https://store.steampowered.com/app/200900"
+  },
+  {
+    "id": 208650,
+    "name": "Batman™: Arkham Knight",
+    "description": "Batman™: Arkham Knight brings the award-winning Arkham trilogy from Rocksteady Studios to its epic conclusion. Developed exclusively for New-Gen platforms, Batman: Arkham Knight introduces Rocksteady's uniquely designed version of the Batmobile.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/208650/header.jpg?t=1745534372",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "developers": [
+      "Rocksteady Studios"
+    ],
+    "publishers": [
+      "WB Games"
+    ],
+    "release_date": "Jun 23, 2015",
+    "store_url": "https://store.steampowered.com/app/208650"
+  },
+  {
+    "id": 20920,
+    "name": "The Witcher 2: Assassins of Kings Enhanced Edition",
+    "description": "A time of untold chaos has come. Mighty forces clash behind the scenes in a struggle for power and influence. The Northern Kingdoms mobilize for war. But armies on the march are not enough to stop a bloody conspiracy...",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20920/header.jpg?t=1761657279",
+    "genres": [
+      "RPG"
+    ],
+    "developers": [
+      "CD PROJEKT RED"
+    ],
+    "publishers": [
+      "CD PROJEKT RED",
+      "1C-SoftClub"
+    ],
+    "release_date": "Apr 16, 2012",
+    "store_url": "https://store.steampowered.com/app/20920"
+  },
+  {
+    "id": 35140,
+    "name": "Batman: Arkham Asylum Game of the Year Edition",
+    "description": "Experience what it’s like to be Batman and face off against Gotham's greatest villians. Explore every inch of Arkham Asylum and roam freely on the infamous island.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/35140/header.jpg?t=1745966724",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "developers": [
+      "Rocksteady Studios"
+    ],
+    "publishers": [
+      "WB Games"
+    ],
+    "release_date": "Mar 26, 2010",
+    "store_url": "https://store.steampowered.com/app/35140"
+  },
+  {
+    "id": 200260,
+    "name": "Batman: Arkham City - Game of the Year Edition",
+    "description": "Get Batman: Arkham City and all DLC for one low price with the release of the GOTY Edition!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/200260/header.jpg?t=1745964057",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "developers": [
+      "Rocksteady Studios"
+    ],
+    "publishers": [
+      "WB Games"
+    ],
+    "release_date": "Sep 7, 2012",
+    "store_url": "https://store.steampowered.com/app/200260"
+  },
+  {
+    "id": 205100,
+    "name": "Dishonored",
+    "description": "Dishonored is an immersive first-person action game that casts you as a supernatural assassin driven by revenge. With Dishonored’s flexible combat system, creatively eliminate your targets as you combine the supernatural abilities, weapons and unusual gadgets at your disposal.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/205100/header.jpg?t=1750785977",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "developers": [
+      "Arkane Studios"
+    ],
+    "publishers": [
+      "Bethesda Softworks"
+    ],
+    "release_date": "Oct 8, 2012",
+    "store_url": "https://store.steampowered.com/app/205100"
+  },
+  {
+    "id": 201810,
+    "name": "Wolfenstein: The New Order",
+    "description": "Wolfenstein®: The New Order reignites the series that created the first-person shooter genre. Wolfenstein offers a deep game narrative packed with action, adventure and first-person combat.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/201810/header.jpg?t=1750784496",
+    "genres": [
+      "Action"
+    ],
+    "developers": [
+      "MachineGames"
+    ],
+    "publishers": [
+      "Bethesda Softworks"
+    ],
+    "release_date": "May 19, 2014",
+    "store_url": "https://store.steampowered.com/app/201810"
+  },
+  {
+    "id": 202970,
+    "name": "Call of Duty®: Black Ops II",
+    "description": "Pushing the boundaries of what fans have come to expect from the record-setting entertainment franchise, Call of Duty®: Black Ops II propels players into a near future Cold War",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/202970/header.jpg?t=1748037715",
+    "genres": [
+      "Action"
+    ],
+    "developers": [
+      "Treyarch"
+    ],
+    "publishers": [
+      "Activision"
+    ],
+    "release_date": "Nov 12, 2012",
+    "store_url": "https://store.steampowered.com/app/202970"
+  },
+  {
+    "id": 204880,
+    "name": "Sins of a Solar Empire®: Rebellion",
+    "description": "Command a space-faring empire in Sins of a Solar Empire: Rebellion, the new stand-alone expansion that combines 4X depth with real-time strategy gameplay.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/204880/0bbfde3533d86a4b000c3d838be4096ac3820158/header.jpg?t=1770142224",
+    "genres": [
+      "Action",
+      "Indie",
+      "Simulation",
+      "Strategy"
+    ],
+    "developers": [
+      "Ironclad Games Corporation",
+      "Stardock Entertainment"
+    ],
+    "publishers": [
+      "Stardock Entertainment"
+    ],
+    "release_date": "Jun 12, 2012",
+    "store_url": "https://store.steampowered.com/app/204880"
+  },
+  {
+    "id": 20500,
+    "name": "Red Faction Guerrilla Steam Edition",
+    "description": "Set 50 years after the climactic events of the original Red Faction, Red Faction: Guerrilla allows players to take the role of an insurgent fighter with the newly re-established Red Faction movement as they battle for liberation from the oppressive Earth Defense Force.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/20500/header.jpg?t=1591111308",
+    "genres": [
+      "Action"
+    ],
+    "developers": [
+      "Volition",
+      "Reactor Zero",
+      "THQ Nordic"
+    ],
+    "publishers": [
+      "Deep Silver"
+    ],
+    "release_date": "Sep 15, 2009",
+    "store_url": "https://store.steampowered.com/app/20500"
+  },
+  {
+    "id": 21090,
+    "name": "F.E.A.R.",
+    "description": "Experience the original F.E.A.R. along with F.E.A.R. Extraction Point and F.E.A.R. Perseus Mandate.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/21090/header.jpg?t=1773443317",
+    "genres": [
+      "Action"
+    ],
+    "developers": [
+      "Monolith Productions, Inc.",
+      "Timegate"
+    ],
+    "publishers": [
+      "Warner Bros. Games",
+      "Warner Bros. Interactive Entertainment"
+    ],
+    "release_date": "May 21, 2010",
+    "store_url": "https://store.steampowered.com/app/21090"
+  },
+  {
+    "id": 219150,
+    "name": "Hotline Miami",
+    "description": "Hotline Miami is a high-octane action game overflowing with raw brutality, hard-boiled gunplay and skull crushing close combat.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/219150/header.jpg?t=1686261983",
+    "genres": [
+      "Action",
+      "Indie"
+    ],
+    "developers": [
+      "Dennaton Games"
+    ],
+    "publishers": [
+      "Devolver Digital"
+    ],
+    "release_date": "Oct 23, 2012",
+    "store_url": "https://store.steampowered.com/app/219150"
+  },
+  {
+    "id": 223750,
+    "name": "DCS World Steam Edition",
+    "description": "Feel the excitement of flying the Su-25T &quot;Frogfoot&quot; attack jet and the TF-51D &quot;Mustang&quot; in the free-to-play Digital Combat Simulator World!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/223750/header.jpg?t=1777887462",
+    "genres": [
+      "Simulation",
+      "Free To Play"
+    ],
+    "developers": [
+      "Eagle Dynamics SA"
+    ],
+    "publishers": [
+      "Eagle Dynamics SA"
+    ],
+    "release_date": "Aug 2, 2013",
+    "store_url": "https://store.steampowered.com/app/223750"
+  },
+  {
+    "id": 224260,
+    "name": "No More Room in Hell",
+    "description": "The chances of you surviving this all out war of society and the undead are slim to none. Already, there are millions of the walking dead shambling about, searching for food to eat. There's no known cure. One bite can possibly end it all for you. However, you aren't alone in this nightmare.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/224260/header.jpg?t=1696263772",
+    "genres": [
+      "Action",
+      "Indie",
+      "Free To Play"
+    ],
+    "developers": [
+      "No More Room in Hell Team"
+    ],
+    "publishers": [
+      "Lever Games"
+    ],
+    "release_date": "Oct 31, 2013",
+    "store_url": "https://store.steampowered.com/app/224260"
+  },
+  {
+    "id": 225540,
+    "name": "Just Cause™ 3",
+    "description": "With over 1000 km² of complete freedom from sky to seabed, Rico Rodriguez returns to unleash chaos in the most creative and explosive ways imaginable.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/225540/header.jpg?t=1766058472",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "developers": [
+      "Avalanche Studios"
+    ],
+    "publishers": [
+      "Square Enix"
+    ],
+    "release_date": "Nov 30, 2015",
+    "store_url": "https://store.steampowered.com/app/225540"
+  },
+  {
+    "id": 227940,
+    "name": "Heroes & Generals",
+    "description": "Shoot, blow sh!t up, fly or bark orders in the ultimate Free-to-Play, large scale, multiplayer, shooter experience. Thousands of players in multiple battles fighting one massive war of nations. The first to capture 15 cities takes the glory.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227940/header.jpg?t=1685049235",
+    "genres": [
+      "Action",
+      "Free To Play",
+      "Indie",
+      "Massively Multiplayer",
+      "Strategy"
+    ],
+    "developers": [
+      "TLM Partners"
+    ],
+    "publishers": [
+      "TLM Partners"
+    ],
+    "release_date": "Oct 18, 2016",
+    "store_url": "https://store.steampowered.com/app/227940"
+  },
+  {
+    "id": 231430,
+    "name": "Company of Heroes 2",
+    "description": "Experience the ultimate WWII RTS platform with COH2 and its standalone expansions. This package includes the base game, which you can then upgrade by purchasing The Western Front Armies, Ardennes Assault and/or The British Forces. More info in the &quot;About This Game&quot; section below.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/231430/header.jpg?t=1750947634",
+    "genres": [
+      "Strategy"
+    ],
+    "developers": [
+      "Relic Entertainment",
+      "Feral Interactive (Mac)",
+      "Feral Interactive (Linux)"
+    ],
+    "publishers": [
+      "Relic Entertainment",
+      "Feral Interactive (Mac)",
+      "Feral Interactive (Linux)"
+    ],
+    "release_date": "Jun 25, 2013",
+    "store_url": "https://store.steampowered.com/app/231430"
+  },
+  {
+    "id": 23310,
+    "name": "The Last Remnant™",
+    "description": "Mitra, yama, qsiti, sovani... These four races exist in one world. A world filled with Remnants — mysterious artifacts from an ancient era. Who created the Remnant? How long ago? And for what purpose? With these questions left unanswered, the Remnants became beneficial tools used for the good of civilization. The world was at peace...",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/23310/header.jpg?t=1536078342",
+    "genres": [
+      "RPG"
+    ],
+    "developers": [
+      "Square Enix"
+    ],
+    "publishers": [
+      "Square Enix"
+    ],
+    "release_date": "Apr 9, 2009",
+    "store_url": "https://store.steampowered.com/app/23310"
+  },
+  {
+    "id": 233840,
+    "name": "Worms Clan Wars",
+    "description": "Worms™ Clan Wars is the biggest and best Worms™ game to date - more worms, larger landscapes, more dynamic water, more weapons and more customisation items than ever before.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233840/header.jpg?t=1762945773",
+    "genres": [
+      "Strategy"
+    ],
+    "developers": [
+      "Team17 Digital Ltd"
+    ],
+    "publishers": [
+      "Team17 Digital Ltd"
+    ],
+    "release_date": "Aug 15, 2013",
+    "store_url": "https://store.steampowered.com/app/233840"
+  },
+  {
+    "id": 234650,
+    "name": "Shadowrun Returns",
+    "description": "The unique cyberpunk-meets-fantasy world of Shadowrun has gained a huge cult following since its creation nearly 25 years ago. Now, creator Jordan Weisman returns to the world of Shadowrun, modernizing this classic game setting as a single player, turn-based tactical RPG.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/234650/header.jpg?t=1709809316",
+    "genres": [
+      "Adventure",
+      "Indie",
+      "RPG",
+      "Strategy"
+    ],
+    "developers": [
+      "Harebrained Schemes"
+    ],
+    "publishers": [
+      "Paradox Interactive"
+    ],
+    "release_date": "Jul 25, 2013",
+    "store_url": "https://store.steampowered.com/app/234650"
+  },
+  {
+    "id": 236110,
+    "name": "Dungeon Defenders II",
+    "description": "Dungeon Defenders II is a cooperative Action Tower Defense game packed with roleplaying elements like loot, leveling, and pets.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/236110/header.jpg?t=1749075763",
+    "genres": [
+      "Action",
+      "Indie",
+      "RPG",
+      "Strategy",
+      "Free To Play"
+    ],
+    "developers": [
+      "Chromatic Games"
+    ],
+    "publishers": [
+      "Chromatic Games"
+    ],
+    "release_date": "Jun 20, 2017",
+    "store_url": "https://store.steampowered.com/app/236110"
+  },
+  {
+    "id": 238960,
+    "name": "Path of Exile",
+    "description": "You are an Exile, struggling to survive on the dark continent of Wraeclast, as you fight to earn power that will allow you to exact your revenge against those who wronged you. Path of Exile is an online Action RPG set in a dark fantasy world. The game is completely free and will never be pay-to-win.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238960/558fd9078de800b7528a8e96bee0108a8fac17aa/header.jpg?t=1773177577",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie",
+      "Massively Multiplayer",
+      "RPG",
+      "Free To Play"
+    ],
+    "developers": [
+      "Grinding Gear Games"
+    ],
+    "publishers": [
+      "Grinding Gear Games"
+    ],
+    "release_date": "Oct 23, 2013",
+    "store_url": "https://store.steampowered.com/app/238960"
+  },
+  {
+    "id": 242760,
+    "name": "The Forest",
+    "description": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg?t=1699381053",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie",
+      "Simulation"
+    ],
+    "developers": [
+      "Endnight Games Ltd"
+    ],
+    "publishers": [
+      "Endnight Games Ltd"
+    ],
+    "release_date": "Apr 30, 2018",
+    "store_url": "https://store.steampowered.com/app/242760"
+  },
+  {
+    "id": 244210,
+    "name": "Assetto Corsa",
+    "description": "Assetto Corsa v1.16 introduces the new &quot;Laguna Seca&quot; laser-scanned track, 7 new cars among which the eagerly awaited Alfa Romeo Giulia Quadrifoglio! Check the changelog for further info!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244210/header.jpg?t=1754985171",
+    "genres": [
+      "Indie",
+      "Racing",
+      "Simulation",
+      "Sports"
+    ],
+    "developers": [
+      "Kunos Simulazioni"
+    ],
+    "publishers": [
+      "Kunos Simulazioni"
+    ],
+    "release_date": "Dec 19, 2014",
+    "store_url": "https://store.steampowered.com/app/244210"
+  },
+  {
+    "id": 24980,
+    "name": "Mass Effect 2 (2010 Edition)",
+    "description": "Are you prepared to lose everything to save the galaxy? You'll need to be, Commander Shepard. It's time to bring together your greatest allies and recruit the galaxy's fighting elite to continue the resistance against the invading Reapers.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/24980/header.jpg?t=1684169109",
+    "genres": [
+      "RPG"
+    ],
+    "developers": [
+      "BioWare"
+    ],
+    "publishers": [
+      "Electronic Arts"
+    ],
+    "release_date": null,
+    "store_url": "https://store.steampowered.com/app/24980"
+  },
+  {
+    "id": 257510,
+    "name": "The Talos Principle",
+    "description": "The Talos Principle is a first-person puzzle game in the tradition of philosophical science fiction. Made by Croteam and written by Tom Jubert (FTL, The Swapper) and Jonas Kyratzes (The Sea Will Claim Everything).",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257510/header.jpg?t=1744327639",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie"
+    ],
+    "developers": [
+      "Croteam"
+    ],
+    "publishers": [
+      "Devolver Digital",
+      "Croteam"
+    ],
+    "release_date": "Dec 11, 2014",
+    "store_url": "https://store.steampowered.com/app/257510"
+  },
+  {
+    "id": 262060,
+    "name": "Darkest Dungeon®",
+    "description": "Darkest Dungeon is a challenging gothic roguelike turn-based RPG about the psychological stresses of adventuring. Recruit, train, and lead a team of flawed heroes against unimaginable horrors, stress, disease, and the ever-encroaching dark. Can you keep your heroes together when all hope is lost?",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/header.jpg?t=1769780578",
+    "genres": [
+      "Indie",
+      "RPG",
+      "Strategy"
+    ],
+    "developers": [
+      "Red Hook Studios"
+    ],
+    "publishers": [
+      "Red Hook Studios"
+    ],
+    "release_date": "Jan 19, 2016",
+    "store_url": "https://store.steampowered.com/app/262060"
+  },
+  {
+    "id": 268500,
+    "name": "XCOM® 2",
+    "description": "XCOM 2 is the sequel to XCOM: Enemy Unknown, the 2012 award-winning strategy game of the year. Earth has changed and is now under alien rule. Facing impossible odds you must rebuild XCOM, and ignite a global resistance to reclaim our world and save humanity.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/268500/header.jpg?t=1772813016",
+    "genres": [
+      "Strategy"
+    ],
+    "developers": [
+      "Firaxis Games",
+      "Feral Interactive (Mac)",
+      "Feral Interactive (Linux)"
+    ],
+    "publishers": [
+      "2K",
+      "Feral Interactive (Mac)",
+      "Feral Interactive (Linux)"
+    ],
+    "release_date": "Feb 4, 2016",
+    "store_url": "https://store.steampowered.com/app/268500"
+  },
+  {
+    "id": 274190,
+    "name": "Broforce",
+    "description": "Broforce is an action-packed side-scrolling run ‘n’ gun ode to freedom, putting you in control of an under-funded, overpowered paramilitary organization dealing exclusively in excessive force.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/274190/header.jpg?t=1764247760",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Casual",
+      "Indie"
+    ],
+    "developers": [
+      "Free Lives"
+    ],
+    "publishers": [
+      "Devolver Digital"
+    ],
+    "release_date": "Oct 15, 2015",
+    "store_url": "https://store.steampowered.com/app/274190"
+  },
+  {
+    "id": 281610,
+    "name": "Homeworld: Deserts of Kharak",
+    "description": "A ground-based RTS prequel to the classic Homeworld games. Assemble your fleet and lead them to victory on the shifting sands of Kharak in this compelling strategy game for PC from Blackbird Interactive.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/281610/header.jpg?t=1754416775",
+    "genres": [
+      "Strategy"
+    ],
+    "developers": [
+      "Blackbird Interactive"
+    ],
+    "publishers": [
+      "Gearbox Publishing"
+    ],
+    "release_date": "Jan 20, 2016",
+    "store_url": "https://store.steampowered.com/app/281610"
+  },
+  {
+    "id": 282800,
+    "name": "100% Orange Juice",
+    "description": "100% Orange Juice is a digital multiplayer board game populated by developer Orange Juice's all-star cast. Characters from Flying Red Barrel, QP Shooting, Suguri and Sora come together with all-new characters to duke it out... with dice.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/282800/74b8f808c2ea623f9aee9ed20c6d76c7e536e137/header.jpg?t=1779180569",
+    "genres": [
+      "Indie",
+      "Strategy"
+    ],
+    "developers": [
+      "Orange_Juice",
+      "Fruitbat Factory"
+    ],
+    "publishers": [
+      "Fruitbat Factory"
+    ],
+    "release_date": "May 16, 2014",
+    "store_url": "https://store.steampowered.com/app/282800"
+  },
+  {
+    "id": 284160,
+    "name": "BeamNG.drive",
+    "description": "A dynamic soft-body physics vehicle simulator capable of doing just about anything.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/284160/17f8af1312bc48e6cd90e5fb639d4981682af260/header.jpg?t=1772048121",
+    "genres": [
+      "Racing",
+      "Simulation",
+      "Early Access"
+    ],
+    "developers": [
+      "BeamNG"
+    ],
+    "publishers": [
+      "BeamNG"
+    ],
+    "release_date": "May 29, 2015",
+    "store_url": "https://store.steampowered.com/app/284160"
+  },
+  {
+    "id": 286690,
+    "name": "Metro 2033 Redux",
+    "description": "In 2013 the world was devastated by an apocalyptic event, annihilating almost all mankind and turning the Earth's surface into a poisonous wasteland. A handful of survivors took refuge in the depths of the Moscow underground, and human civilization entered a new Dark Age. The year is 2033.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/286690/header.jpg?t=1741110084",
+    "genres": [
+      "Action"
+    ],
+    "developers": [
+      "4A Games"
+    ],
+    "publishers": [
+      "Deep Silver"
+    ],
+    "release_date": "Aug 25, 2014",
+    "store_url": "https://store.steampowered.com/app/286690"
+  },
+  {
+    "id": 287390,
+    "name": "Metro: Last Light Redux",
+    "description": "It is the year 2034. Beneath the ruins of post-apocalyptic Moscow, in the tunnels of the Metro, the remnants of mankind are besieged by deadly threats from outside – and within. Mutants stalk the catacombs beneath the desolate surface, and hunt amidst the poisoned skies above.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287390/header.jpg?t=1725444535",
+    "genres": [
+      "Action"
+    ],
+    "developers": [
+      "4A Games"
+    ],
+    "publishers": [
+      "Deep Silver"
+    ],
+    "release_date": "Aug 25, 2014",
+    "store_url": "https://store.steampowered.com/app/287390"
+  },
+  {
+    "id": 287700,
+    "name": "METAL GEAR SOLID V: THE PHANTOM PAIN",
+    "description": "Ushering in a new era for the METAL GEAR franchise with cutting-edge technology powered by the Fox Engine, METAL GEAR SOLID V: The Phantom Pain, will provide players a first-rate gaming experience as they are offered tactical freedom to carry out open-world missions.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/287700/header.jpg?t=1778872866",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "developers": [
+      "KONAMI"
+    ],
+    "publishers": [
+      "KONAMI"
+    ],
+    "release_date": "Sep 1, 2015",
+    "store_url": "https://store.steampowered.com/app/287700"
+  },
+  {
+    "id": 291650,
+    "name": "Pillars of Eternity",
+    "description": "Prepare to be enchanted by a world where the choices you make and the paths you choose shape your destiny. Obsidian Entertainment, the developer of Fallout: New Vegas™ and South Park: The Stick of Truth™, together with Paradox Interactive is proud to present Pillars of Eternity.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/291650/header.jpg?t=1775494888",
+    "genres": [
+      "RPG"
+    ],
+    "developers": [
+      "Obsidian Entertainment"
+    ],
+    "publishers": [
+      "Xbox Game Studios"
+    ],
+    "release_date": "Mar 26, 2015",
+    "store_url": "https://store.steampowered.com/app/291650"
+  },
+  {
+    "id": 296470,
+    "name": "Mount Your Friends",
+    "description": "Experience the extreme simulated sporting sensation that's sweeping our digital nation! Mount Your Friends is a fiercely competitive sporting event for you to play with your friends in the contextual security of your own home, assuming that your home is not composed of sexual innuendo.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/296470/header.jpg?t=1756939237",
+    "genres": [
+      "Indie",
+      "Simulation",
+      "Sports"
+    ],
+    "developers": [
+      "Stegersaurus Software Inc."
+    ],
+    "publishers": [
+      "Stegersaurus Software Inc."
+    ],
+    "release_date": "Jul 29, 2014",
+    "store_url": "https://store.steampowered.com/app/296470"
+  },
+  {
+    "id": 214420,
+    "name": "Gear Up",
+    "description": "Feel the adrenaline as you control your unique tank in multiplayer arcade action! Build your ultimate war machine from over a million different combinations. Now, will you go for the rumbling caterpillar tracks or the crawling spider legs?",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214420/header.jpg?t=1482258250",
+    "genres": [
+      "Action",
+      "Free To Play",
+      "Indie"
+    ],
+    "developers": [
+      "Doctor Entertainment AB"
+    ],
+    "publishers": [
+      "Doctor Entertainment AB"
+    ],
+    "release_date": "Jan 28, 2015",
+    "store_url": "https://store.steampowered.com/app/214420"
+  },
+  {
+    "id": 301520,
+    "name": "Robocraft",
+    "description": "Build insane, fully customisable robot battle vehicles that drive, hover, walk and fly in the free-to-play action game Robocraft. Add weapons from the future and jump in the driving seat as you take your creation into battle against other players online!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/301520/header.jpg?t=1737463288",
+    "genres": [
+      "Action",
+      "Indie",
+      "Massively Multiplayer",
+      "RPG",
+      "Simulation",
+      "Free To Play"
+    ],
+    "developers": [
+      "Freejam"
+    ],
+    "publishers": [
+      "Freejam"
+    ],
+    "release_date": "Aug 24, 2017",
+    "store_url": "https://store.steampowered.com/app/301520"
+  },
+  {
+    "id": 304390,
+    "name": "FOR HONOR™",
+    "description": "Fight alone or with friends in For Honor, a third-person hero-based melee fighting game. Enter the chaos of war as a Knight, a Viking, a Samurai, a Wu Lin, or an Outlander. Fight in brutal PvP and team-oriented modes, or play the thrilling story campaign.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/304390/2c22776de84112b1c4f39da2597567bb450386a0/header.jpg?t=1778259779",
+    "genres": [
+      "Action"
+    ],
+    "developers": [
+      "Ubisoft Montreal",
+      "Ubisoft Quebec",
+      "Ubisoft Toronto",
+      "Blue Byte"
+    ],
+    "publishers": [
+      "Ubisoft"
+    ],
+    "release_date": "Feb 13, 2017",
+    "store_url": "https://store.steampowered.com/app/304390"
+  },
+  {
+    "id": 305620,
+    "name": "The Long Dark",
+    "description": "THE LONG DARK is a thoughtful, exploration-survival experience that challenges solo players to think for themselves as they explore an expansive frozen wilderness in the aftermath of a geomagnetic disaster. There are no zombies -- only you, the cold, and all the threats Mother Nature can muster.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/305620/header.jpg?t=1778085822",
+    "genres": [
+      "Adventure",
+      "Indie",
+      "Simulation",
+      "Strategy"
+    ],
+    "developers": [
+      "Hinterland Studio Inc."
+    ],
+    "publishers": [
+      "Hinterland Studio Inc."
+    ],
+    "release_date": "Aug 1, 2017",
+    "store_url": "https://store.steampowered.com/app/305620"
+  },
+  {
+    "id": 311340,
+    "name": "METAL GEAR SOLID V: GROUND ZEROES",
+    "description": "World-renowned Kojima Productions brings the Metal Gear Solid franchise to Steam with METAL GEAR SOLID V: GROUND ZEROES. Play as the legendary hero Snake and infiltrate a Cuban military base to rescue the hostages. Can you make it out alive?",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/311340/header.jpg?t=1718869217",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "developers": [
+      "KONAMI"
+    ],
+    "publishers": [
+      "KONAMI"
+    ],
+    "release_date": "Dec 18, 2014",
+    "store_url": "https://store.steampowered.com/app/311340"
+  },
+  {
+    "id": 319630,
+    "name": "Life is Strange - Episode 1",
+    "description": "Episode 1 now FREE! Life is Strange is an award-winning and critically acclaimed episodic adventure game that allows the player to rewind time and affect the past, present and future.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/319630/header.jpg?t=1772725755",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "developers": [
+      "DONTNOD Entertainment",
+      "Feral Interactive (Mac)",
+      "Feral Interactive (Linux)"
+    ],
+    "publishers": [
+      "Square Enix",
+      "Feral interactive (Mac)",
+      "Feral Interactive (Linux)"
+    ],
+    "release_date": "Jan 29, 2015",
+    "store_url": "https://store.steampowered.com/app/319630"
+  },
+  {
+    "id": 327030,
+    "name": "Worms W.M.D",
+    "description": "The worms are back in their most destructive game yet. With a gorgeous, hand-drawn 2D look, brand new weapons, the introduction of crafting, vehicles and buildings plus the return of some much-loved classic weapons and gameplay, Worms W.M.D is the best worms experience ever.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/327030/3c9070049ed6dd542d327727093a74a413e733c8/header.jpg?t=1777024451",
+    "genres": [
+      "Action",
+      "Strategy"
+    ],
+    "developers": [
+      "Team17"
+    ],
+    "publishers": [
+      "Team17"
+    ],
+    "release_date": "Aug 23, 2016",
+    "store_url": "https://store.steampowered.com/app/327030"
+  },
+  {
+    "id": 33230,
+    "name": "Assassin's Creed 2",
+    "description": "An epic story of family, vengeance and conspiracy set in the pristine, yet brutal, backdrop of a Renaissance Italy. New low price!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/33230/header.jpg?t=1682004272",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "developers": [
+      "Ubisoft Montreal"
+    ],
+    "publishers": [
+      "Ubisoft"
+    ],
+    "release_date": "Mar 9, 2010",
+    "store_url": "https://store.steampowered.com/app/33230"
+  },
+  {
+    "id": 34010,
+    "name": "Alpha Protocol™",
+    "description": "Loyalty carries a price and no one knows this more than agent Michael Thorton. A talented young agent cast out by his government, Thorton is the only one with the information needed to stop an impending international catastrophe.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/34010/header.jpg?t=1769707772",
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "developers": [
+      "Obsidian Entertainment"
+    ],
+    "publishers": [
+      "SEGA"
+    ],
+    "release_date": "Jun 1, 2010",
+    "store_url": "https://store.steampowered.com/app/34010"
+  },
+  {
+    "id": 346110,
+    "name": "ARK: Survival Evolved",
+    "description": "Stranded on the shores of a mysterious island, you must learn to survive. Use your cunning to kill or tame the primeval creatures roaming the land, and encounter other players to survive, dominate... and escape!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/346110/header.jpg?t=1765677889",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie",
+      "Massively Multiplayer",
+      "RPG"
+    ],
+    "developers": [
+      "Studio Wildcard",
+      "Instinct Games",
+      "Efecto Studios",
+      "Virtual Basement LLC"
+    ],
+    "publishers": [
+      "Studio Wildcard",
+      "Snail Games USA"
+    ],
+    "release_date": "Aug 27, 2017",
+    "store_url": "https://store.steampowered.com/app/346110"
+  },
+  {
+    "id": 349040,
+    "name": "NARUTO SHIPPUDEN: Ultimate Ninja STORM 4",
+    "description": "The latest opus in the acclaimed STORM series is taking you on a colourful and breathtaking ride. Take advantage of the totally revamped battle system and prepare to dive into the most epic fights you’ve ever seen !",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/349040/header.jpg?t=1703080866",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "developers": [
+      "CyberConnect2 Co. Ltd."
+    ],
+    "publishers": [
+      "BANDAI NAMCO Entertainment"
+    ],
+    "release_date": "Feb 4, 2016",
+    "store_url": "https://store.steampowered.com/app/349040"
+  },
+  {
+    "id": 354400,
+    "name": "Tadpole Treble",
+    "description": "Embark on a thrilling adventure through sheet music in Tadpole Treble! Escape predatory piranhas, flirtatious tadpoles and more as you make your way back home. Shoot for the top of the leaderboards, or create your own stages and music in Composition Mode!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/354400/header.jpg?t=1473703105",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie"
+    ],
+    "developers": [
+      "BitFinity"
+    ],
+    "publishers": [
+      "BitFinity, Sunken Treasure Games"
+    ],
+    "release_date": "Sep 2, 2016",
+    "store_url": "https://store.steampowered.com/app/354400"
+  },
+  {
+    "id": 356190,
+    "name": "Middle-earth™: Shadow of War™",
+    "description": "Experience an epic open-world brought to life by the award-winning Nemesis System. Forge a new Ring of Power, conquer Fortresses in massive battles and dominate Mordor with your personal orc army in Middle-earth™: Shadow of War™.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/356190/header.jpg?t=1747346596",
+    "genres": [
+      "Action",
+      "Adventure",
+      "RPG"
+    ],
+    "developers": [
+      "Monolith Productions"
+    ],
+    "publishers": [
+      "WB Games"
+    ],
+    "release_date": "Oct 9, 2017",
+    "store_url": "https://store.steampowered.com/app/356190"
+  },
+  {
+    "id": 361420,
+    "name": "ASTRONEER",
+    "description": "Interact with strange new worlds in a unique and tactile way, molding the environment itself as if it were clay in your hands. Build your base, master resource management, automate your production lines, and more as you unravel the mysteries of the universe, alone or with friends.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/361420/1c44099d86c824a6fd1098a4215097878d68664e/header.jpg?t=1770767049",
+    "genres": [
+      "Adventure",
+      "Indie"
+    ],
+    "developers": [
+      "System Era Softworks"
+    ],
+    "publishers": [
+      "System Era Softworks"
+    ],
+    "release_date": "Feb 5, 2019",
+    "store_url": "https://store.steampowered.com/app/361420"
+  },
+  {
+    "id": 362960,
+    "name": "Tyranny",
+    "description": "Experience a story-driven RPG where your choices mean all the difference in the world.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/362960/header.jpg?t=1710236901",
+    "genres": [
+      "Adventure",
+      "RPG"
+    ],
+    "developers": [
+      "Obsidian Entertainment"
+    ],
+    "publishers": [
+      "Paradox Interactive"
+    ],
+    "release_date": "Nov 10, 2016",
+    "store_url": "https://store.steampowered.com/app/362960"
+  },
+  {
+    "id": 367520,
+    "name": "Hollow Knight",
+    "description": "Forge your own path in Hollow Knight! An epic action adventure through a vast ruined kingdom of insects and heroes. Explore twisting caverns, battle tainted creatures and befriend bizarre bugs, all in a classic, hand-drawn 2D style.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/3c3489495136b26b34f8a9543c7f5645b99d388c/header.jpg?t=1776125684",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie"
+    ],
+    "developers": [
+      "Team Cherry"
+    ],
+    "publishers": [
+      "Team Cherry"
+    ],
+    "release_date": "Feb 24, 2017",
+    "store_url": "https://store.steampowered.com/app/367520"
+  },
+  {
+    "id": 374320,
+    "name": "DARK SOULS™ III",
+    "description": "Dark Souls continues to push the boundaries with the latest, ambitious chapter in the critically-acclaimed and genre-defining series. Prepare yourself and Embrace The Darkness!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/374320/header.jpg?t=1748630784",
+    "genres": [
+      "Action"
+    ],
+    "developers": [
+      "FromSoftware, Inc."
+    ],
+    "publishers": [
+      "FromSoftware, Inc.",
+      "Bandai Namco Entertainment"
+    ],
+    "release_date": "Apr 11, 2016",
+    "store_url": "https://store.steampowered.com/app/374320"
+  },
+  {
+    "id": 379720,
+    "name": "DOOM",
+    "description": "Now includes all three premium DLC packs (Unto the Evil, Hell Followed, and Bloodfall), maps, modes, and weapons, as well as all feature updates including Arcade Mode, Photo Mode, and the latest Update 6.66, which brings further multiplayer improvements as well as revamps multiplayer progression.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/379720/header.jpg?t=1750784856",
+    "genres": [
+      "Action"
+    ],
+    "developers": [
+      "id Software"
+    ],
+    "publishers": [
+      "Bethesda Softworks"
+    ],
+    "release_date": "May 12, 2016",
+    "store_url": "https://store.steampowered.com/app/379720"
+  },
+  {
+    "id": 391540,
+    "name": "Undertale",
+    "description": "UNDERTALE! The RPG game where you don't have to destroy anyone.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/391540/header.jpg?t=1757349115",
+    "genres": [
+      "Indie",
+      "RPG"
+    ],
+    "developers": [
+      "tobyfox"
+    ],
+    "publishers": [
+      "tobyfox"
+    ],
+    "release_date": "Sep 15, 2015",
+    "store_url": "https://store.steampowered.com/app/391540"
+  },
+  {
+    "id": 414700,
+    "name": "Outlast 2",
+    "description": "Outlast 2 introduces you to Sullivan Knoth and his followers, who left our wicked world behind to give birth to Temple Gate, a town, deep in the wilderness and hidden from civilization. Knoth and his flock are preparing for the tribulations of the end of times and you’re right in the thick of it.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/414700/header.jpg?t=1618944453",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie"
+    ],
+    "developers": [
+      "Red Barrels"
+    ],
+    "publishers": [
+      "Red Barrels"
+    ],
+    "release_date": "Apr 24, 2017",
+    "store_url": "https://store.steampowered.com/app/414700"
+  },
+  {
+    "id": 418370,
+    "name": "Resident Evil 7 Biohazard",
+    "description": "Fear and isolation seep through the walls of an abandoned southern farmhouse. &quot;7&quot; marks a new beginning for survival horror with the “Isolated View” of the visceral new first-person perspective.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/418370/header.jpg?t=1778464947",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "developers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "publishers": [
+      "CAPCOM Co., Ltd."
+    ],
+    "release_date": "Jan 23, 2017",
+    "store_url": "https://store.steampowered.com/app/418370"
+  },
+  {
+    "id": 427520,
+    "name": "Factorio",
+    "description": "Factorio is a game about building and creating automated factories to produce items of increasing complexity, within an infinite 2D world. Use your imagination to design your factory, combine simple elements into ingenious structures, and finally protect it from the creatures who don't really like you.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/427520/header.jpg?t=1763986204",
+    "genres": [
+      "Casual",
+      "Indie",
+      "Simulation",
+      "Strategy"
+    ],
+    "developers": [
+      "Wube Software LTD."
+    ],
+    "publishers": [
+      "Wube Software LTD."
+    ],
+    "release_date": "Aug 14, 2020",
+    "store_url": "https://store.steampowered.com/app/427520"
+  },
+  {
+    "id": 444090,
+    "name": "Paladins®",
+    "description": "Paladins is the ultimate fantasy team-based shooter experience, with over 50 customizable Champions fighting in 5v5 action across a diverse Realm of modes and maps!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/444090/header.jpg?t=1713560419",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Massively Multiplayer",
+      "Strategy",
+      "Free To Play"
+    ],
+    "developers": [
+      "Evil Mojo Games"
+    ],
+    "publishers": [
+      "Hi-Rez Studios"
+    ],
+    "release_date": "May 8, 2018",
+    "store_url": "https://store.steampowered.com/app/444090"
+  },
+  {
+    "id": 450540,
+    "name": "Hot Dogs, Horseshoes & Hand Grenades",
+    "description": "Do you like hot dogs? How about horseshoes? Hand grenades? (everyone likes hand grenades) Anyway, we've got all that, and guns. SO MANY GUNS. So if you like ordnance, meat, and far too many groan-worthy puns, this is the VR sandbox game for you.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/450540/header.jpg?t=1766512842",
+    "genres": [
+      "Action",
+      "Simulation",
+      "Early Access"
+    ],
+    "developers": [
+      "RUST LTD."
+    ],
+    "publishers": [
+      "RUST LTD."
+    ],
+    "release_date": "Apr 5, 2016",
+    "store_url": "https://store.steampowered.com/app/450540"
+  },
+  {
+    "id": 457140,
+    "name": "Oxygen Not Included",
+    "description": "Oxygen Not Included is a space-colony simulation game. Deep inside an alien space rock your industrious crew will need to master science, overcome strange new lifeforms, and harness incredible space tech to survive, and possibly, thrive.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/457140/header.jpg?t=1777920664",
+    "genres": [
+      "Indie",
+      "Simulation"
+    ],
+    "developers": [
+      "Klei Entertainment"
+    ],
+    "publishers": [
+      "Klei Entertainment"
+    ],
+    "release_date": "Jul 30, 2019",
+    "store_url": "https://store.steampowered.com/app/457140"
+  },
+  {
+    "id": 460950,
+    "name": "Katana ZERO",
+    "description": "Katana ZERO is a stylish neo-noir, action-platformer featuring breakneck action and instant-death combat. Slash, dash, and manipulate time to unravel your past in a beautifully brutal acrobatic display.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460950/header.jpg?t=1761066027",
+    "genres": [
+      "Action",
+      "Indie"
+    ],
+    "developers": [
+      "Askiisoft"
+    ],
+    "publishers": [
+      "Devolver Digital"
+    ],
+    "release_date": "Apr 18, 2019",
+    "store_url": "https://store.steampowered.com/app/460950"
+  },
+  {
+    "id": 466560,
+    "name": "Northgard: Definitive Edition",
+    "description": "Northgard: Definitive Edition is a critically acclaimed real-time strategy game based on Norse mythology. Lead your clan, uncover the secrets of a mysterious newfound continent and defeat your enemies to conquer the Throne!",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/466560/f46db7c89dde0ec381f59677d540a9224809beb2/header_alt_assets_15.jpg?t=1776366876",
+    "genres": [
+      "Adventure",
+      "Indie",
+      "Simulation",
+      "Strategy"
+    ],
+    "developers": [
+      "Shiro Games"
+    ],
+    "publishers": [
+      "Shiro Games"
+    ],
+    "release_date": "Mar 7, 2018",
+    "store_url": "https://store.steampowered.com/app/466560"
+  },
+  {
+    "id": 474960,
+    "name": "Quantum Break",
+    "description": "From Remedy Entertainment, the masters of cinematic action games, comes Quantum Break, a time-amplified suspenseful blockbuster. The Quantum Break experience is part game, part live action show—where decisions in one dramatically affect the other.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/474960/header.jpg?t=1773351175",
+    "genres": [
+      "Action"
+    ],
+    "developers": [
+      "Remedy Entertainment"
+    ],
+    "publishers": [
+      "Xbox Game Studios"
+    ],
+    "release_date": "Sep 29, 2016",
+    "store_url": "https://store.steampowered.com/app/474960"
+  },
+  {
+    "id": 493520,
+    "name": "GTFO",
+    "description": "GTFO is a hardcore cooperative horror shooter that throws you from gripping suspense to explosive action in a heartbeat. Stealth, strategy, and teamwork are necessary to survive in your deadly, underground prison. Work together or die together.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/493520/header.jpg?t=1773842359",
+    "genres": [
+      "Action"
+    ],
+    "developers": [
+      "10 Chambers"
+    ],
+    "publishers": [
+      "10 Chambers"
+    ],
+    "release_date": "Dec 9, 2021",
+    "store_url": "https://store.steampowered.com/app/493520"
+  },
+  {
+    "id": 49520,
+    "name": "Borderlands 2",
+    "description": "The Ultimate Vault Hunter’s Upgrade lets you get the most out of the Borderlands 2 experience.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/49520/header.jpg?t=1751931279",
+    "genres": [
+      "Action",
+      "RPG"
+    ],
+    "developers": [
+      "Gearbox Software",
+      "Aspyr (Mac)",
+      "Aspyr (Linux)"
+    ],
+    "publishers": [
+      "2K",
+      "Aspyr (Mac)",
+      "Aspyr (Linux)"
+    ],
+    "release_date": "Sep 17, 2012",
+    "store_url": "https://store.steampowered.com/app/49520"
+  },
+  {
+    "id": 504230,
+    "name": "Celeste",
+    "description": "Help Madeline survive her inner demons on her journey to the top of Celeste Mountain, in this super-tight platformer from the creators of TowerFall. Brave hundreds of hand-crafted challenges, uncover devious secrets, and piece together the mystery of the mountain.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/504230/header.jpg?t=1714089525",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Indie"
+    ],
+    "developers": [
+      "Maddy Makes Games Inc.",
+      "Extremely OK Games, Ltd."
+    ],
+    "publishers": [
+      "Maddy Makes Games Inc."
+    ],
+    "release_date": "Jan 25, 2018",
+    "store_url": "https://store.steampowered.com/app/504230"
+  },
+  {
+    "id": 524210,
+    "name": "NIGHTSTAR Demo",
+    "description": "Shoot'em Up built for VR. - Planet Earth. 1983. - You've been selected among millions of gamers to pilot the NIGHTSTAR, an ultimate starfighter with enough firepower to hold back the Drone Coalition. Will you accept the challenge?",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/524210/header.jpg?t=1472777078",
+    "genres": [
+      "Action",
+      "Indie"
+    ],
+    "developers": [
+      "SOLIDMESH"
+    ],
+    "publishers": [
+      "SOLIDMESH"
+    ],
+    "release_date": "Sep 1, 2016",
+    "store_url": "https://store.steampowered.com/app/524210"
+  },
+  {
+    "id": 531640,
+    "name": "Eternal Card Game",
+    "description": "Six-guns and sorcery collide in Eternal, the new strategy card game of unlimited choices and unbelievable fun. Eternal brings AAA pace and polish to the infinite possibilities of a deep strategy card game. The only limits are your own creativity.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/531640/header.jpg?t=1767902540",
+    "genres": [
+      "Casual",
+      "Massively Multiplayer",
+      "Strategy",
+      "Free To Play"
+    ],
+    "developers": [
+      "Dire Wolf"
+    ],
+    "publishers": [
+      "Dire Wolf"
+    ],
+    "release_date": "Nov 15, 2018",
+    "store_url": "https://store.steampowered.com/app/531640"
+  },
+  {
+    "id": 550,
+    "name": "Left 4 Dead 2",
+    "description": "Set in the zombie apocalypse, Left 4 Dead 2 is a co-operative action horror FPS takes you and your friends through the cities, swamps and cemeteries of the Deep South, from Savannah to New Orleans across five expansive campaigns.",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/header.jpg?t=1772742214",
+    "genres": [
+      "Action"
+    ],
+    "developers": [
+      "Valve"
+    ],
+    "publishers": [
+      "Valve"
+    ],
+    "release_date": "Nov 16, 2009",
+    "store_url": "https://store.steampowered.com/app/550"
+  }
+]
