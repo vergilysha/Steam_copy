@@ -12,6 +12,13 @@ self.addEventListener('activate', e => e.waitUntil(self.clients.claim()));
 
 self.addEventListener('fetch', event => {
   const url = new URL(event.request.url);
+  
+  // GET endpoint for games list
+  if ((url.pathname.endsWith('/api/games') || url.pathname.endsWith('backend/api/games')) && event.request.method === 'GET') {
+    event.respondWith(getGames());
+    return;
+  }
+  
   if (!url.pathname.endsWith('/api.html')) return;
 
   if (event.request.method === 'POST') {
@@ -33,6 +40,18 @@ async function handle(req) {
     return errRes(`Unknown action "${action}". Use "search" or "download"`, 400);
   } catch (e) {
     return errRes(e.message || 'Internal error', 500);
+  }
+}
+
+// ── API 3: Get Popular Games List ─────────────────────────────────────────────
+
+async function getGames() {
+  try {
+    const r = await fetch('./games/popular-games.json');
+    const games = await r.json();
+    return okRes(games);
+  } catch (e) {
+    return errRes('Failed to load games list', 500);
   }
 }
 
