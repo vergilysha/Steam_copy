@@ -124,3 +124,104 @@ const games = [
     // Init hero price for first slide
     goTo(0);
     startAuto();
+
+    // --- "Топ продажів" Dynamic Loader ---
+    document.addEventListener('DOMContentLoaded', () => {
+      const bestSellContainer = document.querySelector('.best-sell .games_rows');
+      if (!bestSellContainer) return;
+
+      const genreTranslations = {
+        "Action": "Екшн",
+        "Free To Play": "Безкоштовно",
+        "Strategy": "Стратегія",
+        "Adventure": "Пригоди",
+        "Massively Multiplayer": "Мультиплеєр",
+        "Indie": "Інді",
+        "Casual": "Казуальна гра",
+        "Simulation": "Симулятор",
+        "RPG": "Рольова гра (RPG)",
+        "Sports": "Спорт",
+        "Racing": "Перегони",
+        "Early Access": "Дочасний доступ",
+        "Utilities": "Інструменти",
+        "Animation & Modeling": "Анімація та моделювання",
+        "Design & Illustration": "Дизайн та ілюстрація",
+        "Photo Editing": "Редагування фотографій",
+        "Software Training": "Навчальне ПЗ"
+      };
+
+      const reviewsOptions = [
+        { text: "Надзвичайно позитивні", class: "r-blue" },
+        { text: "Дуже позитивні", class: "r-green" },
+        { text: "Переважно позитивні", class: "r-yellow" }
+      ];
+
+      function translateGenres(genres) {
+        if (!genres || !genres.length) return "Гра";
+        if (genres.length > 5) {
+          return genres.slice(0, 5).map(g => genreTranslations[g] || g).join(", ") + "..";
+        }
+        return genres.map(g => genreTranslations[g] || g).join(", ");
+      }
+
+      async function loadBestSellers() {
+        try {
+          let response;
+          try {
+            response = await fetch('backend/games/popular-games.json');
+          } catch (e) {
+            response = await fetch('./backend/games/popular-games.json');
+          }
+
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+
+          const gamesData = await response.json();
+          if (!gamesData || gamesData.length === 0) {
+            throw new Error('No games found');
+          }
+
+          // Take the first 7 games
+          const top7Games = gamesData.slice(0, 7);
+
+          // Clear the static placeholder
+          bestSellContainer.innerHTML = '';
+
+          top7Games.forEach(game => {
+            const randomReview = reviewsOptions[Math.floor(Math.random() * reviewsOptions.length)];
+            const gameRow = document.createElement('div');
+            gameRow.className = 'games_row';
+            gameRow.style.opacity = '0';
+            gameRow.style.transition = 'opacity 0.3s ease-in-out';
+
+            gameRow.innerHTML = `
+              <img src="${game.image || 'img/cs2 2.png'}" alt="${game.name}" class="games_row-img" onerror="this.src='img/cs2 2.png'">
+              <div class="games_texts">
+                <p class="games_row-title">${game.name}</p>
+                <p class="games_types">${translateGenres(game.genres)}</p>
+                <p class="games_reviews ${randomReview.class}">${randomReview.text}</p>
+              </div>
+              <div class="games_price">
+                <div class="games_discount">
+                  <p>-90%</p>
+                </div>
+                <p class="games_old-price">670 грн</p>
+                <p class="games_new-price">67 грн</p>
+              </div>
+            `;
+
+            bestSellContainer.appendChild(gameRow);
+
+            setTimeout(() => {
+              gameRow.style.opacity = '1';
+            }, 50);
+          });
+
+        } catch (error) {
+          console.error('Failed to load best sellers:', error);
+        }
+      }
+
+      loadBestSellers();
+    });
