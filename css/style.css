@@ -1341,6 +1341,113 @@ letter-spacing: 0%;
  .r-yellow {
     color: #C8B464;
  }
+/* Основний контейнер */
+.features-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: system-ui, -apple-system, sans-serif;
+    color: #f3f3f3;
+}
+
+.features-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.features-subtitle {
+    text-align: center;
+    color: #96a5b2;
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 30px;
+    margin-bottom: 60px;
+}
+
+.feature-item {
+    flex: 1 1 calc(33.333% - 20px);
+    min-width: 280px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feature-icon {
+    font-size: 32px;
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+
+.feature-name {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    font-weight: 600;
+}
+
+.feature-text {
+    font-size: 14px;
+    color: #96a5b2;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.features-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 30px;
+}
+
+.footer-info h3 {
+    font-size: 22px;
+    margin: 0 0 5px 0;
+}
+
+.footer-info p {
+    color: #96a5b2;
+    margin: 0;
+    font-size: 14px;
+}
+
+.steam-btn {
+     width: 237px;
+    height: 53px;
+}
+
+.win-icon {
+    width: 18px;
+    height: 18px;
+}
+
+@media (max-width: 900px) {
+    .feature-item {
+        flex: 1 1 calc(50% - 15px);
+    }
+}
+
+@media (max-width: 600px) {
+    .feature-item {
+        flex: 1 1 100%;
+    }
+    .features-footer {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
+
 
 /* Games page styles */
 .games_top {
@@ -1462,3 +1569,4 @@ letter-spacing: 0%;
     justify-self: center;
     margin-bottom: 60px;
 }
+
