@@ -487,6 +487,7 @@ body{
 }
 .block-with-black-block-and-green-button2{
         display: flex;
+            margin-right: 15px;
 }
 .block-with-title-and-logos{
     display: flex;  
@@ -505,14 +506,14 @@ body{
     justify-content: space-around;
     align-items: center;
     width: 1131px;
-    height: 331px;
+    height: 341px;
     background: #2E4259;
     margin-top: 50px;
 }
 .card{
     background: #101620;
     width: 352px;
-    height: 310px;
+    height: 320px;
     border-radius: 4px;
 }
 .main-news-title{
