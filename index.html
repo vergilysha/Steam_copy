@@ -1,13 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  <title>Document</title>
+  <title>Steam - Головна</title>
 </head>
+
 <body>
+
+  <header class="steam-header">
+    <div class="steam-topbar">
+      <div class="container steam-topbar__inner">
+        <a class="steam-logo" href="index.html">
+          <img src="img/logo_steam 1.png" alt="Steam" class="steam-logo__img">
+        </a>
+
+        <nav class="steam-mainnav" aria-label="Primary">
+          <a class="steam-mainnav__link" href="#">МАГАЗИН</a>
+          <a class="steam-mainnav__link" href="about.html">ПРО НАС</a>
+          <a class="steam-mainnav__link" href="#">ПІДТРИМКА</a>
+        </nav>
+
+        <div class="steam-actions">
+          <div class="steam-login">
+            <input class="steam-login__toggle" type="checkbox" id="steam-login-toggle" aria-hidden="true">
+            <label class="btn btn--primary" for="steam-login-toggle">Увійти</label>
+            <div class="steam-login__panel" role="dialog" aria-label="Login">
+              <div class="steam-login__title">ВІТАЄМО В STEAM!</div>
+
+              <form class="steam-login__form" action="#" method="post">
+                <label class="steam-login__field">
+                  <span class="steam-login__label">Ел. Пошта</span>
+                  <input class="steam-login__input" type="email" name="email" autocomplete="email">
+                </label>
+
+                <label class="steam-login__field">
+                  <span class="steam-login__label">Пароль</span>
+                  <input class="steam-login__input" type="password" name="password" autocomplete="current-password">
+                </label>
+
+                <label class="steam-login__field">
+                  <span class="steam-login__label">Повт. Пароль</span>
+                  <input class="steam-login__input" type="password" name="password_repeat" autocomplete="current-password">
+                </label>
+
+                <div class="steam-login__actions">
+                  <button class="steam-login__btn steam-login__btn--submit" type="submit">УВІЙТИ</button>
+                  <label class="steam-login__btn steam-login__btn--cancel" for="steam-login-toggle">ВІДМІНА</label>
+                </div>
+
+                <a class="steam-login__forgot" href="#">ЗАБУВ ПАРОЛЬ</a>
+
+                <div class="steam-login__social" aria-label="Social login">
+                  <a class="steam-login__soc" href="#" aria-label="Apple"></a>
+                  <a class="steam-login__soc" href="#" aria-label="Windows">⊞</a>
+                  <a class="steam-login__soc" href="#" aria-label="Facebook">f</a>
+                  <a class="steam-login__soc" href="#" aria-label="Google">G</a>
+                </div>
+              </form>
+            </div>
+          </div>
+          <button class="btn btn--ghost" type="button">Встановити Steam</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="steam-subbar">
+      <div class="container steam-subbar__inner">
+        <nav class="steam-subnav" aria-label="Store">
+          <a class="steam-subnav__link" href="#">Магазин</a>
+          <a class="steam-subnav__link" href="#">Нове та популярне</a>
+          <a class="steam-subnav__link" href="#">Топ продажів</a>
+          <a class="steam-subnav__link" href="#">Акції</a>
+          <a class="steam-subnav__link" href="#">Перегляд за категорією</a>
+        </nav>
+
+        <form class="steam-search" action="#" method="get" role="search">
+          <input class="steam-search__input" type="search" name="q" placeholder="Пошук у крамниці" aria-label="Search">
+          <button class="steam-search__btn" type="submit" aria-label="Search"></button>
+          <div class="steam-search__popup" role="listbox" aria-label="Popular search queries">
+            <div class="steam-search__popup-title">Популярні пошукові запити</div>
+
+            <a class="steam-search-item" href="#" role="option">
+              <div class="steam-search-item__thumb" aria-hidden="true">
+                <img class="steam-search-item__img" src="img/capsule_616x353 2.png" alt="">
+              </div>
+              <div class="steam-search-item__name">GTA V</div>
+              <div class="steam-search-item__meta">
+                <span class="steam-search-item__discount">-90%</span>
+                <span class="steam-search-item__old">670 грн</span>
+                <span class="steam-search-item__price">67 грн</span>
+              </div>
+            </a>
+
+            <a class="steam-search-item" href="#" role="option">
+              <div class="steam-search-item__thumb" aria-hidden="true">
+                <img class="steam-search-item__img" src="img/image 4.png" alt="">
+              </div>
+              <div class="steam-search-item__name">Geometry Dash</div>
+              <div class="steam-search-item__meta">
+                <span class="steam-search-item__discount">-90%</span>
+                <span class="steam-search-item__old">670 грн</span>
+                <span class="steam-search-item__price">67 грн</span>
+              </div>
+            </a>
+
+            <a class="steam-search-item" href="#" role="option">
+              <div class="steam-search-item__thumb" aria-hidden="true">
+                <img class="steam-search-item__img" src="img/image 5.png" alt="">
+              </div>
+              <div class="steam-search-item__name">Minecraft Bugrock</div>
+              <div class="steam-search-item__meta">
+                <span class="steam-search-item__discount">-90%</span>
+                <span class="steam-search-item__old">670 грн</span>
+                <span class="steam-search-item__price">67 грн</span>
+              </div>
+            </a>
+
+            <a class="steam-search-item" href="#" role="option">
+              <div class="steam-search-item__thumb" aria-hidden="true">
+                <img class="steam-search-item__img" src="img/cs2 2.png" alt="">
+              </div>
+              <div class="steam-search-item__name">Counter-Strike 2</div>
+              <div class="steam-search-item__meta">
+                <span class="steam-search-item__discount">-90%</span>
+                <span class="steam-search-item__old">670 грн</span>
+                <span class="steam-search-item__price">67 грн</span>
+              </div>
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </header>
+  <div class="banner">
+    <img src="img/banner_Steam.png" alt="Banner">
+  </div>
+
   <div class="slider">
     <div class="main-row">
 
@@ -68,21 +199,32 @@
             </div>
           </div>
         </div>
-      </div>
 
       <button class="nav-btn nav-next" aria-label="Next">&#8250;</button>
 
   </div>
 
-  <div class="dots">
+
+    </div>
+
+    <!-- <div class="dots">
+      <div class="dot active"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div> -->
+      <div class="dots">
     <div class="dot active" data-index="0"></div>
     <div class="dot" data-index="1"></div>
     <div class="dot" data-index="2"></div>
     <div class="dot" data-index="3"></div>
     <div class="dot" data-index="4"></div>
-  </div>
-</div>
+      </div>
 
+      <button class="nav-btn nav-next" aria-label="Next">&#8250;</button>
+
+  </div>
 
 <div class="sb">
   <div class="glow-bg"></div>

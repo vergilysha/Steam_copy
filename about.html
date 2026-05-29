@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>About</title>
+</head>
+<body>
+    <header class="steam-header">
+    <div class="steam-topbar">
+      <div class="container steam-topbar__inner">
+        <a class="steam-logo" href="index.html">
+          <img src="img/logo_steam 1.png" alt="Steam" class="steam-logo__img">
+        </a>
+
+        <nav class="steam-mainnav" aria-label="Primary">
+          <a class="steam-mainnav__link" href="#">МАГАЗИН</a>
+          <a class="steam-mainnav__link" href="about.html">ПРО НАС</a>
+          <a class="steam-mainnav__link" href="#">ПІДТРИМКА</a>
+        </nav>
+
+        <div class="steam-actions">
+          <div class="steam-login">
+            <input class="steam-login__toggle" type="checkbox" id="steam-login-toggle" aria-hidden="true">
+            <label class="btn btn--primary" for="steam-login-toggle">Увійти</label>
+            <div class="steam-login__panel" role="dialog" aria-label="Login">
+              <div class="steam-login__title">ВІТАЄМО В STEAM!</div>
+
+              <form class="steam-login__form" action="#" method="post">
+                <label class="steam-login__field">
+                  <span class="steam-login__label">Ел. Пошта</span>
+                  <input class="steam-login__input" type="email" name="email" autocomplete="email">
+                </label>
+
+                <label class="steam-login__field">
+                  <span class="steam-login__label">Пароль</span>
+                  <input class="steam-login__input" type="password" name="password" autocomplete="current-password">
+                </label>
+
+                <label class="steam-login__field">
+                  <span class="steam-login__label">Повт. Пароль</span>
+                  <input class="steam-login__input" type="password" name="password_repeat" autocomplete="current-password">
+                </label>
+
+                <div class="steam-login__actions">
+                  <button class="steam-login__btn steam-login__btn--submit" type="submit">УВІЙТИ</button>
+                  <label class="steam-login__btn steam-login__btn--cancel" for="steam-login-toggle">ВІДМІНА</label>
+                </div>
+
+                <a class="steam-login__forgot" href="#">ЗАБУВ ПАРОЛЬ</a>
+
+                <div class="steam-login__social" aria-label="Social login">
+                  <a class="steam-login__soc" href="#" aria-label="Apple"></a>
+                  <a class="steam-login__soc" href="#" aria-label="Windows">⊞</a>
+                  <a class="steam-login__soc" href="#" aria-label="Facebook">f</a>
+                  <a class="steam-login__soc" href="#" aria-label="Google">G</a>
+                </div>
+              </form>
+            </div>
+          </div>
+          <button class="btn btn--ghost" type="button">Встановити Steam</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="steam-subbar">
+      <div class="container steam-subbar__inner">
+        <nav class="steam-subnav" aria-label="Store">
+          <a class="steam-subnav__link" href="#">Магазин</a>
+          <a class="steam-subnav__link" href="#">Нове та популярне</a>
+          <a class="steam-subnav__link" href="#">Топ продажів</a>
+          <a class="steam-subnav__link" href="#">Акції</a>
+          <a class="steam-subnav__link" href="#">Перегляд за категорією</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="about-hero">
+    <div class="container about-hero__inner">
+      <section class="about-hero__left" aria-label="About Steam">
+        <div class="about-steam">
+          <div class="about-steam__brand">
+            <img class="about-steam__logo" src="img/Group 1.png" alt="Steam">
+            <div class="about-steam__name">STEAM</div>
+          </div>
+          <p class="about-steam__text">Steam — це найкраще місце, де ви можете грати, спілкуватися та створювати ігри.</p>
+
+          <a class="about-steam__install" href="#" aria-label="Install Steam">
+            <img class="about-steam__install-img" src="img/Install Button.png" alt="Встановити Steam">
+          </a>
+
+          <div class="about-steam__available">Доступно на:
+            <span class="about-steam__os" aria-label="Apple"><img src="img/Apple_logo_white.svg 1.png" alt=""></span>
+            <span class="about-steam__os" aria-label="Windows"><img src="img/chrome-xxl 1.png" alt=""></span>
+            <span class="about-steam__os" aria-label="Linux"><img src="img/Group 1.png" alt=""></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-hero__right" aria-label="Game gallery">
+        <div class="about-gallery">
+          <div class="about-gallery__main">
+            <img class="about-gallery__main-img" src="img/portal2.jpg" alt="PORTAL 2">
+          </div>
+
+          <div class="about-gallery__strip">
+            <button class="about-gallery__nav about-gallery__nav--prev" type="button" aria-label="Previous"></button>
+            <div class="about-gallery__thumbs" role="list">
+              <button class="about-gallery__thumb is-active" type="button" aria-label="Screenshot 1">
+                <img src="img/image 12.png" alt="">
+              </button>
+              <button class="about-gallery__thumb" type="button" aria-label="Screenshot 2">
+                <img src="img/image 13.png" alt="">
+              </button>
+              <button class="about-gallery__thumb" type="button" aria-label="Screenshot 3">
+                <img src="img/image 14.png" alt="">
+              </button>
+              <button class="about-gallery__thumb" type="button" aria-label="Screenshot 4">
+                <img src="img/image 15.png" alt="">
+              </button>
+              <button class="about-gallery__thumb" type="button" aria-label="Screenshot 5">
+                <img src="img/image 16.png" alt="">
+              </button>
+            </div>
+            <button class="about-gallery__nav about-gallery__nav--next" type="button" aria-label="Next"></button>
+          </div>
+
+          <div class="about-gallery__dots" aria-label="Gallery pages">
+            <span class="about-gallery__dot active"></span>
+            <span class="about-gallery__dot"></span>
+            <span class="about-gallery__dot"></span>
+            <span class="about-gallery__dot"></span>
+            <span class="about-gallery__dot"></span>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <section class="about-section">
+    <div class="about-section__container">
+      <div class="about-section__text">
+        <h1 class="about-section__title">Приєднуйтесь до спільноти</h1>
+        <p class="about-section__description">Знайомтесь з новими людьми, приєднуйтесь до груп, створюйте клани, спілкуйтеся в іграх та багато іншого! З понад 100 мільйонами потенційних друзів (або ворогів) веселощі ніколи не закінчуються.</p>
+      </div>
+      <img class="about-section__image" src="img/image 22.png" alt="Приєднуйтесь до спільноти">
+    </div>
+        <div class="about-section__container">
+          <img class="about-section__image" src="img/image 23.png" alt="Відкрийте для себе обладнання Steam">
+      <div class="about-section__text">
+        <h1 class="about-section__title">Відкрийте для себе обладнання Steam</h1>
+        <p class="about-section__description">Ми створили Steam Deck та гарнітуру віртуальної реальності Valve Index з метою покращення ігрового досвіду на ПК.</p>
+      </div>
+      
+    </div>
+            <div class="about-section__container">
+      <div class="about-section__text">
+        <h1 class="about-section__title">Запустіть свою гру</h1>
+        <p class="about-section__description">Steamworks — це набір інструментів та сервісів, які допомагають розробникам та дистриб'юторам ігор використовувати всі можливі ресурси під час випуску своїх ігор у Steam.</p>
+      </div>
+      <img class="about-section__image" src="img/image 24.png" alt="Запустіть свою гру">
+    </div>
+  </section>
+  <div class="features-container">
+    <h2 class="features-title">Особливості</h2>
+    <p class="features-subtitle">Ми постійно працюємо над новими оновленнями та функціями для Steam, зокрема:</p>
+
+    <div class="features-grid">
+        <div class="feature-item">
+            <div class="feature-icon"><img src="img/icons8-speech-bubble-384 1.png" alt=""></div>
+            <h3 class="feature-name">Чат Steam</h3>
+            <p class="feature-text">Спілкуйтеся з друзями або групами через текстовий або голосовий чат, не виходячи зі Steam.</p>
+        </div>
+        <div class="feature-item">
+            <div class="feature-icon"><img src="img/Group 2.png" alt=""></div>
+            <h3 class="feature-name">Ігрові центри</h3>
+            <p class="feature-text">Вся інформація про вашу улюблену гру тепер в одному місці. Приєднуйтесь до обговорень.</p>
+        </div>
+        <div class="feature-item">
+            <div class="feature-icon"><img src="img/icons8-tv-100 1.png" alt=""></div>
+            <h3 class="feature-name">Трансляція Steam</h3>
+            <p class="feature-text">Транслюйте свій ігровий процес у прямому ефірі простим натисканням кнопки.</p>
+        </div>
+        <div class="feature-item">
+            <div class="feature-icon"><img src="img/image 26.png" alt="workshop"></div>
+            <h3 class="feature-name">Майстерня Steam</h3>
+            <p class="feature-text">Створюйте, знаходьте та завантажуйте моди й аксесуари, створені гравцями.</p>
+        </div>
+        <div class="feature-item">
+            <div class="feature-icon"><img src="img/icons8-phone-100 1.png" alt="phone"></div>
+            <h3 class="feature-name">Доступно на мобільних</h3>
+            <p class="feature-text">Отримуйте доступ до Steam з будь-якого місця за допомогою мобільного додатку.</p>
+        </div>
+        <div class="feature-item">
+            <div class="feature-icon"><img src="img/icons8-clock-288 1.png" alt="magic-wand"></div>
+            <h3 class="feature-name">Ранній доступ</h3>
+            <p class="feature-text">Відкривайте для себе, грайте та долучайтеся до розвитку ігор. Будьте першими.</p>
+        </div>
+        <div class="feature-item">
+            <div class="feature-icon"><img src="img/icons8-language-100 1.png" alt="flag"></div>
+            <h3 class="feature-name">Багатомовність</h3>
+            <p class="feature-text">Для нас важливо створити глобальну спільноту, тому наш клієнт наразі підтримує 28 мов.</p>
+        </div>
+        <div class="feature-item">
+            <div class="feature-icon"><img src="img/icons8-credit-card-100 1.png" alt="credit-card"></div>
+            <h3 class="feature-name">Спрощені закупівлі</h3>
+            <p class="feature-text">Наш магазин підтримує понад 100 способів оплати у понад 35 валютах.</p>
+        </div>
+        <div class="feature-item">
+            <div class="feature-icon"><img src="img/icons8-controller-100 1.png" alt="controller"></div>
+            <h3 class="feature-name">Підтримка контролера</h3>
+            <p class="feature-text">Steam заохочує розробників додавати підтримку контролерів у свої ігри.</p>
+        </div>
+    </div>
+
+    <div class="features-footer">
+        <div class="footer-info">
+            <h3>І багато іншого...</h3>
+            <p>Отримуйте досягнення, читайте відгуки, переглядайте персоналізовані рекомендації.</p>
+        </div>
+        <img src="img/Install Button.png" alt="install-button" class="steam-btn">
+    </div>
+</div>
+
+<div class="search-more">
+    <div class="search-more-block">
+      <div class="block-with-search-and-button-and-title">
+        <p class="search-title">Шукати більше</p>
+        <div class="block-with-search-and-button">
+          <input type="text" class="search-space" placeholder="Пошук за назвою гри, категорією або тегом">
+          <div class="search-for-more-button">
+            <p class="button-title">Пошук</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<footer class="steam-footer">
+    <div class="block-with-logo-and-three-cards">
+      <div class="logo">
+        <img src="img/steambiglogo.png" alt="">
+      </div>
+      <div class="card-with-info">
+        <h4 class="h4-footer-title">ПРО STEAM</h4>
+        <a href="" class="links">Що таке Steam?</a>
+        <a href="" class="links">Steamworks</a>
+        <a href="" class="links">Обладнання Steam</a>
+        <a href="" class="links">Вакансії</a>
+        <a href="" class="links">Блог Steam</a>
+      </div>
+      <div class="card-with-info">
+        <h4 class="h4-footer-title">КОРИСНІ ПОСИЛАННЯ</h4>
+        <a href="" class="links">Допомога</a>
+        <a href="" class="links">Обговорення Steam</a>
+        <a href="" class="links">Новини Steam</a>
+        <a href="" class="links">Тест швидкості</a>
+        <a href="" class="links">Повідомити про помилку</a>
+      </div>
+      <div class="card-with-info">
+        <h4 class="h4-footer-title">СПІЛЬНОТА</h4>
+        <a href="" class="links">Майстерня</a>
+        <a href="" class="links">Greenlight</a>
+        <a href="" class="links">Групи</a>
+        <a href="" class="links">Центр спільноти</a>
+        <a href="" class="links">Відгуки</a>
+      </div>
+    </div>
+    </div>
+  </div>
+  <p class="bottom-text-footer">© 2026 BeneneCraft Corporation. Усі права не захищені. Усі торгові марки не належать їхнім власникам у США та інших країнах.
+ПДВ включено у всі ціни, де це застосовно.  Політика конфіденційності  |  Правова інформація  |  Угода підписника Steam  |  Файли cookie</p>
+</footer>
+  <script src="js/about.js"></script>
+</body>
+</html>
