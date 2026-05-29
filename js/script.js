@@ -2,26 +2,26 @@ const games = [
       {
         img: 'img/cyber.jpg',
         title: 'Cyberpunk 2077',
-        rating: 'Very Positive (98,231 reviews)',
-        discount: '-36%',
-        priceOld: '$89.99',
-        price: '$49.99'
+        rating: 'Дуже позитивні (98 231 відгуків)',
+        discount: '-90%',
+        priceOld: '670грн',
+        price: '67 грн'
       },
       {
         img: 'img/rdr2.jpg',
         title: 'Red Dead Redemption 2',
         rating: 'Overwhelmingly Positive (450,123 reviews)',
-        discount: null,
-        priceOld: null,
-        price: '$59.99'
+        discount: '-90%',
+        priceOld: '670грн',
+        price: '67 грн'
       },
       {
         img: 'img/elden.jpg',
         title: 'Elden Ring',
         rating: 'Overwhelmingly Positive (812,000 reviews)',
-        discount: '-33%',
-        priceOld: '$89.99',
-        price: '$59.99'
+        discount: '-90%',
+        priceOld: '670грн',
+        price: '67 грн'
       },
       {
         img: 'img/baldur.jpg',
@@ -29,15 +29,15 @@ const games = [
         rating: 'Overwhelmingly Positive (300,500 reviews)',
         discount: null,
         priceOld: null,
-        price: '$59.99'
+        price: '670грн'
       },
       {
         img: 'img/gtav.jpg',
         title: 'GTA V',
         rating: 'Very Positive (1,200,000 reviews)',
-        discount: '-50%',
-        priceOld: '$89.99',
-        price: '$29.99'
+        discount: '-90%',
+        priceOld: '670грн',
+        price: '67 грн'
       }
     ];
 
@@ -107,9 +107,9 @@ const games = [
       startAuto();
     });
 
-    dots.forEach((d, i) => {
+    dots.forEach(d => {
       d.addEventListener('click', () => {
-        goTo(i);
+        goTo(parseInt(d.dataset.index));
         startAuto();
       });
     });
