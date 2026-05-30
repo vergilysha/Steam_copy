@@ -364,7 +364,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    width: 1131px;
     background-color: #2E4259;
     height: 60px;
     margin-top: 40px;
@@ -445,7 +445,7 @@ body{
    display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1200px;
+    width: 1131px;
     background-color: #2E4259;
     height: 60px;
     margin-top: 40px;
@@ -455,6 +455,7 @@ body{
     width: 1131px;
     justify-content: space-between;
     align-items: center;
+        padding: 15px;
 }
 .block-with-black-block-and-button{
     display: flex;
@@ -477,7 +478,7 @@ body{
     display: flex;
     flex-direction: column;
     background: #2E4259;
-    width: 1200px;
+    width: 1131px;
     height: 191px;
     margin-top: 40px;
 }
@@ -487,6 +488,7 @@ body{
 }
 .block-with-black-block-and-green-button2{
         display: flex;
+            margin-right: 15px;
 }
 .block-with-title-and-logos{
     display: flex;  
@@ -494,7 +496,8 @@ body{
     align-items: center;    
 }
 .describ{
-    width: 500px;
+    width: 600px;
+        margin-left: 15px;
 }
 .news-label{
     display: flex;
@@ -505,14 +508,14 @@ body{
     justify-content: space-around;
     align-items: center;
     width: 1131px;
-    height: 331px;
+    height: 341px;
     background: #2E4259;
     margin-top: 50px;
 }
 .card{
     background: #101620;
     width: 352px;
-    height: 310px;
+    height: 320px;
     border-radius: 4px;
 }
 .main-news-title{
@@ -562,3 +565,159 @@ body{
 .news-form{
     margin-left: 5px;
 }
+.about-game-label{
+        display: flex;
+    /* width: 1131px; */
+    flex-direction: column;
+    align-items: center;
+}
+.about-game-flex{
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1131px;
+    height: 315px;
+    background: #2E4259;
+    margin-top: 40px;
+}
+.describt{
+    font-size: 18px;
+    width: 1108px;
+}
+.system-requirements-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.system-requirements-label{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 1131px;
+}
+.block-with-two-blocks-of-requirements{
+    display: flex;
+    gap: 20px;
+}
+.block-with-requirements1{
+    width: 540px;
+    height: 150px;
+}
+ .search-more-block{
+     width: 100%;
+     height: 97px;
+     background: #16202D;
+     display: flex;
+     align-items: center;
+ }
+
+ .search-title{
+     color: #C7D5E0;
+     font-size: 14px;
+ }
+
+ .search-space{
+     width: 500px;
+     height: 36px;
+     border: 1px solid #1b2838;
+     border-radius: 3px;
+     background: #36475C;
+     padding-left: 10px;
+     color: #FFFFFF;
+     outline: none;
+ }
+
+ .search-space::placeholder{
+     color: rgba(255,255,255,.7);
+ }
+
+ .block-with-search-and-button{
+     display: flex;
+     align-items: center;
+ }
+
+ .block-with-search-and-button-and-title{
+     display: flex;
+     flex-direction: column;
+     margin-left: 125px;
+ }
+
+ .search-for-more-button{
+     width: 80px;
+     height: 36px;
+     background: #5EA0C9;
+     border-radius: 3px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .button-title{
+     color: #FFFFFF;
+     font-size: 12px;
+ }
+
+ .steam-footer{
+     margin-top: 22px;
+     padding: 22px 0;
+     background: #171A21;
+     color: #C7D5E0;
+ }
+
+ .block-with-logo-and-three-cards{
+     width: min(1040px, calc(100% - 32px));
+     margin: 0 auto;
+     display: grid;
+     grid-template-columns: 180px repeat(3, minmax(0, 1fr));
+     gap: 18px;
+     align-items: start;
+ }
+
+ .logo img{
+     width: 160px;
+     height: auto;
+     display: block;
+ }
+
+ .h4-footer-title{
+     margin: 0 0 10px;
+     font-size: 12px;
+     color: #FFFFFF;
+     letter-spacing: .04em;
+ }
+
+ .card-with-info{
+     display: flex;
+     flex-direction: column;
+     gap: 8px;
+ }
+
+ .links{
+     color: rgba(255,255,255,.7);
+     text-decoration: none;
+     font-size: 12px;
+ }
+
+ .links:hover{
+     color: #66C0F4;
+ }
+
+ .bottom-text-footer{
+     width: min(1040px, calc(100% - 32px));
+     margin: 18px auto 0;
+     font-size: 12px;
+     line-height: 1.5;
+     color: rgba(255,255,255,.6);
+ }
+ .prime-title-name{
+        margin-left: 15px;
+ }
+ .describe{
+        margin-left: 15px;
+ }
+ .block-with-os-images2{
+        margin-right: 15px;
+ }
