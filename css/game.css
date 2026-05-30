@@ -455,6 +455,7 @@ body{
     width: 1131px;
     justify-content: space-between;
     align-items: center;
+        padding: 15px;
 }
 .block-with-black-block-and-button{
     display: flex;
@@ -710,3 +711,4 @@ body{
      line-height: 1.5;
      color: rgba(255,255,255,.6);
  }
+ .block-with-buttons2{}
