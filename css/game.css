@@ -497,7 +497,7 @@ body{
 }
 .describ{
     width: 600px;
-        margin-left: 10px;
+        margin-left: 15px;
 }
 .news-label{
     display: flex;
@@ -713,11 +713,11 @@ body{
      color: rgba(255,255,255,.6);
  }
  .prime-title-name{
-        margin-left: 10px;
+        margin-left: 15px;
  }
  .describe{
-        margin-left: 10px;
+        margin-left: 15px;
  }
  .block-with-os-images2{
-        margin-right: 10px;
+        margin-right: 15px;
  }
