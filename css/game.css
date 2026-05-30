@@ -364,7 +364,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    width: 1131px;
     background-color: #2E4259;
     height: 60px;
     margin-top: 40px;
@@ -445,7 +445,7 @@ body{
    display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1200px;
+    width: 1131px;
     background-color: #2E4259;
     height: 60px;
     margin-top: 40px;
@@ -477,7 +477,7 @@ body{
     display: flex;
     flex-direction: column;
     background: #2E4259;
-    width: 1200px;
+    width: 1131px;
     height: 191px;
     margin-top: 40px;
 }
@@ -570,9 +570,8 @@ body{
     align-items: center;
 }
 .about-game-flex{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+   display: flex;
+    justify-content: space-around;
     align-items: center;
     width: 1131px;
     height: 315px;
@@ -582,4 +581,25 @@ body{
 .describt{
     font-size: 18px;
     width: 1108px;
+}
+.system-requirements-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.system-requirements-label{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 1131px;
+}
+.block-with-two-blocks-of-requirements{
+    display: flex;
+    gap: 20px;
+}
+.block-with-requirements1{
+    width: 540px;
+    height: 150px;
 }
