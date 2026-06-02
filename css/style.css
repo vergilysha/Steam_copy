@@ -382,6 +382,16 @@ body{
     background: #355A76;
 }
 
+.steam-search-item--empty{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    cursor: default;
+}
+
+.steam-search-item--empty:hover{
+    background: #2A475E;
+}
+
 .steam-search-item__thumb{
     height: 44px;
     width: 92px;
@@ -428,6 +438,14 @@ body{
 .steam-search-item__old{
     color: rgba(255,255,255,.6);
     text-decoration: line-through;
+}
+
+.steam-search-item__genre{
+    color: rgba(255,255,255,.6);
+}
+
+.steam-search-item__hint{
+    color: rgba(255,255,255,.6);
 }
 
 .steam-search-item__price{
@@ -1341,7 +1359,7 @@ letter-spacing: 0%;
  .r-yellow {
     color: #C8B464;
  }
-/* Основний контейнер */
+/* Features container */
 .features-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -1493,6 +1511,81 @@ letter-spacing: 0%;
     margin-left: 23px;
 }
 
+.games-filter-panel {
+    width: 1103px;
+    margin-top: 20px;
+}
+
+.games-filter-panel__inner {
+    width: 100%;
+    min-height: 97px;
+    background: #16202D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+    padding: 20px 24px;
+    border-radius: 4px;
+}
+
+.games-filter-panel__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.games-filter-panel__title {
+    color: #C7D5E0;
+    font-size: 14px;
+}
+
+.games-filter-panel__controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.games-filter-panel__search {
+    width: 500px;
+    margin: 0;
+    padding-right: 10px;
+}
+
+.games-filter-panel__select {
+    width: 220px;
+    height: 36px;
+    border: 1px solid #1b2838;
+    border-radius: 3px;
+    background: #36475C;
+    padding: 0 10px;
+    color: #FFFFFF;
+    outline: none;
+    appearance: none;
+}
+
+.games-filter-panel__reset {
+    border: none;
+    cursor: pointer;
+    padding: 0 18px;
+}
+
+.games-filter-panel__empty {
+    color: #C7D5E0;
+    text-align: center;
+    padding: 40px 24px;
+    font-size: 16px;
+    width: 100%;
+    background-color: #101620;
+    border-radius: 4px;
+}
+
+.games-filter-panel__empty p + p {
+    color: #8F98A0;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
 .games_rows {
     width: 960px;
     margin-top: 58px;
@@ -1569,4 +1662,55 @@ letter-spacing: 0%;
     justify-self: center;
     margin-bottom: 60px;
 }
+
+.best-sell .games_row {
+    padding-left: 16px;
+}
+
+.best-sell .best-sell-rank {
+    color: #8F98A0;
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    min-width: 44px;
+    text-align: left;
+}
+
+.best-sell .games_row-img {
+    margin-left: 0;
+}
+
+@media (max-width: 1120px) {
+    .games_top,
+    .games-filter-panel,
+    .games_rows {
+        width: min(960px, calc(100vw - 32px));
+    }
+
+    .games-filter-panel__search {
+        width: min(500px, 100%);
+        flex: 1 1 320px;
+    }
+}
+
+@media (max-width: 720px) {
+    .games_top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .games-filter-panel__controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .games-filter-panel__search,
+    .games-filter-panel__select,
+    .games-filter-panel__reset {
+        width: 100%;
+    }
+}
+
 

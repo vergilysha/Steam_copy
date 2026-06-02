@@ -50,6 +50,7 @@ const games = [
     const heroDiscount = document.getElementById('hero-discount');
     const heroPriceOld = document.getElementById('hero-price-old');
     const heroPrice = document.getElementById('hero-price');
+    const hero = document.querySelector('.hero');
     const dots = document.querySelectorAll('.dot');
     const gameRows = document.querySelectorAll('.game-row');
 
@@ -116,13 +117,32 @@ const games = [
 
     gameRows.forEach(r => {
       r.addEventListener('click', () => {
-        goTo(parseInt(r.dataset.index));
-        startAuto();
+        const game = games[parseInt(r.dataset.index)];
+        openGamePage(game?.title);
+      });
+      r.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          const game = games[parseInt(r.dataset.index)];
+          openGamePage(game?.title);
+        }
       });
     });
 
     // Init hero price for first slide
     goTo(0);
+    wireStaticGameLinks();
+    if (hero) {
+      hero.setAttribute('role', 'link');
+      hero.tabIndex = 0;
+    }
+    hero?.addEventListener('click', () => openGamePage(games[current].title));
+    hero?.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        openGamePage(games[current].title);
+      }
+    });
     startAuto();
 
     // --- "Топ продажів" Dynamic Loader ---
@@ -166,18 +186,7 @@ const games = [
 
       async function loadBestSellers() {
         try {
-          let response;
-          try {
-            response = await fetch('backend/games/popular-games.json');
-          } catch (e) {
-            response = await fetch('./backend/games/popular-games.json');
-          }
-
-          if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-          }
-
-          const gamesData = await response.json();
+          const gamesData = await loadPopularGames();
           if (!gamesData || gamesData.length === 0) {
             throw new Error('No games found');
           }
@@ -188,14 +197,17 @@ const games = [
           // Clear the static placeholder
           bestSellContainer.innerHTML = '';
 
-          top7Games.forEach(game => {
+          top7Games.forEach((game, index) => {
             const randomReview = reviewsOptions[Math.floor(Math.random() * reviewsOptions.length)];
             const gameRow = document.createElement('div');
             gameRow.className = 'games_row';
+            gameRow.setAttribute('role', 'link');
+            gameRow.tabIndex = 0;
             gameRow.style.opacity = '0';
             gameRow.style.transition = 'opacity 0.3s ease-in-out';
 
             gameRow.innerHTML = `
+              <div class="best-sell-rank">#${index + 1}</div>
               <img src="${game.image || 'img/cs2 2.png'}" alt="${game.name}" class="games_row-img" onerror="this.src='img/cs2 2.png'">
               <div class="games_texts">
                 <p class="games_row-title">${game.name}</p>
@@ -212,6 +224,15 @@ const games = [
             `;
 
             bestSellContainer.appendChild(gameRow);
+            gameRow.addEventListener('click', () => {
+              window.location.href = getGamePageUrl(game.name);
+            });
+            gameRow.addEventListener('keydown', (event) => {
+              if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault();
+                window.location.href = getGamePageUrl(game.name);
+              }
+            });
 
             setTimeout(() => {
               gameRow.style.opacity = '1';

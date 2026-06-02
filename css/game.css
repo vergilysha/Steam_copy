@@ -562,3 +562,293 @@ body{
 .news-form{
     margin-left: 5px;
 }
+
+.main-image{
+    height: 374px;
+    object-fit: cover;
+    background: #101620;
+    transition: opacity .16s ease;
+}
+
+.active-thumb{
+    outline: 2px solid #66C0F4;
+    outline-offset: -2px;
+}
+
+.buy-button:disabled{
+    cursor: wait;
+    filter: saturate(.7);
+    opacity: .72;
+}
+
+.download-panel{
+    width: min(1200px, calc(100% - 32px));
+    margin: 24px auto 0;
+    background: #121A24;
+    border: 1px solid rgba(102, 192, 244, .24);
+    box-shadow: 0 18px 44px rgba(0, 0, 0, .28);
+}
+
+.download-panel[hidden]{
+    display: none;
+}
+
+.download-panel__header{
+    min-height: 72px;
+    padding: 16px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background: linear-gradient(180deg, #1C2A39 0%, #162230 100%);
+    border-bottom: 1px solid rgba(255, 255, 255, .08);
+}
+
+.download-panel__eyebrow{
+    margin: 0 0 4px;
+    color: #8F98A0;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.download-panel__title{
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.download-panel__close{
+    width: 34px;
+    height: 34px;
+    border: 1px solid rgba(255, 255, 255, .14);
+    background: rgba(255, 255, 255, .06);
+    color: #C7D5E0;
+    font-size: 24px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.download-panel__close:hover{
+    background: rgba(255, 255, 255, .12);
+    color: #FFFFFF;
+}
+
+.download-panel__body{
+    padding: 16px;
+    display: grid;
+    gap: 12px;
+}
+
+.download-panel__state{
+    padding: 18px;
+    background: #0F1720;
+    border: 1px solid rgba(255, 255, 255, .08);
+    color: #C7D5E0;
+    font-size: 14px;
+}
+
+.download-card{
+    padding: 14px 16px;
+    background: #0F1720;
+    border: 1px solid rgba(255, 255, 255, .08);
+    animation: download-card-in .22s ease both;
+    animation-delay: var(--delay, 0ms);
+}
+
+@keyframes download-card-in{
+    from{
+        opacity: 0;
+        transform: translateY(6px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.download-card__top,
+.download-card__meta,
+.download-card__links{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.download-card__top{
+    justify-content: space-between;
+}
+
+.download-card__source{
+    padding: 4px 8px;
+    background: rgba(102, 192, 244, .14);
+    border: 1px solid rgba(102, 192, 244, .26);
+    color: #66C0F4;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.download-card__size{
+    color: #A4D007;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.download-card__title{
+    margin: 10px 0 8px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.35;
+}
+
+.download-card__meta{
+    color: #8F98A0;
+    font-size: 12px;
+}
+
+.download-card__links{
+    margin-top: 12px;
+}
+
+.download-card__link{
+    min-height: 30px;
+    padding: 7px 11px;
+    background: #4B692F;
+    border: 1px solid #5B7F36;
+    color: #D7FF8A;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.download-card__link:hover{
+    background: #5B7F36;
+}
+
+.download-card__empty{
+    color: #8F98A0;
+    font-size: 13px;
+}
+
+@media (max-width: 1240px){
+    .block-with-image-and-texts,
+    .buttons-label-flex,
+    .game-label-flex,
+    .block-with-buttons2{
+        width: min(100% - 32px, 960px);
+    }
+
+    .block-with-image-and-texts{
+        align-items: stretch;
+    }
+
+    .main-image{
+        width: min(58vw, 666px);
+    }
+}
+
+@media (max-width: 860px){
+    .steam-topbar{
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .steam-topbar__inner,
+    .steam-subbar__inner,
+    .block-with-image-and-texts,
+    .block-with-buttons,
+    .block-with-news-cards{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .steam-actions,
+    .steam-search{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .steam-subbar{
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .steam-subnav{
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .main-image{
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+
+    .block-with-image-and-texts{
+        margin-top: 24px;
+    }
+
+    .block-with-texts{
+        margin-left: 0;
+    }
+
+    .block-with-images-and-buttons{
+        width: calc(100% - 32px);
+        margin: 0 auto;
+    }
+
+    .block-with-small-images{
+        display: grid;
+        grid-template-columns: repeat(5, minmax(64px, 1fr));
+        width: 100%;
+    }
+
+    .small-image{
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+    }
+
+    .dots{
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .buttons-label-flex,
+    .game-label-flex{
+        height: auto;
+        padding: 14px;
+    }
+
+    .block-with-images-and-button{
+        align-items: flex-start;
+    }
+
+    .block-with-black-block-and-button,
+    .block-with-black-block-and-green-button2{
+        margin-top: 10px;
+    }
+
+    .block-with-buttons2{
+        height: auto;
+        padding: 14px;
+    }
+
+    .describ{
+        width: auto;
+    }
+
+    .block-with-news-cards{
+        width: min(100% - 32px, 420px);
+        height: auto;
+        gap: 14px;
+        padding: 14px;
+    }
+
+    .card{
+        width: 100%;
+    }
+}

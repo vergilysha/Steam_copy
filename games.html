@@ -111,11 +111,32 @@
   <main class="games_main">
     <div class="games_top">
       <h1 class="games_title">Всі ігри</h1>
-      <button class="games_filter">
+      <button class="games_filter" type="button" aria-expanded="false" aria-controls="gamesFilterPanel">
         <p>Фільтр</p>
         <img src="img/filter.svg" alt="filter icon">
       </button>
     </div>
+
+    <section class="games-filter-panel" id="gamesFilterPanel" hidden>
+      <div class="games-filter-panel__inner">
+        <div class="games-filter-panel__header">
+          <p class="games-filter-panel__title">Фільтр ігор</p>
+        </div>
+        <div class="games-filter-panel__controls">
+          <input
+            type="text"
+            class="search-space games-filter-panel__search"
+            id="gamesSearchInput"
+            placeholder="Пошук за назвою гри або жанром">
+          <select class="games-filter-panel__select" id="gamesGenreSelect" aria-label="Фільтр за жанром">
+            <option value="">Усі жанри</option>
+          </select>
+          <button type="button" class="search-for-more-button games-filter-panel__reset" id="gamesFilterReset">
+            <span class="button-title">Скинути</span>
+          </button>
+        </div>
+      </div>
+    </section>
 
     <div class="games_rows">
       <div class="games_row">
@@ -173,6 +194,8 @@
       | Файли cookie</p>
   </footer>
 
+  <script src="js/backend-client.js"></script>
+  <script src="js/search.js"></script>
   <script src="js/games.js"></script>
 </body>
 
