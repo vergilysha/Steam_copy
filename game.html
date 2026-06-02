@@ -106,14 +106,14 @@
                     <div class="block-with-image-and-texts">
                         <img class="main-image" src="img/cs2 (2).png" alt="Counter-Strike 2">
                         <div class="block-with-texts">
-                            <h1 class="head-title">Counter-Strike 2</h1>
-                            <h2 class="under-title">Екшн, Шутер від першої особи, Мультиплеєр</h2>
-                            <p class="free-indicator">Безкоштовно</p>
-                            <p class="describtion">Уже понад два десятиліття серія Counter-Strike пропонує гравцям високого рівня змагальний досвід, який формували мільйони гравців з усього світу. Тепер настав час написати нову сторінку в історії серії, і ця сторінка — Counter-Strike 2.</p>
-                            <p class="rate">Рейтинг: Надзвичайно позитивний</p>
-                            <p class="release">Дата релізу: 21 серп. 2012 </p>
-                            <p class="author">Автор: Valve</p>
-                            <p class="releaser">Видавець: Valve</p>
+                            <h1 class="head-title" data-game-title>Counter-Strike 2</h1>
+                            <h2 class="under-title" data-game-genres>Екшн, Шутер від першої особи, Мультиплеєр</h2>
+                            <p class="free-indicator" data-game-price>Безкоштовно</p>
+                            <p class="describtion" data-game-description>Уже понад два десятиліття серія Counter-Strike пропонує гравцям високого рівня змагальний досвід, який формували мільйони гравців з усього світу. Тепер настав час написати нову сторінку в історії серії, і ця сторінка — Counter-Strike 2.</p>
+                            <p class="rate" data-game-rating>Рейтинг: Надзвичайно позитивний</p>
+                            <p class="release" data-game-release>Дата релізу: 21 серп. 2012 </p>
+                            <p class="author" data-game-developers>Автор: Valve</p>
+                            <p class="releaser" data-game-publishers>Видавець: Valve</p>
                         </div>
                     </div>
                 </div>
@@ -167,7 +167,7 @@
         <div class="game-label">
             <div class="game-label-flex">
                 <div class="block-with-buttons">
-                    <h1 class="game-title-name">Грати в Counter-Strike 2</h1>
+                    <h1 class="game-title-name" data-game-play-title>Грати в Counter-Strike 2</h1>
                 <div class="block-with-images-and-button">
                     <div class="block-with-os-images">
                         <img src="img/windows.png" alt="" class="plats">
@@ -175,17 +175,27 @@
                     </div>
                     <div class="block-with-black-block-and-button">
                         <div class="black-label">
-                            <p class="block-text-game">Безкоштовно</p>
+                            <p class="block-text-game" data-game-action-price>Безкоштовно</p>
                         </div>
-                        <form class="news-form" action="https://store.steampowered.com/app/730/CounterStrike_2/">
-                            <button class="buy-button">Завантажити</button>
-                        </form>
+                        <button class="buy-button" type="button" data-download-button>Завантажити</button>
                     </div>
                 </div>
                 </div>
                 </div>
         </div>
-        <div class="prime-label">
+        <section class="download-panel" data-download-panel hidden>
+            <div class="download-panel__header">
+                <div>
+                    <p class="download-panel__eyebrow">Backend delivery registry</p>
+                    <h2 class="download-panel__title">Способи завантаження</h2>
+                </div>
+                <button class="download-panel__close" type="button" data-download-close aria-label="Закрити">×</button>
+            </div>
+            <div class="download-panel__body" data-download-results>
+                <div class="download-panel__state">Очікування запиту</div>
+            </div>
+        </section>
+        <div class="prime-label" data-prime-section>
             <div class="prime-label-flex">
                 <div class="block-with-buttons2">
                     <div class="block-with-title-and-logos">
@@ -359,6 +369,8 @@ DIRECTX: Версія 11<br>
   <p class="bottom-text-footer">© 2026 BeneneCraft Corporation. Усі права не захищені. Усі торгові марки не належать їхнім власникам у США та інших країнах.
 ПДВ включено у всі ціни, де це застосовно.  Політика конфіденційності  |  Правова інформація  |  Угода підписника Steam  |  Файли cookie</p>
 </footer>
+    <script src="js/backend-client.js"></script>
+    <script src="js/search.js"></script>
     <script src="js/game.js"></script>
 </body>
 </html>
